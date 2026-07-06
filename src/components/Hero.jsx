@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Download } from "lucide-react";
+import { Download, HelpCircle } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -50,14 +50,23 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex flex-wrap gap-4"
           >
-            <a 
+            <a
               href={import.meta.env.VITE_DOWNLOAD_LINK || "#"}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-gradient-to-r from-primary to-primary-dark hover:from-primary-dark hover:to-primary text-black px-8 py-4 rounded-full font-semibold transition-all transform hover:scale-105 shadow-lg shadow-white/20"
+              className="flex items-center gap-2 bg-linear-to-r from-primary to-primary-dark hover:from-primary-dark hover:to-primary text-black px-8 py-4 rounded-full font-semibold transition-all transform hover:scale-105 shadow-lg shadow-white/20"
             >
               <Download className="w-5 h-5" />
               Download APK
+            </a>
+            <a
+              href={import.meta.env.VITE_DISCORD_LINK || "#"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-linear-to-r from-primary to-primary-dark hover:from-primary-dark hover:to-primary text-black px-8 py-4 rounded-full font-semibold transition-all transform hover:scale-105 shadow-lg shadow-white/20"
+            >
+              <HelpCircle className="w-5 h-5" />
+              Discord Support
             </a>
           </motion.div>
         </div>
