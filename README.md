@@ -1,16 +1,30 @@
-# React + Vite
+# MF Music Player Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This is the official landing page for **MF Music Player**, a beautifully simple, bit-perfect music app designed specifically for audiophiles.
 
-Currently, two official plugins are available:
+Built with **React**, **Vite**, and **Tailwind CSS v4**, this page features a premium black-and-white aesthetic with smooth Framer Motion animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Open Source
 
-## React Compiler
+> **Note:** The source code for the Android app itself is currently private, but the Android repository will be made available as soon as it is open-sourced!
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Development Setup
 
-## Expanding the Oxlint configuration
+1. **Install Dependencies**
+   Ensure you have [Yarn](https://yarnpkg.com/) installed, then run:
+   ```bash
+   yarn install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+2. **Environment Variables**
+   Copy the example environment file:
+   ```bash
+   cp .env.example .env
+   ```
+   Then fill in your specific `VITE_DOWNLOAD_LINK` and `VITE_DISCORD_LINK` in the `.env` file.
+
+3. **Start Development Server**
+   ```bash
+   yarn dev
+   ```
+   The site will be available at `http://localhost:5173`.
