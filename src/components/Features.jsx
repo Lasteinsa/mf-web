@@ -60,7 +60,7 @@ const Features = () => {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               whileHover={{ y: -10 }}
-              className="glass p-8 rounded-3xl transition-colors hover:bg-white/10"
+              className="bg-white/5 backdrop-blur-md border border-white/10 p-8 rounded-3xl transition-colors hover:bg-white/10"
             >
               <div className="w-16 h-16 rounded-2xl bg-slate-800/50 flex items-center justify-center mb-6 shadow-inner">
                 {feature.icon}

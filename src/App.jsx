@@ -5,7 +5,7 @@ import Hero from "./components/Hero";
 function App() {
   return (
     <div className="min-h-screen bg-bg-dark text-slate-50 font-sans selection:bg-primary selection:text-white">
-      <nav className="fixed top-0 w-full z-50 glass border-b-0 border-white/5">
+      <nav className="fixed top-0 w-full z-50 bg-white/5 backdrop-blur-md border-b border-white/10">
         <div className="container mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <AppIcon className="w-8 h-8 text-white" />
