@@ -18,7 +18,18 @@
   "carousel": {
     "title_1": "A Glance at ",
     "title_2": "Perfection",
-    "description": "Immerse yourself in a beautiful, highly customizable interface built for modern audiophiles."
+    "description": "Immerse yourself in a beautiful, highly customizable interface built for modern audiophiles.",
+    "captions": {
+      "appearance": "Appearance Personalization",
+      "audio_engine": "Audio Engine Configuration",
+      "bulk_embed": "Bulk Lyrics Embed",
+      "navigation": "Navigation Customization",
+      "modern_layout": "Modern Grid Layout",
+      "lyrics_provider": "Lyrics Provider Settings",
+      "lyrics": "Synced Lyrics View",
+      "radial_layout": "Radial Album Layout",
+      "settings": "Application Settings"
+    }
   },
   "features": {
     "badge": "Features",

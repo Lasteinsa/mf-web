@@ -18,7 +18,18 @@
   "carousel": {
     "title_1": "Sekilas Menuju ",
     "title_2": "Kesempurnaan",
-    "description": "Nikmati antarmuka yang cantik dan sangat bisa dikustomisasi, dibangun khusus untuk audiophile masa kini."
+    "description": "Nikmati antarmuka yang cantik dan sangat bisa dikustomisasi, dibangun khusus untuk audiophile masa kini.",
+    "captions": {
+      "appearance": "Personalisasi Tampilan",
+      "audio_engine": "Konfigurasi Audio Engine",
+      "bulk_embed": "Sematkan Lirik Secara Massal",
+      "navigation": "Kustomisasi Navigasi",
+      "modern_layout": "Tata Letak Grid Modern",
+      "lyrics_provider": "Pengaturan Provider Lirik",
+      "lyrics": "Tampilan Lirik Tersinkronisasi",
+      "radial_layout": "Tata Letak Album Radial",
+      "settings": "Pengaturan Aplikasi"
+    }
   },
   "features": {
     "badge": "Fitur",

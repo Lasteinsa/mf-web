@@ -2,18 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
-
-const images = [
-  "/assets/appereance-personalization-screen.jpg",
-  "/assets/audio-engine-screen.jpg",
-  "/assets/bulk-embed-screen.jpg",
-  "/assets/customize-navigation-screen.jpg",
-  "/assets/modern-layout-screen.jpg",
-  "/assets/lyrics-provider-screen.jpg",
-  "/assets/lyrics-screen.jpg",
-  "/assets/radial-layout-screen.jpg",
-  "/assets/settings-screen.jpg"
-];
+import { carouselData } from "../data/carousel-data";
 
 const Carousel = () => {
   const { t } = useTranslation();
@@ -23,14 +12,14 @@ const Carousel = () => {
   const nextSlide = () => {
     if (isAnimating.current) return;
     isAnimating.current = true;
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    setTimeout(() => { isAnimating.current = false; }, 600); // 600ms matches the framer-motion transition duration
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % carouselData.length);
+    setTimeout(() => { isAnimating.current = false; }, 600);
   };
 
   const prevSlide = () => {
     if (isAnimating.current) return;
     isAnimating.current = true;
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + carouselData.length) % carouselData.length);
     setTimeout(() => { isAnimating.current = false; }, 600);
   };
 
@@ -69,17 +58,17 @@ const Carousel = () => {
         </div>
 
         <div className="relative w-full max-w-5xl mx-auto h-[550px] md:h-[650px] flex items-center justify-center">
-          {images.map((img, index) => {
+          {carouselData.map((item, index) => {
             let position = "hidden";
             let zIndex = 0;
-            
+
             if (index === currentIndex) {
               position = "center";
               zIndex = 10;
-            } else if (index === (currentIndex - 1 + images.length) % images.length) {
+            } else if (index === (currentIndex - 1 + carouselData.length) % carouselData.length) {
               position = "left";
               zIndex = 5;
-            } else if (index === (currentIndex + 1) % images.length) {
+            } else if (index === (currentIndex + 1) % carouselData.length) {
               position = "right";
               zIndex = 5;
             }
@@ -106,7 +95,7 @@ const Carousel = () => {
                 }}
               >
                 <img
-                  src={img}
+                  src={item.image}
                   alt={`App screenshot ${index + 1}`}
                   className="w-full h-full object-cover rounded-[2rem]"
                   draggable="false"
@@ -123,7 +112,7 @@ const Carousel = () => {
           >
             <ChevronLeft className="w-6 h-6" />
           </button>
-          
+
           <button
             onClick={nextSlide}
             className="absolute right-0 md:right-12 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 text-white p-3 rounded-full backdrop-blur-md transition-colors z-20"
@@ -132,10 +121,26 @@ const Carousel = () => {
             <ChevronRight className="w-6 h-6" />
           </button>
         </div>
-        
+
+        {/* Active Caption */}
+        <div className="flex justify-center mt-8 h-8">
+          <AnimatePresence mode="wait">
+            <motion.p
+              key={currentIndex}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.3 }}
+              className="text-white/90 font-medium tracking-wide text-lg"
+            >
+              {t(carouselData[currentIndex].labelKey)}
+            </motion.p>
+          </AnimatePresence>
+        </div>
+
         {/* Pagination Dots */}
-        <div className="flex justify-center mt-8 gap-2 flex-wrap max-w-md mx-auto">
-          {images.map((_, idx) => (
+        <div className="flex justify-center mt-6 gap-2 flex-wrap max-w-md mx-auto">
+          {carouselData.map((_, idx) => (
             <button
               key={idx}
               onClick={() => setCurrentIndex(idx)}
