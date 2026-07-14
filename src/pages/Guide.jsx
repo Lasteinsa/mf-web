@@ -70,9 +70,9 @@ const Guide = () => {
                 <li><strong>Dynamic Colors:</strong> The UI automatically adapts its color palette to match your currently playing album art.</li>
               </ul>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <img src="/assets/appereance-personalization-screen.jpg" alt="Appearance Personalization" className="w-full rounded-3xl border border-white/10 shadow-xl" />
                 <img src="/assets/modern-layout-screen.jpg" alt="Modern Layout" className="w-full rounded-3xl border border-white/10 shadow-xl" />
                 <img src="/assets/radial-layout-screen.jpg" alt="Radial Layout" className="w-full rounded-3xl border border-white/10 shadow-xl" />
+                <img src="/assets/appereance-personalization-screen.jpg" alt="Appearance Personalization" className="w-full rounded-3xl border border-white/10 shadow-xl" />
                 <img src="/assets/customize-navigation-screen.jpg" alt="Customize Navigation" className="w-full rounded-3xl border border-white/10 shadow-xl" />
               </div>
             </section>
@@ -82,9 +82,28 @@ const Guide = () => {
               <p className="text-slate-300 leading-relaxed mb-4">
                 MF Android bypasses standard Android audio limits to deliver Bit-Perfect playback directly to your DAC.
               </p>
-              <p className="text-slate-300 leading-relaxed mb-8">
+              <p className="text-slate-300 leading-relaxed mb-6">
                 Ensure that your external USB DAC is connected before launching the app. Head to <strong>Settings &gt; Audio Engine</strong> to enable exclusive mode, which locks the sample rate to perfectly match the source file.
               </p>
+
+              <div className="bg-white/5 border border-white/10 rounded-2xl p-6 mb-8 mt-6">
+                <h3 className="text-xl font-semibold text-white mb-3">
+                  USB Digital Attenuation & Volume Safety
+                </h3>
+                <p className="text-slate-300 leading-relaxed mb-4 text-sm md:text-base">
+                  For USB DACs without hardware volume control, we've built in <strong>Digital Attenuation</strong> to protect your ears. The app smartly remembers your last used volume for each specific USB DAC, allowing you to seamlessly and safely switch between DACs with or without hardware volume controls.
+                </p>
+                <p className="text-slate-300 leading-relaxed mb-4 text-sm md:text-base">
+                  If your DAC <em>does</em> have its own hardware volume control, you can push the app's digital attenuation slider to <strong>0dB (Max)</strong> and disable volume safety to achieve true, unadulterated Bit-Perfect audio.
+                </p>
+                <div className="bg-orange-500/10 border border-orange-500/20 rounded-xl p-4 mt-4 flex gap-3">
+                  <span className="text-xl">⚠️</span>
+                  <p className="text-sm text-orange-200">
+                    <strong>Safety First:</strong> Always exercise caution when initializing a DAC. Make sure you don't put on your IEMs or headphones before playing the first track to avoid any unexpected bursts of loud volume!
+                  </p>
+                </div>
+              </div>
+
               <div className="flex justify-center">
                 <img src="/assets/audio-engine-screen.jpg" alt="Audio Engine Configuration" className="w-full max-w-sm rounded-3xl border-2 border-white/10 shadow-2xl" />
               </div>
@@ -93,7 +112,7 @@ const Guide = () => {
             <section id="lyrics" className="mb-16 scroll-mt-32">
               <h2 className="text-3xl font-semibold mb-6 text-white border-b border-white/10 pb-4">Lyrics Setup</h2>
               <p className="text-slate-300 leading-relaxed mb-4">
-                The app supports both embedded lyrics and online lyrics providers. 
+                The app supports both embedded lyrics and online lyrics providers.
               </p>
               <p className="text-slate-300 leading-relaxed mb-8">
                 To configure providers, go to <strong>Settings &gt; Lyrics Provider</strong> and prioritize your preferred sources. Synchronized lyrics (.lrc) will automatically scroll along with your music.
