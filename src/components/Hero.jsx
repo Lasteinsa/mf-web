@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { buttonNavigation } from "../data/hero-data";
 import { Link } from "react-router-dom";
+import { BookOpen, ChevronRight } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -71,14 +72,23 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="pt-2"
+            className="pt-4 w-full"
           >
-            <p className="text-sm text-slate-400">
-              Want to know about the guide?{" "}
-              <Link to="/guide" className="text-white hover:text-primary transition-colors underline underline-offset-4 decoration-white/30 hover:decoration-white">
-                Take a look here
-              </Link>
-            </p>
+            <Link 
+              to="/guide" 
+              className="group flex items-center justify-between w-full max-w-lg bg-white/5 hover:bg-white/10 backdrop-blur-md border border-white/10 hover:border-white/20 p-4 rounded-2xl transition-all"
+            >
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
+                  <BookOpen className="w-5 h-5 text-white" />
+                </div>
+                <div>
+                  <p className="text-white font-medium">Want to know about the guide?</p>
+                  <p className="text-slate-400 text-sm">Take a look here to learn everything</p>
+                </div>
+              </div>
+              <ChevronRight className="w-5 h-5 text-slate-400 group-hover:text-white transition-colors group-hover:translate-x-1" />
+            </Link>
           </motion.div>
         </div>
       </div>
