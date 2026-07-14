@@ -61,13 +61,21 @@
       "l4": "Wait for the initial scan to complete. High-resolution FLAC and ALAC files are fully supported."
     },
     "s2": {
-      "desc": "The interface is entirely yours to mold. Navigate to Settings > Appearance to explore:",
-      "l1_title": "Radial Layouts:",
-      "l1_desc": "Switch between standard grid and beautiful radial displays for your albums.",
-      "l2_title": "Navigation:",
-      "l2_desc": "Customize the bottom navigation bar to only show the tabs you actually use.",
-      "l3_title": "Dynamic Colors:",
-      "l3_desc": "The UI automatically adapts its color palette to match your currently playing album art."
+      "desc": "The application interface is fully customizable to your liking. Head to Settings > Appearance to explore:",
+      "l1_title": "Initial Startup Page:",
+      "l1_desc": "Decide which screen you want to see first when opening the app.",
+      "l2_title": "App Theme:",
+      "l2_desc": "Choose between Dark mode, Light mode, or automatically follow your System theme.",
+      "l3_title": "Modern Layout (Now Playing):",
+      "l3_desc": "A sleek Now Playing screen inspired by the aesthetics of Apple Music.",
+      "l4_title": "Radial Layout (Now Playing):",
+      "l4_desc": "A beautiful alternative layout featuring a circular album art design.",
+      "l5_title": "Album Art Theming:",
+      "l5_desc": "Dynamically extracts colors from the currently playing album art using the Material 3 algorithm and applies them as the app's primary color.",
+      "l6_title": "Bottom Navigation:",
+      "l6_desc": "Customize your bottom bar to only show the shortcuts you actually use.",
+      "l7_title": "Album & Artist Layout:",
+      "l7_desc": "Choose between a detailed list or a visually rich grid layout depending on your preference."
     },
     "s3": {
       "desc1": "MF Android bypasses standard Android audio limits to deliver Bit-Perfect playback directly to your DAC.",

@@ -62,12 +62,20 @@
     },
     "s2": {
       "desc": "Antarmuka aplikasi ini bebas kamu atur sesuka hati. Masuk ke Pengaturan > Tampilan untuk menjelajahi:",
-      "l1_title": "Tata Letak Radial (Radial Layout):",
-      "l1_desc": "Pilih antara tampilan grid biasa atau tampilan radial yang estetik untuk album kamu.",
-      "l2_title": "Navigasi:",
-      "l2_desc": "Kustomisasi bar navigasi di bawah agar hanya menampilkan tab yang benar-benar kamu gunakan saja.",
-      "l3_title": "Warna Dinamis:",
-      "l3_desc": "Antarmuka secara otomatis menyesuaikan warna agar senada dengan cover album yang sedang diputar."
+      "l1_title": "Halaman Awal (Startup Page):",
+      "l1_desc": "Tentukan halaman mana yang ingin kamu lihat pertama kali saat membuka aplikasi.",
+      "l2_title": "Tema Aplikasi:",
+      "l2_desc": "Pilih antara mode Gelap (Dark), Terang (Light), atau otomatis mengikuti tema Sistem kamu.",
+      "l3_title": "Tata Letak Modern (Now Playing):",
+      "l3_desc": "Tampilan Now Playing yang elegan dan terinspirasi dari estetika Apple Music.",
+      "l4_title": "Tata Letak Radial (Now Playing):",
+      "l4_desc": "Alternatif tampilan cantik yang menonjolkan desain cover album berbentuk lingkaran.",
+      "l5_title": "Tema Cover Album:",
+      "l5_desc": "Secara otomatis mengekstrak warna dari cover album yang sedang diputar menggunakan algoritma Material 3 dan menjadikannya warna utama aplikasi.",
+      "l6_title": "Navigasi Bawah:",
+      "l6_desc": "Kustomisasi bar navigasi di bawah agar hanya menampilkan jalan pintas (shortcut) yang benar-benar kamu gunakan saja.",
+      "l7_title": "Tata Letak Album & Artis:",
+      "l7_desc": "Pilih antara tampilan daftar (list) yang detail atau tampilan grid yang kaya visual, sesuaikan dengan seleramu."
     },
     "s3": {
       "desc1": "MF Android memotong batasan audio standar Android agar bisa mengirimkan pemutaran Bit-Perfect langsung ke DAC milikmu.",

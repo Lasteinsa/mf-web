@@ -159,9 +159,9 @@ const Guide = () => {
               {t('guide.s2.desc')}
             </p>
             <ul className="list-disc list-inside text-slate-300 space-y-2 mb-8">
-              <li><strong>{t('guide.s2.l1_title')}</strong> {t('guide.s2.l1_desc')}</li>
-              <li><strong>{t('guide.s2.l2_title')}</strong> {t('guide.s2.l2_desc')}</li>
-              <li><strong>{t('guide.s2.l3_title')}</strong> {t('guide.s2.l3_desc')}</li>
+              {[1, 2, 3, 4, 5, 6, 7].map(i => (
+                <li key={i}><strong>{t(`guide.s2.l${i}_title`)}</strong> {t(`guide.s2.l${i}_desc`)}</li>
+              ))}
             </ul>
             <ExpandableImageGroup>
               <motion.div 
