@@ -7,7 +7,7 @@ const images = [
   "/assets/audio-engine-screen.jpg",
   "/assets/bulk-embed-screen.jpg",
   "/assets/customize-navigation-screen.jpg",
-  "/assets/customize-navigation.jpg",
+  "/assets/modern-layout-screen.jpg",
   "/assets/lyrics-provider-screen.jpg",
   "/assets/lyrics-screen.jpg",
   "/assets/radial-layout-screen.jpg",
