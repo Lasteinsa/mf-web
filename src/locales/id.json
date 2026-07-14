@@ -80,5 +80,11 @@
       "desc1": "Aplikasi ini mendukung lirik bawaan (embedded) maupun provider lirik online.",
       "desc2": "Untuk mengatur provider, pergi ke Pengaturan > Provider Lirik lalu urutkan sumber lirik favoritmu. Lirik tersinkronisasi (.lrc) bakal otomatis berjalan mengikuti alunan musikmu."
     }
+  },
+  "footer": {
+    "title": "Suka dengan MF Music Player?",
+    "description": "Kalau kamu suka dengan kualitas audio yang mantap dari aplikasi ini, yuk bantu support pengembangannya! Dukunganmu bakal ngebantu banget bikin project ini terus hidup dan tanpa iklan sama sekali lho!",
+    "donate_btn": "Dukung via Trakteer",
+    "copyright": "© 2026 MF Music Player. Hak cipta dilindungi."
   }
 }

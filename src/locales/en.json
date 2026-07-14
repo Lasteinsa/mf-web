@@ -80,5 +80,11 @@
       "desc1": "The app supports both embedded lyrics and online lyrics providers.",
       "desc2": "To configure providers, go to Settings > Lyrics Provider and prioritize your preferred sources. Synchronized lyrics (.lrc) will automatically scroll along with your music."
     }
+  },
+  "footer": {
+    "title": "Love MF Music Player?",
+    "description": "If you enjoy pristine audio quality, please consider supporting the development. Your contribution helps keep this project alive and ad-free!",
+    "donate_btn": "Support on Trakteer",
+    "copyright": "© 2026 MF Music Player. All rights reserved."
   }
 }
