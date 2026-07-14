@@ -1,71 +1,67 @@
 import { motion } from "framer-motion";
-import { Headphones, Layout, Music, WifiOff } from "lucide-react";
-
-const features = [
-  {
-    icon: <Headphones className="w-8 h-8 text-primary" />,
-    title: "Audiophile Quality",
-    description:
-      "Experience your music with true bit-perfect playback and lossless audio support, exactly as the artist intended.",
-  },
-  {
-    icon: <Layout className="w-8 h-8 text-neutral-300" />,
-    title: "Beautiful Interface",
-    description:
-      "A sleek, modern design that adapts to your music, with dynamic colors and smooth transitions.",
-  },
-  {
-    icon: <Music className="w-8 h-8 text-neutral-400" />,
-    title: "Smart Playlists",
-    description:
-      "Auto-generated mixes based on your listening habits, mood, and favorite genres.",
-  },
-];
+import { Disc3, Palette, Mic2 } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Features = () => {
+  const { t } = useTranslation();
+
+  const features = [
+    {
+      icon: <Disc3 className="w-8 h-8 text-primary" />,
+      title: t('features.f1_title'),
+      description: t('features.f1_desc'),
+    },
+    {
+      icon: <Palette className="w-8 h-8 text-secondary" />,
+      title: t('features.f2_title'),
+      description: t('features.f2_desc'),
+    },
+    {
+      icon: <Mic2 className="w-8 h-8 text-primary" />,
+      title: t('features.f3_title'),
+      description: t('features.f3_desc'),
+    },
+  ];
+
   return (
-    <section id="features" className="py-24 relative overflow-hidden bg-bg-darker">
+    <section id="features" className="py-24 bg-black relative">
+      <div className="absolute inset-0 bg-gradient-to-b from-bg-dark to-black pointer-events-none" />
       <div className="container mx-auto px-6 relative z-10">
-        <div className="text-center mb-16">
-          <motion.h2
+        <div className="text-center mb-20">
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6 }}
-            className="text-3xl md:text-5xl font-bold mb-4"
+            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 backdrop-blur-md border border-white/10 text-sm font-medium text-secondary-200 mb-6"
           >
-            Built for{" "}
-            <span className="text-transparent bg-clip-text bg-linear-to-r from-secondary to-primary">
-              Music Lovers
-            </span>
-          </motion.h2>
-          <motion.p
+            <span>{t('features.badge')}</span>
+          </motion.div>
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-slate-400 max-w-2xl mx-auto text-lg"
+            className="text-3xl md:text-5xl font-bold text-white"
           >
-            Everything you need to manage, play, and discover your local music
-            collection in one simple app.
-          </motion.p>
+            {t('features.title')}
+          </motion.h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {features.map((feature, index) => (
+        <div className="grid md:grid-cols-3 gap-8">
+          {features.map((feature, idx) => (
             <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 30 }}
+              key={idx}
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              whileHover={{ y: -10 }}
-              className="bg-white/5 backdrop-blur-md border border-white/10 p-8 rounded-3xl transition-colors hover:bg-white/10"
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.6, delay: idx * 0.1 }}
+              className="bg-white/5 backdrop-blur-md border border-white/10 rounded-[2rem] p-8 hover:bg-white/10 transition-colors group"
             >
-              <div className="w-16 h-16 rounded-2xl bg-slate-800/50 flex items-center justify-center mb-6 shadow-inner">
+              <div className="w-16 h-16 rounded-2xl bg-white/5 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 {feature.icon}
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-white">
+              <h3 className="text-xl font-bold text-white mb-4">
                 {feature.title}
               </h3>
               <p className="text-slate-400 leading-relaxed">

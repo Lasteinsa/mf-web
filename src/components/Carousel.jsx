@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const images = [
   "/assets/appereance-personalization-screen.jpg",
@@ -15,6 +16,7 @@ const images = [
 ];
 
 const Carousel = () => {
+  const { t } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
   const isAnimating = useRef(false);
 
@@ -50,9 +52,9 @@ const Carousel = () => {
             transition={{ duration: 0.6 }}
             className="text-3xl md:text-5xl font-bold mb-4"
           >
-            A Glance at{" "}
+            {t('carousel.title_1')}
             <span className="text-transparent bg-clip-text bg-linear-to-r from-neutral-500 to-white">
-              Perfection
+              {t('carousel.title_2')}
             </span>
           </motion.h2>
           <motion.p
@@ -62,7 +64,7 @@ const Carousel = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-slate-400 max-w-2xl mx-auto text-lg"
           >
-            Immerse yourself in a beautiful, highly customizable interface built for modern audiophiles.
+            {t('carousel.description')}
           </motion.p>
         </div>
 

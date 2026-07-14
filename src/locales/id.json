@@ -1,0 +1,73 @@
+{
+  "navbar": {
+    "title": "MF Music Player",
+    "home": "Beranda",
+    "guide": "Panduan",
+    "support": "Bantuan"
+  },
+  "hero": {
+    "badge": "Aplikasi Musik Andalan untuk Audiophile",
+    "title_1": "Musikmu,",
+    "title_2": "Tanpa Batas.",
+    "description": "Rasakan pengalaman menggunakan MFAndroid, pemutar musik terbaik yang dirancang untuk kualitas audio super jernih, pemutaran offline tanpa hambatan, dan antarmuka yang dinamis.",
+    "download_apk": "Unduh APK",
+    "discord_support": "Bantuan Discord",
+    "guide_prompt": "Ingin tahu lebih lanjut?",
+    "guide_link": "Cek panduan lengkapnya di sini"
+  },
+  "carousel": {
+    "title_1": "Sekilas Menuju ",
+    "title_2": "Kesempurnaan",
+    "description": "Nikmati antarmuka yang cantik dan sangat bisa dikustomisasi, dibangun khusus untuk audiophile masa kini."
+  },
+  "features": {
+    "badge": "Fitur",
+    "title": "Fitur Khusus untuk Audiophile",
+    "f1_title": "Pemutaran Bit-Perfect",
+    "f1_desc": "Bebas dari batasan audio standar Android. Streaming audio murni langsung ke DAC kamu tanpa manipulasi.",
+    "f2_title": "Tema Dinamis",
+    "f2_desc": "Musikmu yang menentukan suasananya. Antarmuka kami otomatis menyesuaikan dengan warna cover album yang sedang diputar.",
+    "f3_title": "Lirik Sinkron",
+    "f3_desc": "Nyanyi bareng tanpa meleset. Lirik tersinkronisasi dengan mulus baik saat online maupun offline."
+  },
+  "guide": {
+    "title": "Panduan Pengguna",
+    "subtitle": "Selamat datang di dokumentasi resmi MF Music Player. Di sini kamu bisa menemukan semua hal yang diperlukan untuk memaksimalkan pengalaman audio kamu.",
+    "contents": "Daftar Isi",
+    "sections": {
+      "getting_started": "Mulai Menggunakan",
+      "customization": "Kustomisasi",
+      "audio_engine": "Audio Engine",
+      "lyrics_setup": "Pengaturan Lirik"
+    },
+    "s1": {
+      "desc": "MF Music Player dirancang untuk memutar koleksi musik lokalmu dengan kualitas yang sangat jernih. Untuk memulai:",
+      "l1": "Unduh file APK terbaru dari halaman beranda.",
+      "l2": "Instal aplikasinya di perangkat Android kamu.",
+      "l3": "Izinkan akses penyimpanan supaya aplikasi bisa memindai koleksi musik lokalmu.",
+      "l4": "Tunggu sampai proses pemindaian awal selesai. File resolusi tinggi seperti FLAC dan ALAC didukung penuh lho!"
+    },
+    "s2": {
+      "desc": "Antarmuka aplikasi ini bebas kamu atur sesuka hati. Masuk ke Pengaturan > Tampilan untuk menjelajahi:",
+      "l1_title": "Tata Letak Radial (Radial Layout):",
+      "l1_desc": "Pilih antara tampilan grid biasa atau tampilan radial yang estetik untuk album kamu.",
+      "l2_title": "Navigasi:",
+      "l2_desc": "Kustomisasi bar navigasi di bawah agar hanya menampilkan tab yang benar-benar kamu gunakan saja.",
+      "l3_title": "Warna Dinamis:",
+      "l3_desc": "Antarmuka secara otomatis menyesuaikan warna agar senada dengan cover album yang sedang diputar."
+    },
+    "s3": {
+      "desc1": "MF Android memotong batasan audio standar Android agar bisa mengirimkan pemutaran Bit-Perfect langsung ke DAC milikmu.",
+      "desc2": "Pastikan USB DAC eksternal sudah terhubung sebelum membuka aplikasi. Pergi ke Pengaturan > Audio Engine untuk menyalakan mode eksklusif (exclusive mode), yang akan mengunci sample rate agar sama persis dengan file sumber aslinya.",
+      "attn_title": "USB Digital Attenuation & Keamanan Volume",
+      "attn_desc1": "Untuk USB DAC yang tidak memiliki kontrol volume hardware sendiri, kami menambahkan Digital Attenuation (Peredam Digital) untuk melindungi telinga kamu. Aplikasi akan dengan pintar mengingat volume terakhir untuk masing-masing DAC, jadi kamu bisa ganti-ganti DAC (baik yang punya kontrol volume atau tidak) dengan aman dan nyaman.",
+      "attn_desc2": "Kalau DAC kamu sudah punya kontrol volume hardware sendiri, kamu bisa menaikkan slider digital attenuation di aplikasi ke 0dB (Maksimal) dan mematikan pengaman volume untuk mendapatkan audio Bit-Perfect yang sesungguhnya tanpa modifikasi apapun.",
+      "attn_warn_title": "Utamakan Keselamatan:",
+      "attn_warn_desc": "Selalu berhati-hati saat menyambungkan DAC baru. Pastikan kamu belum memakai IEM atau headphone sebelum memutar lagu pertama, supaya tidak kaget kalau tiba-tiba suaranya meledak kencang!"
+    },
+    "s4": {
+      "desc1": "Aplikasi ini mendukung lirik bawaan (embedded) maupun provider lirik online.",
+      "desc2": "Untuk mengatur provider, pergi ke Pengaturan > Provider Lirik lalu urutkan sumber lirik favoritmu. Lirik tersinkronisasi (.lrc) bakal otomatis berjalan mengikuti alunan musikmu."
+    }
+  }
+}

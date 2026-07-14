@@ -1,0 +1,73 @@
+{
+  "navbar": {
+    "title": "MF Music Player",
+    "home": "Home",
+    "guide": "Guide",
+    "support": "Support"
+  },
+  "hero": {
+    "badge": "Yet Another Music App for Audiophiles",
+    "title_1": "Your Music,",
+    "title_2": "Unleashed.",
+    "description": "Experience MFAndroid, the ultimate music player designed for pristine audio quality, seamless offline playback, and an interface that moves with you.",
+    "download_apk": "Download APK",
+    "discord_support": "Discord Support",
+    "guide_prompt": "Want to know about the guide?",
+    "guide_link": "Take a look here to learn everything"
+  },
+  "carousel": {
+    "title_1": "A Glance at ",
+    "title_2": "Perfection",
+    "description": "Immerse yourself in a beautiful, highly customizable interface built for modern audiophiles."
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Features Designed for Audiophiles",
+    "f1_title": "Bit-Perfect Playback",
+    "f1_desc": "Bypass standard Android audio limits. Stream pure, unaltered audio directly to your DAC.",
+    "f2_title": "Dynamic Theming",
+    "f2_desc": "Your music sets the mood. Our UI adapts to your current album cover.",
+    "f3_title": "Synced Lyrics",
+    "f3_desc": "Sing along with precision. Seamless offline and online synced lyrics."
+  },
+  "guide": {
+    "title": "User Guide",
+    "subtitle": "Welcome to the official MF Music Player documentation. Here you'll find everything you need to get the most out of your audiophile experience.",
+    "contents": "Contents",
+    "sections": {
+      "getting_started": "Getting Started",
+      "customization": "Customization",
+      "audio_engine": "Audio Engine",
+      "lyrics_setup": "Lyrics Setup"
+    },
+    "s1": {
+      "desc": "MF Music Player is designed to play your local music collection with absolute pristine quality. To start:",
+      "l1": "Download the latest APK from the home page.",
+      "l2": "Install the application on your Android device.",
+      "l3": "Grant storage permissions so the app can scan your local music library.",
+      "l4": "Wait for the initial scan to complete. High-resolution FLAC and ALAC files are fully supported."
+    },
+    "s2": {
+      "desc": "The interface is entirely yours to mold. Navigate to Settings > Appearance to explore:",
+      "l1_title": "Radial Layouts:",
+      "l1_desc": "Switch between standard grid and beautiful radial displays for your albums.",
+      "l2_title": "Navigation:",
+      "l2_desc": "Customize the bottom navigation bar to only show the tabs you actually use.",
+      "l3_title": "Dynamic Colors:",
+      "l3_desc": "The UI automatically adapts its color palette to match your currently playing album art."
+    },
+    "s3": {
+      "desc1": "MF Android bypasses standard Android audio limits to deliver Bit-Perfect playback directly to your DAC.",
+      "desc2": "Ensure that your external USB DAC is connected before launching the app. Head to Settings > Audio Engine to enable exclusive mode, which locks the sample rate to perfectly match the source file.",
+      "attn_title": "USB Digital Attenuation & Volume Safety",
+      "attn_desc1": "For USB DACs without hardware volume control, we've built in Digital Attenuation to protect your ears. The app smartly remembers your last used volume for each specific USB DAC, allowing you to seamlessly and safely switch between DACs with or without hardware volume controls.",
+      "attn_desc2": "If your DAC does have its own hardware volume control, you can push the app's digital attenuation slider to 0dB (Max) and disable volume safety to achieve true, unadulterated Bit-Perfect audio.",
+      "attn_warn_title": "Safety First:",
+      "attn_warn_desc": "Always exercise caution when initializing a DAC. Make sure you don't put on your IEMs or headphones before playing the first track to avoid any unexpected bursts of loud volume!"
+    },
+    "s4": {
+      "desc1": "The app supports both embedded lyrics and online lyrics providers.",
+      "desc2": "To configure providers, go to Settings > Lyrics Provider and prioritize your preferred sources. Synchronized lyrics (.lrc) will automatically scroll along with your music."
+    }
+  }
+}
