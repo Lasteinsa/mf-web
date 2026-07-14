@@ -69,8 +69,9 @@ const Guide = () => {
                 <li><strong>Navigation:</strong> Customize the bottom navigation bar to only show the tabs you actually use.</li>
                 <li><strong>Dynamic Colors:</strong> The UI automatically adapts its color palette to match your currently playing album art.</li>
               </ul>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <img src="/assets/appereance-personalization-screen.jpg" alt="Appearance Personalization" className="w-full rounded-3xl border border-white/10 shadow-xl" />
+                <img src="/assets/modern-layout-screen.jpg" alt="Modern Layout" className="w-full rounded-3xl border border-white/10 shadow-xl" />
                 <img src="/assets/radial-layout-screen.jpg" alt="Radial Layout" className="w-full rounded-3xl border border-white/10 shadow-xl" />
                 <img src="/assets/customize-navigation-screen.jpg" alt="Customize Navigation" className="w-full rounded-3xl border border-white/10 shadow-xl" />
               </div>
