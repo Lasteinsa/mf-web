@@ -128,7 +128,7 @@ const Guide = () => {
             <p className="text-slate-300 leading-relaxed mb-4">
               {t('guide.s1.desc')}
             </p>
-            <ul className="list-disc list-inside text-slate-300 space-y-2 mb-8">
+            <ul className="list-disc list-outside ml-6 text-slate-300 space-y-2 mb-8">
               <li>{t('guide.s1.l1')}</li>
               <li>{t('guide.s1.l2')}</li>
               <li>{t('guide.s1.l3')}</li>
@@ -158,7 +158,7 @@ const Guide = () => {
             <p className="text-slate-300 leading-relaxed mb-4">
               {t('guide.s2.desc')}
             </p>
-            <ul className="list-disc list-inside text-slate-300 space-y-2 mb-8">
+            <ul className="list-disc list-outside ml-6 text-slate-300 space-y-2 mb-8">
               {[1, 2, 3, 4, 5, 6, 7].map(i => (
                 <li key={i}><strong>{t(`guide.s2.l${i}_title`)}</strong> {t(`guide.s2.l${i}_desc`)}</li>
               ))}
