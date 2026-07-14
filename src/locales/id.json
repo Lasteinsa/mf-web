@@ -45,6 +45,8 @@
     "title": "Panduan Pengguna",
     "subtitle": "Selamat datang di dokumentasi resmi MF Music Player. Di sini kamu bisa menemukan semua hal yang diperlukan untuk memaksimalkan pengalaman audio kamu.",
     "contents": "Daftar Isi",
+    "show_images": "Tampilkan Gambar",
+    "hide_images": "Sembunyikan Gambar",
     "sections": {
       "getting_started": "Mulai Menggunakan",
       "customization": "Kustomisasi",

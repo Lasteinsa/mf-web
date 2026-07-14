@@ -43,8 +43,10 @@
   },
   "guide": {
     "title": "User Guide",
-    "subtitle": "Welcome to the official MF Music Player documentation. Here you'll find everything you need to get the most out of your audiophile experience.",
+    "subtitle": "Welcome to the official documentation for MF Music Player. Here you'll find everything you need to know to get the most out of your audio experience.",
     "contents": "Contents",
+    "show_images": "Show Images",
+    "hide_images": "Hide Images",
     "sections": {
       "getting_started": "Getting Started",
       "customization": "Customization",

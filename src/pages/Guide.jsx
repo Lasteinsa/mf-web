@@ -1,6 +1,39 @@
-import { motion } from "framer-motion";
-import { BookOpen, Settings, Layout, Search } from "lucide-react";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { BookOpen, Settings, Layout, Search, Image as ImageIcon } from "lucide-react";
 import { useTranslation } from "react-i18next";
+
+const ExpandableImageGroup = ({ children }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const { t } = useTranslation();
+
+  return (
+    <div className="mt-8 flex flex-col items-start w-full">
+      <button 
+        onClick={() => setIsExpanded(!isExpanded)}
+        className="flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 px-6 py-3 rounded-full text-sm font-medium transition-colors text-slate-300 hover:text-white"
+      >
+        <ImageIcon className="w-4 h-4" />
+        {isExpanded ? t('guide.hide_images') : t('guide.show_images')}
+      </button>
+      <AnimatePresence>
+        {isExpanded && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.4, ease: "easeInOut" }}
+            className="w-full overflow-hidden"
+          >
+            <div className="pt-6 pb-2">
+              {children}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+};
 
 const Guide = () => {
   const { t } = useTranslation();
@@ -78,15 +111,16 @@ const Guide = () => {
               <li>{t('guide.s1.l3')}</li>
               <li>{t('guide.s1.l4')}</li>
             </ul>
-            <motion.div 
-              className="flex justify-center"
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-            >
-              <img src="/assets/settings-screen.jpg" alt="Settings Screen" className="w-full max-w-sm rounded-3xl border-2 border-white/10 shadow-2xl" />
-            </motion.div>
+            <ExpandableImageGroup>
+              <motion.div 
+                className="flex justify-center"
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.6 }}
+              >
+                <img src="/assets/settings-screen.jpg" alt="Settings Screen" className="w-full max-w-sm rounded-3xl border-2 border-white/10 shadow-2xl" />
+              </motion.div>
+            </ExpandableImageGroup>
           </motion.section>
 
           <motion.section 
@@ -106,18 +140,19 @@ const Guide = () => {
               <li><strong>{t('guide.s2.l2_title')}</strong> {t('guide.s2.l2_desc')}</li>
               <li><strong>{t('guide.s2.l3_title')}</strong> {t('guide.s2.l3_desc')}</li>
             </ul>
-            <motion.div 
-              className="grid grid-cols-1 sm:grid-cols-2 gap-6"
-              variants={staggerImages}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, margin: "-50px" }}
-            >
-              <motion.img variants={staggerImages} src="/assets/modern-layout-screen.jpg" alt="Modern Layout" className="w-full rounded-3xl border border-white/10 shadow-xl" />
-              <motion.img variants={staggerImages} src="/assets/radial-layout-screen.jpg" alt="Radial Layout" className="w-full rounded-3xl border border-white/10 shadow-xl" />
-              <motion.img variants={staggerImages} src="/assets/appereance-personalization-screen.jpg" alt="Appearance Personalization" className="w-full rounded-3xl border border-white/10 shadow-xl" />
-              <motion.img variants={staggerImages} src="/assets/customize-navigation-screen.jpg" alt="Customize Navigation" className="w-full rounded-3xl border border-white/10 shadow-xl" />
-            </motion.div>
+            <ExpandableImageGroup>
+              <motion.div 
+                className="grid grid-cols-1 sm:grid-cols-2 gap-6"
+                variants={staggerImages}
+                initial="hidden"
+                animate="visible"
+              >
+                <motion.img variants={staggerImages} src="/assets/modern-layout-screen.jpg" alt="Modern Layout" className="w-full rounded-3xl border border-white/10 shadow-xl" />
+                <motion.img variants={staggerImages} src="/assets/radial-layout-screen.jpg" alt="Radial Layout" className="w-full rounded-3xl border border-white/10 shadow-xl" />
+                <motion.img variants={staggerImages} src="/assets/appereance-personalization-screen.jpg" alt="Appearance Personalization" className="w-full rounded-3xl border border-white/10 shadow-xl" />
+                <motion.img variants={staggerImages} src="/assets/customize-navigation-screen.jpg" alt="Customize Navigation" className="w-full rounded-3xl border border-white/10 shadow-xl" />
+              </motion.div>
+            </ExpandableImageGroup>
           </motion.section>
 
           <motion.section 
@@ -160,15 +195,16 @@ const Guide = () => {
               </div>
             </motion.div>
 
-            <motion.div 
-              className="flex justify-center"
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.3 }}
-            >
-              <img src="/assets/audio-engine-screen.jpg" alt="Audio Engine Configuration" className="w-full max-w-sm rounded-3xl border-2 border-white/10 shadow-2xl" />
-            </motion.div>
+            <ExpandableImageGroup>
+              <motion.div 
+                className="flex justify-center"
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.6 }}
+              >
+                <img src="/assets/audio-engine-screen.jpg" alt="Audio Engine Configuration" className="w-full max-w-sm rounded-3xl border-2 border-white/10 shadow-2xl" />
+              </motion.div>
+            </ExpandableImageGroup>
           </motion.section>
 
           <motion.section 
@@ -186,16 +222,17 @@ const Guide = () => {
             <p className="text-slate-300 leading-relaxed mb-8">
               {t('guide.s4.desc2')}
             </p>
-            <motion.div 
-              className="grid grid-cols-1 sm:grid-cols-2 gap-6"
-              variants={staggerImages}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-            >
-              <motion.img variants={staggerImages} src="/assets/lyrics-provider-screen.jpg" alt="Lyrics Provider Settings" className="w-full rounded-3xl border border-white/10 shadow-xl" />
-              <motion.img variants={staggerImages} src="/assets/lyrics-screen.jpg" alt="Lyrics View" className="w-full rounded-3xl border border-white/10 shadow-xl" />
-            </motion.div>
+            <ExpandableImageGroup>
+              <motion.div 
+                className="grid grid-cols-1 sm:grid-cols-2 gap-6"
+                variants={staggerImages}
+                initial="hidden"
+                animate="visible"
+              >
+                <motion.img variants={staggerImages} src="/assets/lyrics-provider-screen.jpg" alt="Lyrics Provider Settings" className="w-full rounded-3xl border border-white/10 shadow-xl" />
+                <motion.img variants={staggerImages} src="/assets/lyrics-screen.jpg" alt="Lyrics View" className="w-full rounded-3xl border border-white/10 shadow-xl" />
+              </motion.div>
+            </ExpandableImageGroup>
           </motion.section>
         </main>
       </div>
