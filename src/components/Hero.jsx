@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { Download, HelpCircle } from "lucide-react";
+import { buttonNavigation } from "../data/hero-data";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -50,24 +51,34 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex flex-wrap gap-4"
           >
-            <a
-              href={import.meta.env.VITE_DOWNLOAD_LINK || "#"}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-linear-to-r from-primary to-primary-dark hover:from-primary-dark hover:to-primary text-black px-8 py-4 rounded-full font-semibold transition-all transform hover:scale-105 shadow-lg shadow-white/20"
-            >
-              <Download className="w-5 h-5" />
-              Download APK
-            </a>
-            <a
-              href={import.meta.env.VITE_DISCORD_LINK || "#"}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-linear-to-r from-primary to-primary-dark hover:from-primary-dark hover:to-primary text-black px-8 py-4 rounded-full font-semibold transition-all transform hover:scale-105 shadow-lg shadow-white/20"
-            >
-              <HelpCircle className="w-5 h-5" />
-              Discord Support
-            </a>
+            {
+              buttonNavigation.map(it => (
+                <a
+                  key={it.id}
+                  href={it.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 bg-linear-to-r from-primary to-primary-dark hover:from-primary-dark hover:to-primary text-black px-8 py-4 rounded-full font-semibold transition-all transform hover:scale-105 shadow-lg shadow-white/20"
+                >
+                  {it.icons}
+                  {it.title}
+                </a>
+              ))
+            }
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="pt-2"
+          >
+            <p className="text-sm text-slate-400">
+              Want to know about the guide?{" "}
+              <Link to="/guide" className="text-white hover:text-primary transition-colors underline underline-offset-4 decoration-white/30 hover:decoration-white">
+                Take a look here
+              </Link>
+            </p>
           </motion.div>
         </div>
       </div>
