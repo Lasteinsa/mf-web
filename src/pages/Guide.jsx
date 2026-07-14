@@ -8,27 +8,50 @@ const ExpandableImageGroup = ({ children }) => {
   const { t } = useTranslation();
 
   return (
-    <div className="mt-8 flex flex-col items-start w-full">
-      <button 
-        onClick={() => setIsExpanded(!isExpanded)}
-        className="flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 px-6 py-3 rounded-full text-sm font-medium transition-colors text-slate-300 hover:text-white"
+    <div className="mt-8 flex flex-col items-center w-full relative">
+      <motion.div
+        initial={false}
+        animate={{ height: isExpanded ? "auto" : "240px" }}
+        transition={{ duration: 0.5, ease: "easeInOut" }}
+        className="w-full overflow-hidden relative rounded-3xl"
       >
-        <ImageIcon className="w-4 h-4" />
-        {isExpanded ? t('guide.hide_images') : t('guide.show_images')}
-      </button>
+        <div>
+          {children}
+        </div>
+        
+        {/* Gradient Overlay for collapsed state */}
+        <AnimatePresence>
+          {!isExpanded && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="absolute inset-0 bg-gradient-to-t from-bg-dark via-bg-dark/80 to-transparent flex items-end justify-center pb-8 z-10"
+            >
+              <button 
+                onClick={() => setIsExpanded(true)}
+                className="flex items-center gap-2 bg-gradient-to-r from-red-500 to-orange-500 hover:from-red-600 hover:to-orange-600 px-6 py-3 rounded-full text-sm font-semibold transition-transform hover:scale-105 active:scale-95 text-white shadow-lg shadow-orange-500/25"
+              >
+                <ImageIcon className="w-4 h-4" />
+                {t('guide.show_images')}
+              </button>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </motion.div>
+
+      {/* Hide button when expanded */}
       <AnimatePresence>
         {isExpanded && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.4, ease: "easeInOut" }}
-            className="w-full overflow-hidden"
+          <motion.button
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            onClick={() => setIsExpanded(false)}
+            className="mt-6 flex items-center gap-2 text-sm font-medium text-slate-400 hover:text-white transition-colors"
           >
-            <div className="pt-6 pb-2">
-              {children}
-            </div>
-          </motion.div>
+            {t('guide.hide_images')}
+          </motion.button>
         )}
       </AnimatePresence>
     </div>
