@@ -69,7 +69,7 @@
     },
     "s3": {
       "desc1": "MF Android bypasses standard Android audio limits to deliver Bit-Perfect playback directly to your DAC.",
-      "desc2": "Ensure that your external USB DAC is connected before launching the app. Head to Settings > Audio Engine to enable exclusive mode, which locks the sample rate to perfectly match the source file.",
+      "desc2": "Head to Settings > Audio Engine to enable exclusive mode, which locks the sample rate to perfectly match the source file.",
       "attn_title": "USB Digital Attenuation & Volume Safety",
       "attn_desc1": "For USB DACs without hardware volume control, we've built in Digital Attenuation to protect your ears. The app smartly remembers your last used volume for each specific USB DAC, allowing you to seamlessly and safely switch between DACs with or without hardware volume controls.",
       "attn_desc2": "If your DAC does have its own hardware volume control, you can push the app's digital attenuation slider to 0dB (Max) and disable volume safety to achieve true, unadulterated Bit-Perfect audio.",

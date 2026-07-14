@@ -69,7 +69,7 @@
     },
     "s3": {
       "desc1": "MF Android memotong batasan audio standar Android agar bisa mengirimkan pemutaran Bit-Perfect langsung ke DAC milikmu.",
-      "desc2": "Pastikan USB DAC eksternal sudah terhubung sebelum membuka aplikasi. Pergi ke Pengaturan > Audio Engine untuk menyalakan mode eksklusif (exclusive mode), yang akan mengunci sample rate agar sama persis dengan file sumber aslinya.",
+      "desc2": "Pergi ke Pengaturan > Audio Engine untuk menyalakan mode eksklusif (exclusive mode), yang akan mengunci sample rate agar sama persis dengan file sumber aslinya.",
       "attn_title": "USB Digital Attenuation & Keamanan Volume",
       "attn_desc1": "Untuk USB DAC yang tidak memiliki kontrol volume hardware sendiri, kami menambahkan Digital Attenuation (Peredam Digital) untuk melindungi telinga kamu. Aplikasi akan dengan pintar mengingat volume terakhir untuk masing-masing DAC, jadi kamu bisa ganti-ganti DAC (baik yang punya kontrol volume atau tidak) dengan aman dan nyaman.",
       "attn_desc2": "Kalau DAC kamu sudah punya kontrol volume hardware sendiri, kamu bisa menaikkan slider digital attenuation di aplikasi ke 0dB (Maksimal) dan mematikan pengaman volume untuk mendapatkan audio Bit-Perfect yang sesungguhnya tanpa modifikasi apapun.",
