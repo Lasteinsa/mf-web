@@ -50,8 +50,9 @@
     "sections": {
       "getting_started": "Getting Started",
       "customization": "Customization",
+      "library_management": "Library Management",
       "audio_engine": "Audio Engine",
-      "lyrics_setup": "Lyrics Setup"
+      "lyrics_setup": "Lyrics & Plugins"
     },
     "s1": {
       "desc": "MF Music Player is designed to play your local music collection with absolute pristine quality. To start:",
@@ -87,8 +88,17 @@
       "attn_warn_desc": "Always exercise caution when initializing a DAC. Make sure you don't put on your IEMs or headphones before playing the first track to avoid any unexpected bursts of loud volume!"
     },
     "s4": {
-      "desc1": "The app supports both embedded lyrics and online lyrics providers.",
-      "desc2": "To configure providers, go to Settings > Lyrics Provider and prioritize your preferred sources. Synchronized lyrics (.lrc) will automatically scroll along with your music."
+      "desc1": "Manage your music library efficiently. Long press any Album or Artist to reveal quick actions, or dive into their details page.",
+      "desc2": "Missing or incorrect album covers? Simply select 'Edit Artwork' to search our online databases (like Deezer or Last.fm) and instantly replace them with high-quality images directly saved to your device."
+    },
+    "s5": {
+      "desc1": "The app supports standard embedded lyrics and online lyrics providers like Lrclib and Netease.",
+      "desc2": "To configure providers, go to Settings > Lyrics Provider and prioritize your preferred sources. Synchronized lyrics (.lrc) will automatically scroll along with your music.",
+      "desc3": "Beyond standard lyrics, MFAndroid boasts powerful plugin support:",
+      "l1_title": "ML Kit Translation:",
+      "l1_desc": "Enable on-device machine learning translation to instantly translate foreign lyrics into your native language.",
+      "l2_title": "Romanization Plugin:",
+      "l2_desc": "Install the external Romanizer plugin app to seamlessly convert Kanji or Hangul lyrics into readable Romaji/Romaja formats while you listen."
     }
   },
   "footer": {

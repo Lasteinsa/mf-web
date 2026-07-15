@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { BookOpen, Settings, Layout, Search, Image as ImageIcon } from "lucide-react";
+import { BookOpen, Settings, Layout, Search, Image as ImageIcon, Library, Music } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const ExpandableImageGroup = ({ children }) => {
@@ -64,8 +64,9 @@ const Guide = () => {
   const sections = [
     { id: "getting-started", title: t('guide.sections.getting_started'), icon: <BookOpen className="w-5 h-5" /> },
     { id: "customization", title: t('guide.sections.customization'), icon: <Layout className="w-5 h-5" /> },
+    { id: "library-management", title: t('guide.sections.library_management'), icon: <Library className="w-5 h-5" /> },
     { id: "audio-engine", title: t('guide.sections.audio_engine'), icon: <Settings className="w-5 h-5" /> },
-    { id: "lyrics", title: t('guide.sections.lyrics_setup'), icon: <Search className="w-5 h-5" /> },
+    { id: "lyrics", title: t('guide.sections.lyrics_setup'), icon: <Music className="w-5 h-5" /> },
   ];
 
   const sectionVariants = {
@@ -179,6 +180,34 @@ const Guide = () => {
           </motion.section>
 
           <motion.section 
+            id="library-management" 
+            className="mb-16 scroll-mt-32"
+            variants={sectionVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+          >
+            <h2 className="text-3xl font-semibold mb-6 text-white border-b border-white/10 pb-4">{t('guide.sections.library_management')}</h2>
+            <p className="text-slate-300 leading-relaxed mb-4">
+              {t('guide.s4.desc1')}
+            </p>
+            <p className="text-slate-300 leading-relaxed mb-8">
+              {t('guide.s4.desc2')}
+            </p>
+            <ExpandableImageGroup>
+              <motion.div 
+                className="grid grid-cols-1 sm:grid-cols-2 gap-6"
+                variants={staggerImages}
+                initial="hidden"
+                animate="visible"
+              >
+                <motion.img variants={staggerImages} src="@todo" alt="Edit Album Art" className="w-full rounded-3xl border border-white/10 shadow-xl" />
+                <motion.img variants={staggerImages} src="@todo" alt="Edit Artist Art" className="w-full rounded-3xl border border-white/10 shadow-xl" />
+              </motion.div>
+            </ExpandableImageGroup>
+          </motion.section>
+
+          <motion.section 
             id="audio-engine" 
             className="mb-16 scroll-mt-32"
             variants={sectionVariants}
@@ -240,11 +269,28 @@ const Guide = () => {
           >
             <h2 className="text-3xl font-semibold mb-6 text-white border-b border-white/10 pb-4">{t('guide.sections.lyrics_setup')}</h2>
             <p className="text-slate-300 leading-relaxed mb-4">
-              {t('guide.s4.desc1')}
+              {t('guide.s5.desc1')}
             </p>
             <p className="text-slate-300 leading-relaxed mb-8">
-              {t('guide.s4.desc2')}
+              {t('guide.s5.desc2')}
             </p>
+
+            <motion.div 
+              className="bg-white/5 border border-white/10 rounded-2xl p-6 mb-8 mt-6"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              <p className="text-slate-300 leading-relaxed mb-4 font-semibold text-lg">
+                {t('guide.s5.desc3')}
+              </p>
+              <ul className="list-disc list-outside ml-6 text-slate-300 space-y-2 mb-4">
+                <li><strong>{t('guide.s5.l1_title')}</strong> {t('guide.s5.l1_desc')}</li>
+                <li><strong>{t('guide.s5.l2_title')}</strong> {t('guide.s5.l2_desc')}</li>
+              </ul>
+            </motion.div>
+
             <ExpandableImageGroup>
               <motion.div 
                 className="grid grid-cols-1 sm:grid-cols-2 gap-6"
@@ -254,6 +300,8 @@ const Guide = () => {
               >
                 <motion.img variants={staggerImages} src="/assets/lyrics-provider-screen.jpg" alt="Lyrics Provider Settings" className="w-full rounded-3xl border border-white/10 shadow-xl" />
                 <motion.img variants={staggerImages} src="/assets/lyrics-screen.jpg" alt="Lyrics View" className="w-full rounded-3xl border border-white/10 shadow-xl" />
+                <motion.img variants={staggerImages} src="@todo" alt="Lyrics Translation" className="w-full rounded-3xl border border-white/10 shadow-xl" />
+                <motion.img variants={staggerImages} src="@todo" alt="Romanization Plugin" className="w-full rounded-3xl border border-white/10 shadow-xl" />
               </motion.div>
             </ExpandableImageGroup>
           </motion.section>

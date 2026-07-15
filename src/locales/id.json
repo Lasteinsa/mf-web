@@ -50,15 +50,16 @@
     "sections": {
       "getting_started": "Mulai Menggunakan",
       "customization": "Kustomisasi",
-      "audio_engine": "Audio Engine",
-      "lyrics_setup": "Pengaturan Lirik"
+      "library_management": "Manajemen Pustaka",
+      "audio_engine": "Mesin Audio",
+      "lyrics_setup": "Lirik & Plugin"
     },
     "s1": {
-      "desc": "MF Music Player dirancang untuk memutar koleksi musik lokalmu dengan kualitas yang sangat jernih. Untuk memulai:",
-      "l1": "Unduh file APK terbaru dari halaman beranda.",
-      "l2": "Instal aplikasinya di perangkat Android kamu.",
-      "l3": "Izinkan akses penyimpanan supaya aplikasi bisa memindai koleksi musik lokalmu.",
-      "l4": "Tunggu sampai proses pemindaian awal selesai. File resolusi tinggi seperti FLAC dan ALAC didukung penuh lho!"
+      "desc": "MF Music Player dirancang untuk memutar koleksi musik lokal dengan kualitas paling jernih. Untuk memulai:",
+      "l1": "Unduh APK terbaru dari halaman utama.",
+      "l2": "Instal aplikasi di perangkat Android kamu.",
+      "l3": "Berikan izin penyimpanan agar aplikasi dapat memindai pustaka musik lokal kamu.",
+      "l4": "Tunggu proses pemindaian awal selesai. File resolusi tinggi seperti FLAC dan ALAC sepenuhnya didukung."
     },
     "s2": {
       "desc": "Antarmuka aplikasi ini bebas kamu atur sesuka hati. Masuk ke Pengaturan > Tampilan untuk menjelajahi:",
@@ -79,16 +80,25 @@
     },
     "s3": {
       "desc1": "MF Android memotong batasan audio standar Android agar bisa mengirimkan pemutaran Bit-Perfect langsung ke DAC milikmu.",
-      "desc2": "Pergi ke Pengaturan > Audio Engine untuk menyalakan mode eksklusif (exclusive mode), yang akan mengunci sample rate agar sama persis dengan file sumber aslinya.",
-      "attn_title": "USB Digital Attenuation & Keamanan Volume",
-      "attn_desc1": "Untuk USB DAC yang tidak memiliki kontrol volume hardware sendiri, kami menambahkan Digital Attenuation (Peredam Digital) untuk melindungi telinga kamu. Aplikasi akan dengan pintar mengingat volume terakhir untuk masing-masing DAC, jadi kamu bisa ganti-ganti DAC (baik yang punya kontrol volume atau tidak) dengan aman dan nyaman.",
-      "attn_desc2": "Kalau DAC kamu sudah punya kontrol volume hardware sendiri, kamu bisa menaikkan slider digital attenuation di aplikasi ke 0dB (Maksimal) dan mematikan pengaman volume untuk mendapatkan audio Bit-Perfect yang sesungguhnya tanpa modifikasi apapun.",
-      "attn_warn_title": "Utamakan Keselamatan:",
-      "attn_warn_desc": "Selalu berhati-hati saat menyambungkan DAC baru. Pastikan kamu belum memakai IEM atau headphone sebelum memutar lagu pertama, supaya tidak kaget kalau tiba-tiba suaranya meledak kencang!"
+      "desc2": "Masuk ke Pengaturan > Mesin Audio untuk mengaktifkan mode eksklusif (exclusive mode), yang akan mengunci sample rate agar sama persis dengan file aslinya.",
+      "attn_title": "Atenuasi Digital USB & Keamanan Volume",
+      "attn_desc1": "Untuk USB DAC yang tidak memiliki kontrol volume hardware, kami menyediakan Atenuasi Digital untuk melindungi telingamu. Aplikasi ini dengan pintar mengingat volume terakhir yang kamu gunakan untuk setiap USB DAC tertentu, memungkinkan kamu berganti DAC (baik yang punya kontrol volume maupun tidak) dengan mulus dan aman.",
+      "attn_desc2": "Jika DAC kamu memang memiliki kontrol volume hardware sendiri, kamu bisa menaikkan slider atenuasi digital di aplikasi ke 0dB (Maks) dan menonaktifkan keamanan volume untuk mendapatkan audio Bit-Perfect yang benar-benar murni tanpa campur tangan digital.",
+      "attn_warn_title": "Utamakan Keamanan:",
+      "attn_warn_desc": "Selalu berhati-hati saat menyambungkan DAC. Pastikan kamu tidak memakai IEM atau headphone sebelum memutar lagu pertama untuk menghindari lonjakan suara keras yang tiba-tiba!"
     },
     "s4": {
-      "desc1": "Aplikasi ini mendukung lirik bawaan (embedded) maupun provider lirik online.",
-      "desc2": "Untuk mengatur provider, pergi ke Pengaturan > Provider Lirik lalu urutkan sumber lirik favoritmu. Lirik tersinkronisasi (.lrc) bakal otomatis berjalan mengikuti alunan musikmu."
+      "desc1": "Kelola pustaka musik kamu dengan efisien. Tekan dan tahan Album atau Artis mana saja untuk melihat aksi cepat, atau ketuk untuk masuk ke halaman detail mereka.",
+      "desc2": "Cover album hilang atau salah? Cukup pilih 'Edit Artwork' untuk mencari dari database online kami (seperti Deezer atau Last.fm) dan ganti seketika dengan gambar berkualitas tinggi yang langsung disimpan ke perangkatmu."
+    },
+    "s5": {
+      "desc1": "Aplikasi ini mendukung lirik bawaan (embedded) maupun lirik dari penyedia online seperti Lrclib dan Netease.",
+      "desc2": "Untuk mengatur penyedia lirik, masuk ke Pengaturan > Penyedia Lirik dan urutkan sumber yang kamu sukai. Lirik yang sinkron (.lrc) akan otomatis bergulir mengikuti lagu.",
+      "desc3": "Selain lirik standar, MFAndroid juga dilengkapi dengan dukungan plugin yang kuat:",
+      "l1_title": "Terjemahan ML Kit:",
+      "l1_desc": "Aktifkan terjemahan machine learning bawaan perangkat untuk langsung menerjemahkan lirik berbahasa asing ke bahasa ibumu secara instan.",
+      "l2_title": "Plugin Romanisasi:",
+      "l2_desc": "Instal aplikasi plugin eksternal Romanizer untuk mengonversi lirik Kanji atau Hangul menjadi format Romaji/Romaja yang mudah dibaca sambil kamu mendengarkan."
     }
   },
   "footer": {
