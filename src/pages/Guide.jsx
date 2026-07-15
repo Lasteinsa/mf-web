@@ -201,8 +201,8 @@ const Guide = () => {
                 initial="hidden"
                 animate="visible"
               >
-                <motion.img variants={staggerImages} src="@todo" alt="Edit Album Art" className="w-full rounded-3xl border border-white/10 shadow-xl" />
-                <motion.img variants={staggerImages} src="@todo" alt="Edit Artist Art" className="w-full rounded-3xl border border-white/10 shadow-xl" />
+                <motion.img variants={staggerImages} src="/assets/edit-album-art.jpg" alt="Edit Album Art" className="w-full rounded-3xl border border-white/10 shadow-xl" />
+                <motion.img variants={staggerImages} src="/assets/edit-artist-art.jpg" alt="Edit Artist Art" className="w-full rounded-3xl border border-white/10 shadow-xl" />
               </motion.div>
             </ExpandableImageGroup>
           </motion.section>
@@ -300,8 +300,8 @@ const Guide = () => {
               >
                 <motion.img variants={staggerImages} src="/assets/lyrics-provider-screen.jpg" alt="Lyrics Provider Settings" className="w-full rounded-3xl border border-white/10 shadow-xl" />
                 <motion.img variants={staggerImages} src="/assets/lyrics-screen.jpg" alt="Lyrics View" className="w-full rounded-3xl border border-white/10 shadow-xl" />
-                <motion.img variants={staggerImages} src="@todo" alt="Lyrics Translation" className="w-full rounded-3xl border border-white/10 shadow-xl" />
-                <motion.img variants={staggerImages} src="@todo" alt="Romanization Plugin" className="w-full rounded-3xl border border-white/10 shadow-xl" />
+                <motion.img variants={staggerImages} src="/assets/lyric-translator-plugin.jpg" alt="Lyrics Translation" className="w-full rounded-3xl border border-white/10 shadow-xl" />
+                <motion.img variants={staggerImages} src="/assets/lyrics-providers-plugin.jpg" alt="Romanization Plugin" className="w-full rounded-3xl border border-white/10 shadow-xl" />
               </motion.div>
             </ExpandableImageGroup>
           </motion.section>
