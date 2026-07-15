@@ -18,7 +18,7 @@ const ExpandableImageGroup = ({ children }) => {
         <div>
           {children}
         </div>
-        
+
         {/* Gradient Overlay for collapsed state */}
         <AnimatePresence>
           {!isExpanded && (
@@ -28,7 +28,7 @@ const ExpandableImageGroup = ({ children }) => {
               exit={{ opacity: 0 }}
               className="absolute inset-0 bg-gradient-to-t from-bg-dark via-bg-dark/80 to-transparent flex items-end justify-center pb-8 z-10"
             >
-              <button 
+              <button
                 onClick={() => setIsExpanded(true)}
                 className="flex items-center gap-2 bg-gradient-to-r from-red-500 to-orange-500 hover:from-red-600 hover:to-orange-600 px-6 py-3 rounded-full text-sm font-semibold transition-transform hover:scale-105 active:scale-95 text-white shadow-lg shadow-orange-500/25"
               >
@@ -117,8 +117,8 @@ const Guide = () => {
             </p>
           </motion.div>
 
-          <motion.section 
-            id="getting-started" 
+          <motion.section
+            id="getting-started"
             className="mb-16 scroll-mt-32"
             variants={sectionVariants}
             initial="hidden"
@@ -136,7 +136,7 @@ const Guide = () => {
               <li>{t('guide.s1.l4')}</li>
             </ul>
             <ExpandableImageGroup>
-              <motion.div 
+              <motion.div
                 className="flex justify-center"
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -147,8 +147,8 @@ const Guide = () => {
             </ExpandableImageGroup>
           </motion.section>
 
-          <motion.section 
-            id="customization" 
+          <motion.section
+            id="customization"
             className="mb-16 scroll-mt-32"
             variants={sectionVariants}
             initial="hidden"
@@ -165,7 +165,7 @@ const Guide = () => {
               ))}
             </ul>
             <ExpandableImageGroup>
-              <motion.div 
+              <motion.div
                 className="grid grid-cols-1 sm:grid-cols-2 gap-6"
                 variants={staggerImages}
                 initial="hidden"
@@ -179,8 +179,8 @@ const Guide = () => {
             </ExpandableImageGroup>
           </motion.section>
 
-          <motion.section 
-            id="library-management" 
+          <motion.section
+            id="library-management"
             className="mb-16 scroll-mt-32"
             variants={sectionVariants}
             initial="hidden"
@@ -195,7 +195,7 @@ const Guide = () => {
               {t('guide.s4.desc2')}
             </p>
             <ExpandableImageGroup>
-              <motion.div 
+              <motion.div
                 className="grid grid-cols-1 sm:grid-cols-2 gap-6"
                 variants={staggerImages}
                 initial="hidden"
@@ -207,8 +207,8 @@ const Guide = () => {
             </ExpandableImageGroup>
           </motion.section>
 
-          <motion.section 
-            id="audio-engine" 
+          <motion.section
+            id="audio-engine"
             className="mb-16 scroll-mt-32"
             variants={sectionVariants}
             initial="hidden"
@@ -223,7 +223,7 @@ const Guide = () => {
               {t('guide.s3.desc2')}
             </p>
 
-            <motion.div 
+            <motion.div
               className="bg-white/5 border border-white/10 rounded-2xl p-6 mb-8 mt-6"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -248,7 +248,7 @@ const Guide = () => {
             </motion.div>
 
             <ExpandableImageGroup>
-              <motion.div 
+              <motion.div
                 className="flex justify-center"
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -259,8 +259,8 @@ const Guide = () => {
             </ExpandableImageGroup>
           </motion.section>
 
-          <motion.section 
-            id="lyrics" 
+          <motion.section
+            id="lyrics"
             className="mb-16 scroll-mt-32"
             variants={sectionVariants}
             initial="hidden"
@@ -275,7 +275,7 @@ const Guide = () => {
               {t('guide.s5.desc2')}
             </p>
 
-            <motion.div 
+            <motion.div
               className="bg-white/5 border border-white/10 rounded-2xl p-6 mb-8 mt-6"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -292,17 +292,17 @@ const Guide = () => {
             </motion.div>
 
             <ExpandableImageGroup>
-              <motion.div 
+              <motion.div
                 className="grid grid-cols-1 sm:grid-cols-2 gap-6"
                 variants={staggerImages}
                 initial="hidden"
                 animate="visible"
               >
-                <motion.img variants={staggerImages} src="/assets/lyrics-screen.jpg" alt="Lyrics View" className="w-full rounded-3xl border border-white/10 shadow-xl" />
                 <motion.img variants={staggerImages} src="/assets/select-lyrics.jpg" alt="Select Lyrics" className="w-full rounded-3xl border border-white/10 shadow-xl" />
                 <motion.img variants={staggerImages} src="/assets/lyrics-applied.jpg" alt="Lyrics Applied" className="w-full rounded-3xl border border-white/10 shadow-xl" />
-                <motion.img variants={staggerImages} src="/assets/lyric-translator-plugin.jpg" alt="Lyrics Translation" className="w-full rounded-3xl border border-white/10 shadow-xl" />
+                <motion.img variants={staggerImages} src="/assets/lyrics-screen.jpg" alt="Lyrics View" className="w-full rounded-3xl border border-white/10 shadow-xl" />
                 <motion.img variants={staggerImages} src="/assets/lyrics-providers-plugin.jpg" alt="Romanization Plugin" className="w-full rounded-3xl border border-white/10 shadow-xl" />
+                <motion.img variants={staggerImages} src="/assets/lyric-translator-plugin.jpg" alt="Lyrics Translation" className="w-full rounded-3xl border border-white/10 shadow-xl" />
               </motion.div>
             </ExpandableImageGroup>
           </motion.section>
