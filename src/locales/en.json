@@ -88,8 +88,8 @@
       "attn_warn_desc": "Always exercise caution when initializing a DAC. Make sure you don't put on your IEMs or headphones before playing the first track to avoid any unexpected bursts of loud volume!"
     },
     "s4": {
-      "desc1": "Manage your music library efficiently. Long press any Album or Artist to reveal quick actions, or dive into their details page.",
-      "desc2": "Missing or incorrect album covers? Simply select 'Edit Artwork' to search our online databases (like Deezer or Last.fm) and instantly replace them with high-quality images directly saved to your device."
+      "desc1": "Keep your music library looking pristine. If you have missing or incorrect album or artist covers, you can easily update them.",
+      "desc2": "Navigate to any Album or Artist details page. Tap the 3-dots menu button located at the bottom corner of the cover image, and select 'Edit Artwork' to search online databases (like Deezer or Last.fm) and instantly replace them with high-quality images."
     },
     "s5": {
       "desc1": "The app supports standard embedded lyrics and online lyrics providers like Lrclib and Netease.",
