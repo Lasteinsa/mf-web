@@ -298,7 +298,6 @@ const Guide = () => {
                 initial="hidden"
                 animate="visible"
               >
-                <motion.img variants={staggerImages} src="/assets/lyrics-provider-screen.jpg" alt="Lyrics Provider Settings" className="w-full rounded-3xl border border-white/10 shadow-xl" />
                 <motion.img variants={staggerImages} src="/assets/lyrics-screen.jpg" alt="Lyrics View" className="w-full rounded-3xl border border-white/10 shadow-xl" />
                 <motion.img variants={staggerImages} src="/assets/select-lyrics.jpg" alt="Select Lyrics" className="w-full rounded-3xl border border-white/10 shadow-xl" />
                 <motion.img variants={staggerImages} src="/assets/lyrics-applied.jpg" alt="Lyrics Applied" className="w-full rounded-3xl border border-white/10 shadow-xl" />
