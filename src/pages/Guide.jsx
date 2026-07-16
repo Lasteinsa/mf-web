@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { BookOpen, Settings, Layout, Search, Image as ImageIcon, Library, Music } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import SettingsSimulation from "../components/simulations/SettingsSimulation";
 
 const ExpandableImageGroup = ({ children }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -142,7 +143,7 @@ const Guide = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6 }}
               >
-                <img src="/assets/settings-screen.jpg" alt="Settings Screen" className="w-full max-w-sm rounded-3xl border-2 border-white/10 shadow-2xl" />
+                <SettingsSimulation />
               </motion.div>
             </ExpandableImageGroup>
           </motion.section>
