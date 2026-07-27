@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Guide from "./pages/Guide";
+import Privacy from "./pages/Privacy";
 
 import Footer from "./components/Footer";
 
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/guide" element={<Guide />} />
+            <Route path="/privacy" element={<Privacy />} />
           </Routes>
         </main>
         <Footer />

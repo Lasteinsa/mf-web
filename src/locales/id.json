@@ -3,6 +3,7 @@
     "title": "MF Music Player",
     "home": "Beranda",
     "guide": "Panduan",
+    "privacy": "Privasi",
     "support": "Bantuan"
   },
   "hero": {
@@ -11,6 +12,7 @@
     "title_2": "Tanpa Batas.",
     "description": "Rasakan pengalaman menggunakan MFAndroid, pemutar musik terbaik yang dirancang untuk kualitas audio super jernih, pemutaran offline tanpa hambatan, dan antarmuka yang dinamis.",
     "download_apk": "Unduh APK",
+    "google_play_soon": "Google Play (Segera)",
     "discord_support": "Bantuan Discord",
     "guide_prompt": "Ingin tahu lebih lanjut?",
     "guide_link": "Cek panduan lengkapnya di sini"
@@ -105,6 +107,21 @@
     "title": "Suka dengan MF Music Player?",
     "description": "MF Music Player 100% gratis dan bakal terus gratis selamanya. Walau begitu, dukungan dari kamu sangat berarti untuk memastikan pengembangannya tetap hidup, terus diperbarui, dan semakin luar biasa!",
     "donate_btn": "Dukung via Trakteer",
+    "privacy_policy": "Kebijakan Privasi",
     "copyright": "© 2026 MF Music Player. Hak cipta dilindungi."
+  },
+  "privacy": {
+    "title": "Kebijakan Privasi",
+    "subtitle": "MF Music Player adalah pemutar musik offline kelas audiophile tanpa pelacakan data dan menjaga privasi sepenuhnya.",
+    "effective_date": "Tanggal Berlaku: 27 Juli 2026",
+    "s1_title": "1. Bebas Pengumpulan Data",
+    "s1_desc": "Mellifluous berjalan 100% lokal di perangkat Android kamu. Kami tidak pernah mengumpulkan, mengirim, menyimpan, atau membagikan informasi pribadi, file audio, metadata, atau kebiasaan mendengarkanmu ke server eksternal mana pun.",
+    "s2_title": "2. Izin Penyimpanan & Folder",
+    "s2_desc": "Kami membutuhkan izin membaca media lokal semata-mata untuk memindai dan memutar perpustakaan musikmu. Izin folder Storage Access Framework (SAF) hanya diminta ketika kamu memilih untuk mengedit gambar album, menanamkan lirik ke file audio, atau membuat cadangan lokal.",
+    "s3_title": "3. Penyedia Lirik Opsional",
+    "s3_desc": "Jika kamu memilih untuk mencari penyedia lirik online (seperti Lrclib atau Netease), aplikasi terhubung langsung ke API publik tersebut dari perangkatmu untuk mengambil lirik tersinkronisasi. Tidak ada identifikasi pribadi yang dikirimkan.",
+    "s4_title": "4. Bebas Iklan & Terbuka",
+    "s4_desc": "Mellifluous tidak memiliki SDK iklan pihak ketiga, tidak ada pelacak telemetri, dan tidak ada layanan analisis latar belakang.",
+    "footer_note": "Jika kamu memiliki pertanyaan mengenai kebijakan privasi ini, silakan hubungi kami melalui Discord atau repositori komunitas."
   }
 }

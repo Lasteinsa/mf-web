@@ -1,4 +1,5 @@
 import { Coffee } from "lucide-react";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 
@@ -37,7 +38,15 @@ const Footer = () => {
           </div>
         </motion.div>
 
-        <div className="text-center">
+        <div className="text-center space-y-3">
+          <div>
+            <Link 
+              to="/privacy" 
+              className="text-sm font-medium text-slate-400 hover:text-white transition-colors"
+            >
+              {t('footer.privacy_policy')}
+            </Link>
+          </div>
           <p className="text-slate-500 text-sm">
             {t('footer.copyright')}
           </p>

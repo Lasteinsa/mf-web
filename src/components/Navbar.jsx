@@ -28,6 +28,9 @@ const Navbar = () => {
           <Link to="/guide" className="hover:text-white transition-colors">
             {t('navbar.guide')}
           </Link>
+          <Link to="/privacy" className="hover:text-white transition-colors">
+            {t('navbar.privacy')}
+          </Link>
           <a
             href={import.meta.env.VITE_DISCORD_LINK || "#"}
             target="_blank"

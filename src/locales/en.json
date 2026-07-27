@@ -3,6 +3,7 @@
     "title": "MF Music Player",
     "home": "Home",
     "guide": "Guide",
+    "privacy": "Privacy",
     "support": "Support"
   },
   "hero": {
@@ -11,6 +12,7 @@
     "title_2": "Unleashed.",
     "description": "Experience MFAndroid, the ultimate music player designed for pristine audio quality, seamless offline playback, and an interface that moves with you.",
     "download_apk": "Download APK",
+    "google_play_soon": "Google Play (Soon)",
     "discord_support": "Discord Support",
     "guide_prompt": "Want to know about the guide?",
     "guide_link": "Take a look here to learn everything"
@@ -105,6 +107,21 @@
     "title": "Love MF Music Player?",
     "description": "MF Music Player is 100% free and will always remain free. However, your support is what keeps the development alive, ensures continuous updates, and helps this project thrive!",
     "donate_btn": "Support on Trakteer",
+    "privacy_policy": "Privacy Policy",
     "copyright": "© 2026 MF Music Player. All rights reserved."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "MF Music Player is an offline, audiophile-grade music player built with zero tracking and total privacy.",
+    "effective_date": "Effective Date: July 27, 2026",
+    "s1_title": "1. Zero Data Collection",
+    "s1_desc": "Mellifluous operates 100% locally on your Android device. We never collect, transmit, store, or share your personal information, audio files, metadata, or listening habits with any external servers.",
+    "s2_title": "2. Storage & Folder Permissions",
+    "s2_desc": "We require local media reading permissions solely to scan and play your audio library. Storage Access Framework (SAF) folder permissions are requested only when you choose to edit album artwork, embed lyrics into audio files, or create local backups.",
+    "s3_title": "3. Optional Lyrics Providers",
+    "s3_desc": "If you choose to search online lyrics providers (such as Lrclib or Netease), the app connects directly to those public APIs from your device to fetch synchronized lyrics. No personal identifier is sent.",
+    "s4_title": "4. Ad-Free & Open",
+    "s4_desc": "Mellifluous contains zero third-party advertising SDKs, zero telemetry trackers, and zero background analytics services.",
+    "footer_note": "If you have any questions regarding this privacy policy, please reach out via our community Discord or repository."
   }
 }
