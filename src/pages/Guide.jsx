@@ -192,9 +192,17 @@ const Guide = () => {
             <p className="text-slate-300 leading-relaxed mb-4">
               {t('guide.s4.desc1')}
             </p>
-            <p className="text-slate-300 leading-relaxed mb-8">
+            <p className="text-slate-300 leading-relaxed mb-4">
               {t('guide.s4.desc2')}
             </p>
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-6 mb-6 space-y-4">
+              <p className="text-slate-300 leading-relaxed text-sm md:text-base">
+                {t('guide.s4.desc3')}
+              </p>
+              <p className="text-slate-300 leading-relaxed text-sm md:text-base">
+                {t('guide.s4.desc4')}
+              </p>
+            </div>
             <ExpandableImageGroup>
               <motion.div
                 className="grid grid-cols-1 sm:grid-cols-2 gap-6"
@@ -289,6 +297,7 @@ const Guide = () => {
               <ul className="list-disc list-outside ml-6 text-slate-300 space-y-2 mb-4">
                 <li><strong>{t('guide.s5.l1_title')}</strong> {t('guide.s5.l1_desc')}</li>
                 <li><strong>{t('guide.s5.l2_title')}</strong> {t('guide.s5.l2_desc')}</li>
+                <li><strong>{t('guide.s5.l3_title')}</strong> {t('guide.s5.l3_desc')}</li>
               </ul>
             </motion.div>
 

@@ -40,8 +40,14 @@
     "f1_desc": "Bebas dari batasan audio standar Android. Streaming audio murni langsung ke DAC kamu tanpa manipulasi.",
     "f2_title": "Tema Dinamis",
     "f2_desc": "Musikmu yang menentukan suasananya. Antarmuka kami otomatis menyesuaikan dengan warna cover album yang sedang diputar.",
-    "f3_title": "Lirik Sinkron",
-    "f3_desc": "Nyanyi bareng tanpa meleset. Lirik tersinkronisasi dengan mulus baik saat online maupun offline."
+    "f3_title": "Lirik Sinkron & Tanam Tag",
+    "f3_desc": "Nyanyi bareng tanpa meleset. Nikmati lirik sinkron online/offline, atau tanamkan tag .lrc langsung ke file audiomu.",
+    "f4_title": "Terjemahan AI & Romanisasi",
+    "f4_desc": "Terjemahkan lirik asing seketika dengan ML Kit, atau konversi langsung lirik Kanji & Hangul menjadi Romaji/Romaja.",
+    "f5_title": "Penyempurna Artwork",
+    "f5_desc": "Cover hilang? Cari di database online (Deezer, Last.fm) dalam satu ketukan untuk mengganti gambar album dan artis seketika.",
+    "f6_title": "Privasi SAF & Backup",
+    "f6_desc": "Tanpa pelacakan data, izin folder SAF yang aman, dan kemudahan ekspor/pulihkan playlist serta pengaturan via file JSON."
   },
   "guide": {
     "title": "Panduan Pengguna",
@@ -91,16 +97,20 @@
     },
     "s4": {
       "desc1": "Jaga agar pustaka musikmu tetap terlihat rapi. Jika ada cover album atau artis yang hilang atau salah, kamu bisa memperbaruinya dengan mudah.",
-      "desc2": "Buka halaman detail Album atau Artis mana saja. Ketuk tombol menu 3-titik yang terletak di pojok bawah gambar cover, lalu pilih 'Edit Artwork' untuk mencari dari database online (seperti Deezer atau Last.fm) dan ganti seketika dengan gambar berkualitas tinggi."
+      "desc2": "Buka halaman detail Album atau Artis mana saja. Ketuk tombol menu 3-titik yang terletak di pojok bawah gambar cover, lalu pilih 'Edit Artwork' untuk mencari dari database online (seperti Deezer atau Last.fm) dan ganti seketika dengan gambar berkualitas tinggi.",
+      "desc3": "Backup & Restore: Amankan pengaturan perpustakaan musikmu kapan saja. Masuk ke Pengaturan > Backup & Restore untuk mengekspor playlist, favorit, dan pengaturan aplikasi ke file JSON lokal, atau pulihkan secara instan saat beralih perangkat.",
+      "desc4": "Penyimpanan SAF Scoped Storage: Saat menyimpan cover album atau menanamkan tag lirik, Mellifluous menggunakan izin folder Android Storage Access Framework (SAF) standar. File kamu diperbarui dengan bersih tanpa memerlukan izin penyimpanan menyeluruh yang berlebihan."
     },
     "s5": {
       "desc1": "Aplikasi ini mendukung lirik bawaan (embedded) maupun lirik dari penyedia online seperti Lrclib dan Netease.",
       "desc2": "Untuk mengatur penyedia lirik, masuk ke Pengaturan > Penyedia Lirik dan urutkan sumber yang kamu sukai. Lirik yang sinkron (.lrc) akan otomatis bergulir mengikuti lagu.",
-      "desc3": "Selain lirik standar, MFAndroid juga dilengkapi dengan dukungan plugin yang kuat:",
+      "desc3": "Selain lirik standar, MFAndroid juga dilengkapi dengan dukungan plugin dan penulisan tag yang kuat:",
       "l1_title": "Terjemahan ML Kit:",
       "l1_desc": "Aktifkan terjemahan machine learning bawaan perangkat untuk langsung menerjemahkan lirik berbahasa asing ke bahasa ibumu secara instan.",
       "l2_title": "Plugin Romanisasi:",
-      "l2_desc": "Instal aplikasi plugin eksternal Romanizer untuk mengonversi lirik Kanji atau Hangul menjadi format Romaji/Romaja yang mudah dibaca sambil kamu mendengarkan."
+      "l2_desc": "Instal aplikasi plugin eksternal Romanizer untuk mengonversi lirik Kanji atau Hangul menjadi format Romaji/Romaja yang mudah dibaca sambil kamu mendengarkan.",
+      "l3_title": "Penanaman Tag Lirik .LRC:",
+      "l3_desc": "Tanamkan lirik tersinkronisasi .lrc langsung ke dalam metadata file audio kamu (tag ID3v2, FLAC, MP4). Setelah tertanam, lirik akan menyatu secara permanen dengan file musikmu."
     }
   },
   "footer": {

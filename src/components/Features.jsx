@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Disc3, Palette, Mic2 } from "lucide-react";
+import { Disc3, Palette, Mic2, Languages, Image as ImageIcon, ShieldCheck } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const Features = () => {
@@ -20,6 +20,21 @@ const Features = () => {
       icon: <Mic2 className="w-8 h-8 text-primary" />,
       title: t('features.f3_title'),
       description: t('features.f3_desc'),
+    },
+    {
+      icon: <Languages className="w-8 h-8 text-secondary" />,
+      title: t('features.f4_title'),
+      description: t('features.f4_desc'),
+    },
+    {
+      icon: <ImageIcon className="w-8 h-8 text-primary" />,
+      title: t('features.f5_title'),
+      description: t('features.f5_desc'),
+    },
+    {
+      icon: <ShieldCheck className="w-8 h-8 text-secondary" />,
+      title: t('features.f6_title'),
+      description: t('features.f6_desc'),
     },
   ];
 

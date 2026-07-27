@@ -40,8 +40,14 @@
     "f1_desc": "Bypass standard Android audio limits. Stream pure, unaltered audio directly to your DAC.",
     "f2_title": "Dynamic Theming",
     "f2_desc": "Your music sets the mood. Our UI adapts to your current album cover.",
-    "f3_title": "Synced Lyrics",
-    "f3_desc": "Sing along with precision. Seamless offline and online synced lyrics."
+    "f3_title": "Synced Lyrics & Tag Embedding",
+    "f3_desc": "Sing along with precision. Enjoy seamless online/offline synced lyrics, or embed .lrc tags directly into your audio files.",
+    "f4_title": "AI Translation & Romanization",
+    "f4_desc": "Translate foreign lyrics on the fly with ML Kit, or live-romanize Kanji & Hangul into Romaji/Romaja as you listen.",
+    "f5_title": "Artwork Enrichment",
+    "f5_desc": "Missing covers? Search online databases (Deezer, Last.fm) in one tap to replace album and artist artwork instantly.",
+    "f6_title": "SAF Privacy & Backups",
+    "f6_desc": "Zero tracking, scoped SAF folder permissions, and effortless local JSON export/restore for your playlists and settings."
   },
   "guide": {
     "title": "User Guide",
@@ -91,16 +97,20 @@
     },
     "s4": {
       "desc1": "Keep your music library looking pristine. If you have missing or incorrect album or artist covers, you can easily update them.",
-      "desc2": "Navigate to any Album or Artist details page. Tap the 3-dots menu button located at the bottom corner of the cover image, and select 'Edit Artwork' to search online databases (like Deezer or Last.fm) and instantly replace them with high-quality images."
+      "desc2": "Navigate to any Album or Artist details page. Tap the 3-dots menu button located at the bottom corner of the cover image, and select 'Edit Artwork' to search online databases (like Deezer or Last.fm) and instantly replace them with high-quality images.",
+      "desc3": "Backup & Restore: Secure your library configuration at any time. Go to Settings > Backup & Restore to export your playlists, favorites, and app settings to a local JSON file, or restore them instantly when switching devices.",
+      "desc4": "SAF Scoped Storage: When saving album covers or writing embedded lyrics tags, Mellifluous uses standard Android Storage Access Framework (SAF) folder permissions. Your files are updated cleanly without requiring invasive legacy storage permissions."
     },
     "s5": {
       "desc1": "The app supports standard embedded lyrics and online lyrics providers like Lrclib and Netease.",
       "desc2": "To configure providers, go to Settings > Lyrics Provider and prioritize your preferred sources. Synchronized lyrics (.lrc) will automatically scroll along with your music.",
-      "desc3": "Beyond standard lyrics, MFAndroid boasts powerful plugin support:",
+      "desc3": "Beyond standard lyrics, MFAndroid boasts powerful plugin and tag-writing support:",
       "l1_title": "ML Kit Translation:",
       "l1_desc": "Enable on-device machine learning translation to instantly translate foreign lyrics into your native language.",
       "l2_title": "Romanization Plugin:",
-      "l2_desc": "Install the external Romanizer plugin app to seamlessly convert Kanji or Hangul lyrics into readable Romaji/Romaja formats while you listen."
+      "l2_desc": "Install the external Romanizer plugin app to seamlessly convert Kanji or Hangul lyrics into readable Romaji/Romaja formats while you listen.",
+      "l3_title": "Embedded .LRC Tag Writing:",
+      "l3_desc": "Embed synchronized .lrc lyrics directly into your audio file metadata (ID3v2, FLAC, MP4 tags). Once embedded, your lyrics travel permanently with your music files."
     }
   },
   "footer": {
