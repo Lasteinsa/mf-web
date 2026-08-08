@@ -117,6 +117,7 @@
     "title": "Love MF Music Player?",
     "description": "MF Music Player is 100% free and will always remain free. However, your support is what keeps the development alive, ensures continuous updates, and helps this project thrive!",
     "donate_btn": "Support on Trakteer",
+    "kofi_btn": "Support on Ko-Fi",
     "privacy_policy": "Privacy Policy",
     "copyright": "© 2026 MF Music Player. All rights reserved."
   },
@@ -133,5 +134,13 @@
     "s4_title": "4. Ad-Free & Open",
     "s4_desc": "Mellifluous contains zero third-party advertising SDKs, zero telemetry trackers, and zero background analytics services.",
     "footer_note": "If you have any questions regarding this privacy policy, please reach out via our community Discord or repository."
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "We want your experience to be great. If you run into a problem or want to share feedback, join our community below.",
+    "links": {
+      "discord": "Discord",
+      "telegram": "Telegram"
+    }
   }
 }

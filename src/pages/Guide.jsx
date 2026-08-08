@@ -27,11 +27,11 @@ const ExpandableImageGroup = ({ children }) => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="absolute inset-0 bg-gradient-to-t from-bg-dark via-bg-dark/80 to-transparent flex items-end justify-center pb-8 z-10"
+              className="absolute inset-0 bg-linear-to-t from-bg-dark via-bg-dark/80 to-transparent flex items-end justify-center pb-8 z-10"
             >
               <button
                 onClick={() => setIsExpanded(true)}
-                className="flex items-center gap-2 bg-gradient-to-r from-red-500 to-orange-500 hover:from-red-600 hover:to-orange-600 px-6 py-3 rounded-full text-sm font-semibold transition-transform hover:scale-105 active:scale-95 text-white shadow-lg shadow-orange-500/25"
+                className="flex items-center gap-2 bg-linear-to-r from-red-500 to-orange-500 hover:from-red-600 hover:to-orange-600 px-6 py-3 rounded-full text-sm font-semibold transition-transform hover:scale-105 active:scale-95 text-white shadow-lg shadow-orange-500/25"
               >
                 <ImageIcon className="w-4 h-4" />
                 {t('guide.show_images')}

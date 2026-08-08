@@ -5,6 +5,7 @@ import Guide from "./pages/Guide";
 import Privacy from "./pages/Privacy";
 
 import Footer from "./components/Footer";
+import Support from "./pages/Support";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/guide" element={<Guide />} />
             <Route path="/privacy" element={<Privacy />} />
+            <Route path="/support" element={<Support />} />
           </Routes>
         </main>
         <Footer />

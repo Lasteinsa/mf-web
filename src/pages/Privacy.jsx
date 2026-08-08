@@ -29,7 +29,7 @@ const Privacy = () => {
   ];
 
   return (
-    <div className="py-24 container mx-auto px-6 max-w-4xl">
+    <div className="pb-24 pt-32 container mx-auto px-6 max-w-4xl">
       {/* Hero Header */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -37,7 +37,7 @@ const Privacy = () => {
         transition={{ duration: 0.6 }}
         className="text-center mb-16"
       >
-        <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-red-500/20 to-orange-500/20 border border-white/10 mb-6 shadow-xl">
+        <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-linear-to-br from-red-500/20 to-orange-500/20 border border-white/10 mb-6 shadow-xl">
           <Shield className="w-8 h-8 text-orange-400" />
         </div>
         <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-4">

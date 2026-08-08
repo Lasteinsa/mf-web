@@ -8,7 +8,7 @@ const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-12">
+    <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
         <div className="absolute top-[-20%] left-[-10%] w-[50%] h-[50%] rounded-full bg-primary/30 blur-[120px]" />
         <div className="absolute top-[20%] right-[-10%] w-[40%] h-[40%] rounded-full bg-secondary/20 blur-[100px]" />
@@ -33,7 +33,7 @@ const Hero = () => {
           >
             {t('hero.title_1')}
             <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-secondary">
               {t('hero.title_2')}
             </span>
           </motion.h1>
@@ -82,8 +82,8 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="pt-4 w-full"
           >
-            <Link 
-              to="/guide" 
+            <Link
+              to="/guide"
               className="group flex items-center justify-between w-full max-w-lg bg-white/5 hover:bg-white/10 backdrop-blur-md border border-white/10 hover:border-white/20 p-4 rounded-2xl transition-all"
             >
               <div className="flex items-center gap-4">

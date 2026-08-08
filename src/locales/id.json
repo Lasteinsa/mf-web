@@ -117,6 +117,7 @@
     "title": "Suka dengan MF Music Player?",
     "description": "MF Music Player 100% gratis dan bakal terus gratis selamanya. Walau begitu, dukungan dari kamu sangat berarti untuk memastikan pengembangannya tetap hidup, terus diperbarui, dan semakin luar biasa!",
     "donate_btn": "Dukung via Trakteer",
+    "kofi_btn": "Dukung via Ko-Fi",
     "privacy_policy": "Kebijakan Privasi",
     "copyright": "© 2026 MF Music Player. Hak cipta dilindungi."
   },
@@ -133,5 +134,13 @@
     "s4_title": "4. Bebas Iklan & Terbuka",
     "s4_desc": "Mellifluous tidak memiliki SDK iklan pihak ketiga, tidak ada pelacak telemetri, dan tidak ada layanan analisis latar belakang.",
     "footer_note": "Jika kamu memiliki pertanyaan mengenai kebijakan privasi ini, silakan hubungi kami melalui Discord atau repositori komunitas."
+  },
+  "support": {
+    "title": "Bantuan",
+    "subtitle": "Kami ingin pengalamanmu tetap menyenangkan. Kalau kamu menemukan masalah atau ingin memberi masukan, gabung ke komunitas kami di bawah ini.",
+    "links": {
+      "discord": "Discord",
+      "telegram": "Telegram"
+    }
   }
 }

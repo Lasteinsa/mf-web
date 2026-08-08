@@ -40,7 +40,7 @@ const Features = () => {
 
   return (
     <section id="features" className="py-24 bg-black relative">
-      <div className="absolute inset-0 bg-gradient-to-b from-bg-dark to-black pointer-events-none" />
+      <div className="absolute inset-0 bg-linear-to-b from-bg-dark to-black pointer-events-none" />
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-20">
           <motion.div
