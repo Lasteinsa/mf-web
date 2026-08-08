@@ -6,6 +6,7 @@ import Privacy from "./pages/Privacy";
 
 import Footer from "./components/Footer";
 import Support from "./pages/Support";
+import ClosedTesting from "./pages/ClosedTesting";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/guide" element={<Guide />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/support" element={<Support />} />
+            <Route path="/closed-testing" element={<ClosedTesting />} />
           </Routes>
         </main>
         <Footer />

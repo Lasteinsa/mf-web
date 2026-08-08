@@ -10,14 +10,13 @@ const Footer = () => {
     {
       title: t('footer.donate_btn'),
       link: "https://trakteer.id/hibikase",
-      mainColor: "red",
-      secondaryColor: "orange"
+      classColor: "from-red-500 to-orange-500 from-red-600 to-orange-600 hover:shadow-orange-500/25"
     },
     {
       title: t('footer.kofi_btn'),
       link: "https://ko-fi.com/hibikase",
       mainColor: "blue",
-      secondaryColor: "green"
+      classColor: "from-blue-500 to-green-500 from-blue-600 to-green-600 hover:shadow-green-500/25"
     }
   ];
 
@@ -50,7 +49,7 @@ const Footer = () => {
                       href={it.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={`inline-flex items-center w-full gap-3 bg-linear-to-r from-${it.mainColor}-500 to-${it.secondaryColor}-500 hover:from-${it.mainColor}-600 hover:to-${it.secondaryColor}-600 text-white px-8 py-4 rounded-md font-semibold transition-all shadow-lg hover:shadow-${it.secondaryColor}-500/25 hover:scale-105 active:scale-95`}
+                      className={`inline-flex items-center w-full gap-3 bg-linear-to-r text-white px-8 py-4 rounded-md font-semibold transition-all shadow-lg hover:scale-105 active:scale-95 ${it.classColor}`}
                     >
                       <Coffee className="w-5 h-5" />
                       {it.title}

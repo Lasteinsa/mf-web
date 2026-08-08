@@ -51,7 +51,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="flex flex-wrap gap-4"
+            className="flex flex-wrap gap-3"
           >
             {
               buttonNavigation.map(it => (
@@ -65,8 +65,8 @@ const Hero = () => {
                   rel={it.link === "#" ? undefined : "noopener noreferrer"}
                   className={
                     it.primary
-                      ? "flex items-center gap-2 bg-linear-to-r from-primary to-primary-dark hover:from-primary-dark hover:to-primary text-black px-8 py-4 rounded-full font-semibold transition-all transform hover:scale-105 shadow-lg shadow-white/20"
-                      : "flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/15 hover:border-white/30 text-white px-8 py-4 rounded-full font-semibold transition-all transform hover:scale-105 shadow-lg cursor-pointer"
+                      ? "flex items-center gap-2 bg-linear-to-r from-primary to-primary-dark hover:from-primary-dark hover:to-primary text-black px-8 py-4 rounded-xl font-semibold transition-all transform hover:scale-105 shadow-lg shadow-white/20"
+                      : "flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/15 hover:border-white/30 text-white px-8 py-4 rounded-xl font-semibold transition-all transform hover:scale-105 shadow-lg cursor-pointer"
                   }
                 >
                   {it.icons}

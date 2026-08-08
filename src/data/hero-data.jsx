@@ -11,11 +11,18 @@ export const buttonNavigation = [
   },
   {
     id: "google-play-soon-140720260839",
-    titleKey: "hero.google_play_soon",
-    link: "#",
+    titleKey: "hero.google_play_close_testing",
+    link: "/closed-testing",
     icons: <Store className="w-5 h-5 text-emerald-400" />,
     primary: false
   },
+  // {
+  //   id: "google-play-soon-140720260839",
+  //   titleKey: "hero.google_play_soon",
+  //   link: "#",
+  //   icons: <Store className="w-5 h-5 text-emerald-400" />,
+  //   primary: false
+  // },
   {
     id: "download-link-140720260838",
     titleKey: "hero.discord_support",

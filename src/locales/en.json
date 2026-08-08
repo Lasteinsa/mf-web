@@ -13,6 +13,7 @@
     "description": "Experience MFAndroid, the ultimate music player designed for pristine audio quality, seamless offline playback, and an interface that moves with you.",
     "download_apk": "Download APK",
     "google_play_soon": "Google Play (Soon)",
+    "google_play_close_testing": "Google Play (Early Access)",
     "discord_support": "Discord Support",
     "guide_prompt": "Want to know about the guide?",
     "guide_link": "Take a look here to learn everything"
@@ -142,5 +143,27 @@
       "discord": "Discord",
       "telegram": "Telegram"
     }
+  },
+  "closed_testing": {
+    "title": "Join the Closed Test",
+    "subtitle": "Follow these three steps to become a tester and install MF Music Player before its public release.",
+    "steps": {
+      "join_group": {
+        "title": "Join the Google Group",
+        "description": "Open the Google Group link and join it with the Google account you use on Google Play.",
+        "action": "Join Google Group"
+      },
+      "accept_invite": {
+        "title": "Accept the Invite Link",
+        "description": "After joining the group, open the testing invite link and accept the invitation to become a tester.",
+        "action": "Accept Invite"
+      },
+      "install_app": {
+        "title": "Install the App",
+        "description": "Open the installation link and install the latest closed-testing version of MF Music Player.",
+        "action": "Install App"
+      }
+    },
+    "note": "Use the same Google account for all three steps."
   }
 }

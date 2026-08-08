@@ -13,6 +13,7 @@
     "description": "Rasakan pengalaman menggunakan MFAndroid, pemutar musik terbaik yang dirancang untuk kualitas audio super jernih, pemutaran offline tanpa hambatan, dan antarmuka yang dinamis.",
     "download_apk": "Unduh APK",
     "google_play_soon": "Google Play (Segera)",
+    "google_play_close_testing": "Google Play (Join Internal Testing)",
     "discord_support": "Bantuan Discord",
     "guide_prompt": "Ingin tahu lebih lanjut?",
     "guide_link": "Cek panduan lengkapnya di sini"
@@ -142,5 +143,27 @@
       "discord": "Discord",
       "telegram": "Telegram"
     }
+  },
+  "closed_testing": {
+    "title": "Ikuti Pengujian Tertutup",
+    "subtitle": "Ikuti tiga langkah berikut untuk menjadi tester dan memasang MF Music Player sebelum dirilis secara publik.",
+    "steps": {
+      "join_group": {
+        "title": "Gabung ke Google Group",
+        "description": "Buka tautan Google Group dan bergabung menggunakan akun Google yang kamu gunakan di Google Play.",
+        "action": "Gabung Google Group"
+      },
+      "accept_invite": {
+        "title": "Terima Tautan Undangan",
+        "description": "Setelah bergabung ke grup, buka tautan undangan pengujian dan terima undangannya untuk menjadi tester.",
+        "action": "Terima Undangan"
+      },
+      "install_app": {
+        "title": "Instal Aplikasi",
+        "description": "Buka tautan instalasi dan instal versi terbaru MF Music Player untuk pengujian tertutup.",
+        "action": "Instal Aplikasi"
+      }
+    },
+    "note": "Gunakan akun Google yang sama untuk ketiga langkah tersebut."
   }
 }
