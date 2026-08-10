@@ -1,0 +1,190 @@
+{
+  "navbar": {
+    "title": "MF Music Player",
+    "home": "Home",
+    "guide": "Guide",
+    "privacy": "Privacy",
+    "support": "Support"
+  },
+  "hero": {
+    "badge": "Yet Another Music App for Audiophiles",
+    "title_1": "Your Music,",
+    "title_2": "Unleashed.",
+    "description": "Experience MFAndroid, the ultimate music player designed for pristine audio quality, seamless offline playback, and an interface that moves with you.",
+    "download_apk": "Download APK",
+    "google_play_soon": "Google Play (Soon)",
+    "google_play_close_testing": "Google Play (Early Access)",
+    "discord_support": "Discord Support",
+    "guide_prompt": "Want to know about the guide?",
+    "guide_link": "Take a look here to learn everything"
+  },
+  "carousel": {
+    "title_1": "A Glance at ",
+    "title_2": "Perfection",
+    "description": "Immerse yourself in a beautiful, highly customizable interface built for modern audiophiles.",
+    "captions": {
+      "appearance": "Appearance Personalization",
+      "audio_engine": "Audio Engine Configuration",
+      "bulk_embed": "Bulk Lyrics Embed",
+      "navigation": "Navigation Customization",
+      "modern_layout": "Modern Grid Layout",
+      "lyrics_provider": "Lyrics Provider Settings",
+      "lyrics": "Synced Lyrics View",
+      "radial_layout": "Radial Album Layout",
+      "settings": "Application Settings"
+    }
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Features Designed for Audiophiles",
+    "f1_title": "Bit-Perfect Playback",
+    "f1_desc": "Bypass standard Android audio limits. Stream pure, unaltered audio directly to your DAC.",
+    "f2_title": "Dynamic Theming",
+    "f2_desc": "Your music sets the mood. Our UI adapts to your current album cover.",
+    "f3_title": "Synced Lyrics & Tag Embedding",
+    "f3_desc": "Sing along with precision. Enjoy seamless online/offline synced lyrics, or embed .lrc tags directly into your audio files.",
+    "f4_title": "AI Translation & Romanization",
+    "f4_desc": "Translate foreign lyrics on the fly with ML Kit, or live-romanize Kanji & Hangul into Romaji/Romaja as you listen.",
+    "f5_title": "Artwork Enrichment",
+    "f5_desc": "Missing covers? Search online databases (Deezer, Last.fm) in one tap to replace album and artist artwork instantly.",
+    "f6_title": "SAF Privacy & Backups",
+    "f6_desc": "Zero tracking, scoped SAF folder permissions, and effortless local JSON export/restore for your playlists and settings."
+  },
+  "guide": {
+    "title": "User Guide",
+    "subtitle": "Welcome to the official documentation for MF Music Player. Here you'll find everything you need to know to get the most out of your audio experience.",
+    "contents": "Contents",
+    "show_images": "Show Images",
+    "hide_images": "Hide Images",
+    "sections": {
+      "getting_started": "Getting Started",
+      "customization": "Customization",
+      "library_management": "Library Management",
+      "audio_engine": "Audio Engine",
+      "lyrics_setup": "Lyrics & Plugins",
+      "playback": "Playback Features"
+    },
+    "s1": {
+      "desc": "MF Music Player is designed to play your local music collection with absolute pristine quality. To start:",
+      "l1": "Download the latest APK from the home page.",
+      "l2": "Install the application on your Android device.",
+      "l3": "Grant storage permissions so the app can scan your local music library.",
+      "l4": "Wait for the initial scan to complete. High-resolution FLAC and ALAC files are fully supported.",
+      "l5": "In-App Updates: Enable OTA updates in settings to always stay on the latest version."
+    },
+    "s2": {
+      "desc": "The application interface is fully customizable to your liking. Head to Settings > Appearance to explore:",
+      "l1_title": "Initial Startup Page:",
+      "l1_desc": "Decide which screen you want to see first when opening the app.",
+      "l2_title": "App Theme:",
+      "l2_desc": "Choose between Dark mode, Light mode, or automatically follow your System theme.",
+      "l3_title": "Modern Layout (Now Playing):",
+      "l3_desc": "A sleek Now Playing screen inspired by the aesthetics of Apple Music.",
+      "l4_title": "Radial Layout (Now Playing):",
+      "l4_desc": "A beautiful alternative layout featuring a circular album art design.",
+      "l5_title": "Album Art Theming:",
+      "l5_desc": "Dynamically extracts colors from the currently playing album art using the Material 3 algorithm and applies them as the app's primary color.",
+      "l6_title": "Bottom Navigation:",
+      "l6_desc": "Customize your bottom bar to only show the shortcuts you actually use.",
+      "l7_title": "Album & Artist Layout:",
+      "l7_desc": "Choose between a detailed list or a visually rich grid layout depending on your preference."
+    },
+    "s3": {
+      "desc1": "MF Android bypasses standard Android audio limits to deliver Bit-Perfect playback directly to your DAC.",
+      "desc2": "Head to Settings > Audio Engine to enable exclusive mode, which locks the sample rate to perfectly match the source file.",
+      "attn_title": "USB Digital Attenuation & Volume Safety",
+      "attn_desc1": "For USB DACs without hardware volume control, we've built in Digital Attenuation to protect your ears. The app smartly remembers your last used volume for each specific USB DAC, allowing you to seamlessly and safely switch between DACs with or without hardware volume controls.",
+      "attn_desc2": "If your DAC does have its own hardware volume control, you can push the app's digital attenuation slider to 0dB (Max) and disable volume safety to achieve true, unadulterated Bit-Perfect audio.",
+      "attn_warn_title": "Safety First:",
+      "attn_warn_desc": "Always exercise caution when initializing a DAC. Make sure you don't put on your IEMs or headphones before playing the first track to avoid any unexpected bursts of loud volume!"
+    },
+    "s4": {
+      "desc1": "Keep your music library looking pristine. If you have missing or incorrect album or artist covers, you can easily update them.",
+      "desc2": "Navigate to any Album or Artist details page. Tap the 3-dots menu button located at the bottom corner of the cover image, and select 'Edit Artwork' to search online databases (like Deezer or Last.fm) and instantly replace them with high-quality images.",
+      "desc3": "Backup & Restore: Secure your library configuration at any time. Go to Settings > Backup & Restore to export your playlists, favorites, and app settings to a local JSON file, or restore them instantly when switching devices.",
+      "desc4": "SAF Scoped Storage: When saving album covers or writing embedded lyrics tags, Mellifluous uses standard Android Storage Access Framework (SAF) folder permissions. Your files are updated cleanly without requiring invasive legacy storage permissions.",
+      "l1_title": "Folder Browsing:",
+      "l1_desc": "Browse your music directly by raw folders on your storage.",
+      "l2_title": "Playlists:",
+      "l2_desc": "Create, edit, and manage custom playlists natively within the app."
+    },
+    "s5": {
+      "desc1": "The app supports standard embedded lyrics and online lyrics providers like Lrclib and Netease.",
+      "desc2": "To configure providers, go to Settings > Lyrics Provider and prioritize your preferred sources. Synchronized lyrics (.lrc) will automatically scroll along with your music.",
+      "desc3": "Beyond standard lyrics, MFAndroid boasts powerful plugin and tag-writing support:",
+      "l1_title": "ML Kit Translation:",
+      "l1_desc": "Enable on-device machine learning translation to instantly translate foreign lyrics into your native language.",
+      "l2_title": "Romanization Plugin:",
+      "l2_desc": "Install the external Romanizer plugin app to seamlessly convert Kanji or Hangul lyrics into readable Romaji/Romaja formats while you listen.",
+      "l3_title": "Embedded .LRC Tag Writing:",
+      "l3_desc": "Embed synchronized .lrc lyrics directly into your audio file metadata (ID3v2, FLAC, MP4 tags). Once embedded, your lyrics travel permanently with your music files."
+    },
+    "s6": {
+      "desc1": "MFAndroid gives you full control over what you're listening to.",
+      "l1_title": "Queue Management:",
+      "l1_desc": "Easily view and reorder your upcoming tracks in the Queue Bottom Sheet.",
+      "l2_title": "Sleep Timer:",
+      "l2_desc": "Set a sleep timer to automatically stop playback after a set time or when the current track finishes."
+    }
+  },
+  "footer": {
+    "title": "Love MF Music Player?",
+    "description": "MF Music Player is 100% free and will always remain free. However, your support is what keeps the development alive, ensures continuous updates, and helps this project thrive!",
+    "donate_btn": "Support on Trakteer",
+    "kofi_btn": "Support on Ko-Fi",
+    "privacy_policy": "Privacy Policy",
+    "copyright": "© 2026 MF Music Player. All rights reserved."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "MF Music Player is an offline, audiophile-grade music player built with zero tracking and total privacy.",
+    "effective_date": "Effective Date: July 27, 2026",
+    "s1_title": "1. Zero Data Collection",
+    "s1_desc": "Mellifluous operates 100% locally on your Android device. We never collect, transmit, store, or share your personal information, audio files, metadata, or listening habits with any external servers.",
+    "s2_title": "2. Storage & Folder Permissions",
+    "s2_desc": "We require local media reading permissions solely to scan and play your audio library. Storage Access Framework (SAF) folder permissions are requested only when you choose to edit album artwork, embed lyrics into audio files, or create local backups.",
+    "s3_title": "3. Optional Lyrics Providers",
+    "s3_desc": "If you choose to search online lyrics providers (such as Lrclib or Netease), the app connects directly to those public APIs from your device to fetch synchronized lyrics. No personal identifier is sent.",
+    "s4_title": "4. Ad-Free & Open",
+    "s4_desc": "Mellifluous contains zero third-party advertising SDKs, zero telemetry trackers, and zero background analytics services.",
+    "footer_note": "If you have any questions regarding this privacy policy, please reach out via our community Discord or repository."
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "We want your experience to be great. If you run into a problem or want to share feedback, join our community below.",
+    "links": {
+      "discord": "Discord",
+      "telegram": "Telegram"
+    }
+  },
+  "donate": {
+    "title": "Support MF Music Player",
+    "subtitle": "MF Music Player is free to use. If you enjoy it, your support helps keep development and future updates going.",
+    "links": {
+      "trakteer": "Support on Trakteer",
+      "kofi": "Support on Ko-Fi"
+    }
+  },
+  "closed_testing": {
+    "title": "Join the Closed Test",
+    "subtitle": "Follow these three steps to become a tester and install MF Music Player before its public release.",
+    "steps": {
+      "join_group": {
+        "title": "Join the Google Group",
+        "description": "Open the Google Group link and join it with the Google account you use on Google Play.",
+        "action": "Join Google Group"
+      },
+      "accept_invite": {
+        "title": "Accept the Invite Link",
+        "description": "After joining the group, open the testing invite link and accept the invitation to become a tester.",
+        "action": "Accept Invite"
+      },
+      "install_app": {
+        "title": "Install the App",
+        "description": "Open the installation link and install the latest closed-testing version of MF Music Player.",
+        "action": "Install App"
+      }
+    },
+    "note": "Use the same Google account for all three steps."
+  }
+}
