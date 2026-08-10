@@ -4,7 +4,7 @@ import Features from "../../features/home/components/features";
 
 const Home = () => {
   return (
-    <div className="pb-24">
+    <div className="pt-32 pb-24">
       <Hero />
       <Carousel />
       <Features />
