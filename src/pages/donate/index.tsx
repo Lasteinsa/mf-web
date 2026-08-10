@@ -39,7 +39,7 @@ const Donate = () => {
         </p>
       </motion.div>
 
-      <div className="grid gap-6 md:grid-cols-2">
+      <div className="mx-auto grid w-full max-w-2xl gap-6">
         {donationLinks.map((donation, index) => (
           <motion.a
             key={donation.key}

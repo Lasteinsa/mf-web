@@ -42,7 +42,7 @@ const Footer = () => {
             <p className="mx-auto mb-8 max-w-lg leading-relaxed text-slate-400">
               {t("footer.description")}
             </p>
-            <div className="flex place-content-center place-items-center gap-2">
+            <div className="grid md:grid-cols-2 w-full place-items-center gap-2">
               {dataDonation.map((it) => {
                 return (
                   <a
