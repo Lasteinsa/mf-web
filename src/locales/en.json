@@ -144,6 +144,14 @@
       "telegram": "Telegram"
     }
   },
+  "donate": {
+    "title": "Support MF Music Player",
+    "subtitle": "MF Music Player is free to use. If you enjoy it, your support helps keep development and future updates going.",
+    "links": {
+      "trakteer": "Support on Trakteer",
+      "kofi": "Support on Ko-Fi"
+    }
+  },
   "closed_testing": {
     "title": "Join the Closed Test",
     "subtitle": "Follow these three steps to become a tester and install MF Music Player before its public release.",

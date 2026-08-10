@@ -144,6 +144,14 @@
       "telegram": "Telegram"
     }
   },
+  "donate": {
+    "title": "Dukung MF Music Player",
+    "subtitle": "MF Music Player gratis untuk digunakan. Jika kamu menikmatinya, dukunganmu membantu pengembangan dan pembaruan di masa mendatang.",
+    "links": {
+      "trakteer": "Dukung via Trakteer",
+      "kofi": "Dukung via Ko-Fi"
+    }
+  },
   "closed_testing": {
     "title": "Ikuti Pengujian Tertutup",
     "subtitle": "Ikuti tiga langkah berikut untuk menjadi tester dan memasang MF Music Player sebelum dirilis secara publik.",
