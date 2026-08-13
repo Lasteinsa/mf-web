@@ -61,8 +61,9 @@
       "customization": "Kustomisasi",
       "library_management": "Manajemen Pustaka",
       "audio_engine": "Mesin Audio",
-      "lyrics_setup": "Lirik & Plugin",
-      "playback": "Fitur Pemutaran"
+      "lyrics_setup": "Pengaturan Lirik",
+      "playback": "Fitur Pemutaran",
+      "plugins": "Plugin & Ekstensi"
     },
     "s1": {
       "desc": "MF Music Player dirancang untuk memutar koleksi musik lokal dengan kualitas paling jernih. Untuk memulai:",
@@ -125,6 +126,17 @@
       "l1_desc": "Lihat dan susun ulang daftar putar Anda dengan mudah di bagian Antrean.",
       "l2_title": "Pengatur Waktu Tidur:",
       "l2_desc": "Atur timer tidur untuk menghentikan pemutaran secara otomatis setelah waktu tertentu atau saat lagu selesai."
+    },
+    "s7": {
+      "desc1": "Perluas fungsi MF Player dengan mengunduh modul dinamis opsional. Modul ini terintegrasi secara langsung ke aplikasi utama melalui Play Feature Delivery dan beroperasi sepenuhnya di dalam perangkat untuk menjaga privasimu.",
+      "rom_title": "Modul Romanisasi",
+      "rom_desc": "Ditenagai oleh tokenizer Kuromoji, modul ini mengurai teks Jepang (Kanji, Hiragana, Katakana) dan mengubahnya menjadi Romaji yang bisa dibaca. Fitur ini sangat cocok untuk bernyanyi bersama lagu Jepang meskipun kamu tidak bisa membaca hurufnya.",
+      "trans_title": "Modul Terjemahan",
+      "trans_desc": "Memanfaatkan ML Kit dari Google, modul ini menyediakan fitur terjemahan mesin (machine translation) langsung di dalam perangkat (on-device) untuk lirikmu. Kamu dapat menggunakan UI Pengaturan khusus untuk memilih Bahasa Asal (default: Jepang) dan Bahasa Tujuan (default: Inggris). Model terjemahan diunduh secara dinamis di latar belakang.",
+      "warn_title": "Peringatan Ruang Penyimpanan",
+      "warn_p1": "Modul-modul ini diunduh sesuai permintaan hanya saat kamu memilih untuk menggunakannya.",
+      "warn_p2": "Mengunduh modul ini akan meningkatkan ukuran aplikasi secara signifikan karena adanya model terjemahan ML Kit dan kamus Kuromoji yang komprehensif.",
+      "warn_p3": "Kamu dapat membebaskan ruang penyimpanan kapan saja dengan menghapus modul dan model terjemahan secara langsung dari pengaturan aplikasi saat kamu sudah tidak memerlukannya."
     }
   },
   "footer": {

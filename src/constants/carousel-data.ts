@@ -24,10 +24,6 @@ export const carouselData = [
     labelKey: "carousel.captions.navigation",
   },
   {
-    image: "/assets/lyrics-provider-screen.jpg",
-    labelKey: "carousel.captions.lyrics_provider",
-  },
-  {
     image: "/assets/lyrics-screen.jpg",
     labelKey: "carousel.captions.lyrics",
   },

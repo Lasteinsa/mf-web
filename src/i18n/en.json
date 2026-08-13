@@ -61,8 +61,9 @@
       "customization": "Customization",
       "library_management": "Library Management",
       "audio_engine": "Audio Engine",
-      "lyrics_setup": "Lyrics & Plugins",
-      "playback": "Playback Features"
+      "lyrics_setup": "Lyrics Setup",
+      "playback": "Playback Features",
+      "plugins": "Plugins & Extensions"
     },
     "s1": {
       "desc": "MF Music Player is designed to play your local music collection with absolute pristine quality. To start:",
@@ -125,6 +126,17 @@
       "l1_desc": "Easily view and reorder your upcoming tracks in the Queue Bottom Sheet.",
       "l2_title": "Sleep Timer:",
       "l2_desc": "Set a sleep timer to automatically stop playback after a set time or when the current track finishes."
+    },
+    "s7": {
+      "desc1": "Extend the functionality of MF Player by downloading optional dynamic modules. These modules integrate seamlessly into the main app via Play Feature Delivery and operate entirely on-device to respect your privacy.",
+      "rom_title": "Romanizer Module",
+      "rom_desc": "Powered by the Kuromoji tokenizer, this module parses Japanese text (Kanji, Hiragana, Katakana) and converts it to readable Romaji. It's perfect for singing along to Japanese tracks even if you don't read the language.",
+      "trans_title": "Translator Module",
+      "trans_desc": "Leveraging Google's ML Kit, this module provides on-device machine translation for your lyrics. You can use the dedicated Settings UI to select your preferred Source Language (default: Japanese) and Target Language (default: English). Translation models are dynamically downloaded in the background.",
+      "warn_title": "Storage Space Notice",
+      "warn_p1": "These modules are downloaded on-demand only when you choose to use them.",
+      "warn_p2": "Downloading these modules will significantly increase the app's storage footprint due to the ML Kit translation models and the comprehensive Kuromoji dictionary.",
+      "warn_p3": "You can free up space at any time by deleting the modules and downloaded models directly from the app settings when you no longer need them."
     }
   },
   "footer": {
