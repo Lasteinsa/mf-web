@@ -87,6 +87,21 @@ const ClosedTesting = () => {
         ))}
       </div>
 
+      <div className="mt-12 text-center">
+        <p className="mb-4 text-slate-400">
+          {t("closed_testing.help_discord")}
+        </p>
+        <a
+          href={links.discordLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-indigo-500/20 px-6 py-3 font-semibold text-indigo-300 transition-colors hover:bg-indigo-500/30"
+        >
+          <Users className="h-5 w-5" />
+          Discord
+        </a>
+      </div>
+
       <p className="mt-10 text-center text-sm text-slate-500">
         {t("closed_testing.note")}
       </p>

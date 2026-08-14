@@ -53,25 +53,37 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex flex-wrap gap-3"
           >
-            {buttonNavigation.map((it) => (
-              <a
-                key={it.id}
-                href={it.link}
-                onClick={(e) => {
-                  if (it.link === "#") e.preventDefault();
-                }}
-                target={it.link === "#" ? undefined : "_blank"}
-                rel={it.link === "#" ? undefined : "noopener noreferrer"}
-                className={
-                  it.primary
-                    ? "from-primary to-primary-dark hover:from-primary-dark hover:to-primary flex transform items-center gap-2 rounded-xl bg-linear-to-r px-8 py-4 font-semibold text-black shadow-lg shadow-white/20 transition-all hover:scale-105"
-                    : "flex transform cursor-pointer items-center gap-2 rounded-xl border border-white/15 bg-white/10 px-8 py-4 font-semibold text-white shadow-lg backdrop-blur-md transition-all hover:scale-105 hover:border-white/30 hover:bg-white/20"
-                }
-              >
-                {it.icons}
-                {t(it.titleKey)}
-              </a>
-            ))}
+            {buttonNavigation.map((it) => {
+              const isInternal = it.link.startsWith("/");
+              const className = it.primary
+                ? "from-primary to-primary-dark hover:from-primary-dark hover:to-primary flex transform items-center gap-2 rounded-xl bg-linear-to-r px-8 py-4 font-semibold text-black shadow-lg shadow-white/20 transition-all hover:scale-105"
+                : "flex transform cursor-pointer items-center gap-2 rounded-xl border border-white/15 bg-white/10 px-8 py-4 font-semibold text-white shadow-lg backdrop-blur-md transition-all hover:scale-105 hover:border-white/30 hover:bg-white/20";
+
+              if (isInternal) {
+                return (
+                  <Link key={it.id} to={it.link} className={className}>
+                    {it.icons}
+                    {t(it.titleKey)}
+                  </Link>
+                );
+              }
+
+              return (
+                <a
+                  key={it.id}
+                  href={it.link}
+                  onClick={(e) => {
+                    if (it.link === "#") e.preventDefault();
+                  }}
+                  target={it.link === "#" ? undefined : "_blank"}
+                  rel={it.link === "#" ? undefined : "noopener noreferrer"}
+                  className={className}
+                >
+                  {it.icons}
+                  {t(it.titleKey)}
+                </a>
+              );
+            })}
           </motion.div>
 
           <motion.div

@@ -67,11 +67,10 @@
     },
     "s1": {
       "desc": "MF Music Player dirancang untuk memutar koleksi musik lokal dengan kualitas paling jernih. Untuk memulai:",
-      "l1": "Unduh APK terbaru dari halaman utama.",
-      "l2": "Instal aplikasi di perangkat Android kamu.",
+      "l1": "Bergabunglah dengan Google Play Early Access melalui tautan di halaman utama.",
+      "l2": "Instal aplikasi di perangkat Android kamu langsung dari Google Play.",
       "l3": "Berikan izin penyimpanan agar aplikasi dapat memindai pustaka musik lokal kamu.",
-      "l4": "Tunggu proses pemindaian awal selesai. File resolusi tinggi seperti FLAC dan ALAC sepenuhnya didukung.",
-      "l5": "Pembaruan Dalam Aplikasi (OTA): Aktifkan pembaruan OTA di pengaturan untuk selalu mendapatkan versi terbaru."
+      "l4": "Tunggu proses pemindaian awal selesai. File resolusi tinggi seperti FLAC dan ALAC sepenuhnya didukung."
     },
     "s2": {
       "desc": "Antarmuka aplikasi ini bebas kamu atur sesuka hati. Masuk ke Pengaturan > Tampilan untuk menjelajahi:",
@@ -197,6 +196,7 @@
         "action": "Instal Aplikasi"
       }
     },
-    "note": "Gunakan akun Google yang sama untuk ketiga langkah tersebut."
+    "note": "Gunakan akun Google yang sama untuk ketiga langkah tersebut.",
+    "help_discord": "Butuh bantuan? Gabung ke server Discord kami."
   }
 }

@@ -2,19 +2,19 @@ import { Download, HelpCircle, Store } from "lucide-react";
 import { links } from "../utils/links";
 
 export const buttonNavigation = [
-  {
-    id: "download-link-140720260837",
-    titleKey: "hero.download_apk",
-    link: links.downloadLink,
-    icons: <Download className="h-5 w-5" />,
-    primary: true,
-  },
+  // {
+  //   id: "download-link-140720260837",
+  //   titleKey: "hero.download_apk",
+  //   link: links.downloadLink,
+  //   icons: <Download className="h-5 w-5" />,
+  //   primary: true,
+  // },
   {
     id: "google-play-soon-140720260839",
     titleKey: "hero.google_play_close_testing",
     link: "/closed-testing",
     icons: <Store className="h-5 w-5 text-emerald-400" />,
-    primary: false,
+    primary: true,
   },
   // {
   //   id: "google-play-soon-140720260839",
