@@ -175,7 +175,7 @@ const Features = () => {
             </motion.h2>
           </div>
 
-          <div className="relative mx-auto flex h-full w-full max-w-2xl overflow-hidden rounded-4xl">
+          <div className="relative mx-auto flex h-full w-full max-w-2xl  rounded-4xl">
             {features.map((feature, i) => (
               <FeatureCard
                 key={i}
