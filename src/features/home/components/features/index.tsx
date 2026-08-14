@@ -46,11 +46,11 @@ const FeatureCard = ({
   });
 
   // Calculate Opacity based on distance from 0 degrees (center)
-  // By removing the % 360 modulo, we break the visual loop!
-  // This means Item 5 won't show up above Item 0, and Item 0 won't show up below Item 5.
+  // By dividing by 60 instead of 120, the items fade out twice as fast!
+  // This ensures that when one item is perfectly centered, the adjacent items are nearly invisible.
   const opacity = useTransform(wheelRotation, (rot) => {
     let diff = baseAngle - rot;
-    return Math.max(0, 1 - Math.abs(diff) / 120);
+    return Math.max(0, 1 - Math.abs(diff) / 60);
   });
 
   // Calculate zIndex and boxShadow based on how close it is to center
@@ -175,7 +175,7 @@ const Features = () => {
             </motion.h2>
           </div>
 
-          <div className="relative mx-auto flex h-full w-full max-w-2xl  rounded-4xl">
+          <div className="relative mx-auto flex h-full w-full max-w-2xl rounded-4xl">
             {features.map((feature, i) => (
               <FeatureCard
                 key={i}
