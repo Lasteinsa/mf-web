@@ -62,6 +62,7 @@ export default function AudioEngine() {
             src="/assets/audio-engine-screen.jpg"
             alt="Audio Engine Configuration"
             className="w-full max-w-sm rounded-3xl border-2 border-white/10 shadow-2xl"
+            loading="lazy"
           />
         </motion.div>
       </ExpandableImageGroup>

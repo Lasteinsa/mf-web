@@ -69,7 +69,7 @@ const FeatureCard = ({
 
   return (
     <motion.div
-      className="absolute top-1/2 right-0 left-0 mx-auto w-full max-w-xl -translate-y-1/2 rounded-2xl border border-white/10 bg-neutral-900/80 p-8 backdrop-blur-md transition-colors hover:bg-neutral-800/80"
+      className="absolute top-1/2 right-0 left-0 mx-auto w-full max-w-xl -translate-y-1/2 rounded-2xl border border-white/10 bg-neutral-900/80 p-8 transition-colors hover:bg-neutral-800/80"
       style={{ x, y, opacity, zIndex, boxShadow, pointerEvents }}
     >
       <div className="grid grid-cols-1 items-center gap-6 sm:grid-cols-2">

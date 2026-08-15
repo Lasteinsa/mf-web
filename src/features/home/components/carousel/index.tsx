@@ -132,6 +132,7 @@ const Carousel = () => {
                   alt={`App screenshot ${index + 1}`}
                   className="h-full w-full rounded-[2rem] object-cover"
                   draggable="false"
+                  loading="lazy"
                 />
               </motion.div>
             );
