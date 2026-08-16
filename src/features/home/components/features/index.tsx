@@ -34,8 +34,9 @@ const FeatureCard = ({
   const x = useTransform(wheelRotation, (rot) => {
     const angleDeg = baseAngle - rot;
     const angleRad = (angleDeg * Math.PI) / 180;
-    // Negative X to bulge right (curve left)
-    return -radius * (1 - Math.cos(angleRad));
+    // index % 2 === 0 curves left, otherwise curves right
+    const direction = index % 2 === 0 ? -1 : 1;
+    return direction * radius * (1 - Math.cos(angleRad));
   });
 
   // Calculate dynamic Y

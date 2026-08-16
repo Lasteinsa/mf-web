@@ -7,10 +7,10 @@
     "support": "Bantuan"
   },
   "hero": {
-    "badge": "Aplikasi Musik Andalan untuk Audiophile",
+    "badge": "Pengalaman Musik yang Indah untuk Semua Orang",
     "title_1": "Musikmu,",
     "title_2": "Tanpa Batas.",
-    "description": "Rasakan pengalaman menggunakan MFAndroid, pemutar musik terbaik yang dirancang untuk kualitas audio super jernih, pemutaran offline tanpa hambatan, dan antarmuka yang dinamis.",
+    "description": "Rasakan MFAndroid, pemutar musik terbaik yang dirancang untuk pendengar sehari-hari dan penggemar audio—menampilkan kualitas audio yang murni, pemutaran luring yang mulus, dan antarmuka yang bergerak bersama Anda.",
     "download_apk": "Unduh APK",
     "google_play_soon": "Google Play (Segera)",
     "google_play_close_testing": "Google Play (Join Internal Testing)",
@@ -21,7 +21,7 @@
   "carousel": {
     "title_1": "Sekilas Menuju ",
     "title_2": "Kesempurnaan",
-    "description": "Nikmati antarmuka yang cantik dan sangat bisa dikustomisasi, dibangun khusus untuk audiophile masa kini.",
+    "description": "Benamkan diri Anda dalam antarmuka yang indah dan sangat dapat disesuaikan yang dibangun untuk semua penikmat musik.",
     "captions": {
       "appearance": "Personalisasi Tampilan",
       "audio_engine": "Konfigurasi Audio Engine",
@@ -36,7 +36,7 @@
   },
   "features": {
     "badge": "Fitur",
-    "title": "Fitur Khusus untuk Audiophile",
+    "title": "Fitur yang Dirancang untuk Setiap Pendengar",
     "f1_title": "Pemutaran Bit-Perfect",
     "f1_desc": "Bebas dari batasan audio standar Android. Streaming audio murni langsung ke DAC kamu tanpa manipulasi.",
     "f2_title": "Tema Dinamis",
@@ -211,7 +211,9 @@
     "description": "Terima kasih yang sebesar-besarnya kepada para pengembang yang brilian dan penguji yang berdedikasi yang membantu membuat Mellifluous menjadi lebih baik setiap harinya.",
     "update_note": "* Data ini diperbarui secara berkala.",
     "developers": "Pengembang",
-    "testers": "Penguji"
+    "testers": "Penguji",
+    "closed_testers": "Penguji Tertutup",
+    "closed_testers_desc": "Semua penguji tertutup yang membuat aplikasi ini dapat dirilis ke publik"
   },
   "community_cta": {
     "title": "Dibangun oleh Komunitas",

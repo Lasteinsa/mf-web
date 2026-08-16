@@ -7,7 +7,7 @@ const CommunityCTA = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="relative overflow-hidden py-24">
+    <section className="relative overflow-hidden py-16">
       {/* Background glow */}
       <div className="pointer-events-none absolute top-1/2 left-1/2 -z-10 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-linear-to-b from-blue-500/10 to-purple-500/10 blur-[100px]" />
 
@@ -21,7 +21,7 @@ const CommunityCTA = () => {
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-white md:text-5xl">
             {t("community_cta.title")}
           </h2>
-          <p className="mx-auto mb-16 max-w-2xl text-lg leading-relaxed text-slate-400">
+          <p className="mx-auto mb-12 max-w-2xl text-lg leading-relaxed text-slate-400">
             {t("community_cta.description")}
           </p>
         </motion.div>

@@ -49,12 +49,12 @@ const Supporters = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="container mx-auto max-w-5xl px-6 py-24 pt-32">
+    <div className="container mx-auto max-w-5xl px-6 pt-32 pb-16">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="mb-16 text-center"
+        className="mb-12 text-center"
       >
         <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl border border-white/10 bg-linear-to-br from-blue-500/20 to-purple-500/20 shadow-xl">
           <User className="h-8 w-8 text-blue-400" />
@@ -71,8 +71,8 @@ const Supporters = () => {
       </motion.div>
 
       {/* Last 30 Days Section */}
-      <div className="mb-16">
-        <h2 className="mb-8 border-b border-white/10 pb-4 text-2xl font-bold text-white">
+      <div className="mb-12">
+        <h2 className="mb-6 border-b border-white/10 pb-4 text-2xl font-bold text-white">
           {t("supporters.last_30_days")}
         </h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -88,7 +88,7 @@ const Supporters = () => {
 
       {/* All Time Section */}
       <div>
-        <h2 className="mb-8 border-b border-white/10 pb-4 text-2xl font-bold text-white">
+        <h2 className="mb-6 border-b border-white/10 pb-4 text-2xl font-bold text-white">
           {t("supporters.all_time")}
         </h2>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

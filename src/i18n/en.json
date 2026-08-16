@@ -7,10 +7,10 @@
     "support": "Support"
   },
   "hero": {
-    "badge": "Yet Another Music App for Audiophiles",
+    "badge": "A Beautiful Music Experience for Everyone",
     "title_1": "Your Music,",
     "title_2": "Unleashed.",
-    "description": "Experience MFAndroid, the ultimate music player designed for pristine audio quality, seamless offline playback, and an interface that moves with you.",
+    "description": "Experience MFAndroid, the ultimate music player designed for everyday listeners and audio enthusiasts alike—featuring pristine audio quality, seamless offline playback, and an interface that moves with you.",
     "download_apk": "Download APK",
     "google_play_soon": "Google Play (Soon)",
     "google_play_close_testing": "Google Play (Early Access)",
@@ -21,7 +21,7 @@
   "carousel": {
     "title_1": "A Glance at ",
     "title_2": "Perfection",
-    "description": "Immerse yourself in a beautiful, highly customizable interface built for modern audiophiles.",
+    "description": "Immerse yourself in a beautiful, highly customizable interface built for everyone who loves their music.",
     "captions": {
       "appearance": "Appearance Personalization",
       "audio_engine": "Audio Engine Configuration",
@@ -36,7 +36,7 @@
   },
   "features": {
     "badge": "Features",
-    "title": "Features Designed for Audiophiles",
+    "title": "Features Designed for Every Listener",
     "f1_title": "Bit-Perfect Playback",
     "f1_desc": "Bypass standard Android audio limits. Stream pure, unaltered audio directly to your DAC.",
     "f2_title": "Dynamic Theming",
@@ -211,7 +211,9 @@
     "description": "A massive thank you to the brilliant developers and dedicated testers who help make Mellifluous better every single day.",
     "update_note": "* Data is updated periodically.",
     "developers": "Developers",
-    "testers": "Testers"
+    "testers": "Testers",
+    "closed_testers": "Closed Testers",
+    "closed_testers_desc": "All closed testers who made this app able to release public"
   },
   "community_cta": {
     "title": "Built by the Community",
