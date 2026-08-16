@@ -42,7 +42,7 @@ const Footer = () => {
             <p className="mx-auto mb-8 max-w-lg leading-relaxed text-slate-400">
               {t("footer.description")}
             </p>
-            <div className="grid md:grid-cols-2 w-full place-items-center gap-2">
+            <div className="grid w-full place-items-center gap-2 md:grid-cols-2">
               {dataDonation.map((it) => {
                 return (
                   <a
@@ -62,12 +62,24 @@ const Footer = () => {
         </motion.div>
 
         <div className="space-y-3 text-center">
-          <div>
+          <div className="flex items-center justify-center gap-6">
             <Link
               to="/privacy"
               className="text-sm font-medium text-slate-400 transition-colors hover:text-white"
             >
               {t("footer.privacy_policy")}
+            </Link>
+            <Link
+              to="/supporters"
+              className="text-sm font-medium text-slate-400 transition-colors hover:text-white"
+            >
+              Our Supporters
+            </Link>
+            <Link
+              to="/contributors"
+              className="text-sm font-medium text-slate-400 transition-colors hover:text-white"
+            >
+              Contributors
             </Link>
           </div>
           <p className="text-sm text-slate-500">{t("footer.copyright")}</p>

@@ -1,0 +1,16 @@
+{
+  "developers": [
+    {
+      "name": "Lasteinsa/Einsa/Hibikase",
+      "role": "Core Developer",
+      "imageUrl": "https://avatars.githubusercontent.com/u/69198890?v=4"
+    }
+  ],
+  "testers": [
+    {
+      "name": "Chariot",
+      "role": "Tester & Discord Maintainer",
+      "imageUrl": "https://cdn.discordapp.com/avatars/668339370050453514/41ca3ee308207be18670b259cac95240.webp?size=256"
+    }
+  ]
+}

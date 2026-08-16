@@ -198,5 +198,29 @@
     },
     "note": "Use the same Google account for all three steps.",
     "help_discord": "Need help? Join our Discord support server."
+  },
+  "supporters": {
+    "title": "Our Supporters",
+    "description": "A massive thank you to everyone who has backed the project. Your support helps keep Mellifluous ad-free and continuously improving!",
+    "update_note": "* Data is updated periodically.",
+    "last_30_days": "Last 30 Days",
+    "all_time": "All Time Supporters"
+  },
+  "contributors": {
+    "title": "Contributors",
+    "description": "A massive thank you to the brilliant developers and dedicated testers who help make Mellifluous better every single day.",
+    "update_note": "* Data is updated periodically.",
+    "developers": "Developers",
+    "testers": "Testers"
+  },
+  "community_cta": {
+    "title": "Built by the Community",
+    "description": "Mellifluous thrives because of its amazing users. Discover the incredible people who actively support and develop the project.",
+    "supporters_title": "Our Supporters",
+    "supporters_desc": "Meet the generous individuals who financially back Mellifluous, helping keep it completely ad-free and open for everyone.",
+    "supporters_btn": "View Supporters",
+    "contributors_title": "Our Contributors",
+    "contributors_desc": "Check out the talented developers, designers, and beta testers who dedicate their time to building and improving the app.",
+    "contributors_btn": "View Contributors"
   }
 }

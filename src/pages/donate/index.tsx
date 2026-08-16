@@ -1,6 +1,7 @@
 import { Coffee, ExternalLink, Heart } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const donationLinks = [
   {
@@ -63,6 +64,23 @@ const Donate = () => {
           </motion.a>
         ))}
       </div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+        className="mt-16 text-center"
+      >
+        <p className="mb-6 text-slate-400">
+          Want to see who has already backed us?
+        </p>
+        <Link
+          to="/supporters"
+          className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-8 py-4 font-semibold text-white transition-colors hover:bg-white/10"
+        >
+          View Our Supporters
+        </Link>
+      </motion.div>
     </div>
   );
 };

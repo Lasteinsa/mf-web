@@ -8,6 +8,8 @@ const Privacy = lazy(() => import("../pages/privacy"));
 const Support = lazy(() => import("../pages/support"));
 const ClosedTesting = lazy(() => import("../pages/closed-testing"));
 const Donate = lazy(() => import("../pages/donate"));
+const Supporters = lazy(() => import("../pages/supporters"));
+const Contributors = lazy(() => import("../pages/contributors"));
 
 const GuideIndex = lazy(() => import("../pages/guide/guide-index"));
 const GettingStarted = lazy(() => import("../pages/guide/getting-started"));
@@ -45,6 +47,8 @@ export default function AppRoutes() {
         { path: "support", element: <Support /> },
         { path: "closed-testing", element: <ClosedTesting /> },
         { path: "donate", element: <Donate /> },
+        { path: "supporters", element: <Supporters /> },
+        { path: "contributors", element: <Contributors /> },
       ],
     },
   ]);

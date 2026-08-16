@@ -198,5 +198,29 @@
     },
     "note": "Gunakan akun Google yang sama untuk ketiga langkah tersebut.",
     "help_discord": "Butuh bantuan? Gabung ke server Discord kami."
+  },
+  "supporters": {
+    "title": "Pendukung Kami",
+    "description": "Terima kasih yang sebesar-besarnya kepada semua orang yang telah mendukung proyek ini. Dukungan Anda membantu menjaga Mellifluous bebas iklan dan terus berkembang!",
+    "update_note": "* Data ini diperbarui secara berkala.",
+    "last_30_days": "30 Hari Terakhir",
+    "all_time": "Semua Pendukung"
+  },
+  "contributors": {
+    "title": "Kontributor",
+    "description": "Terima kasih yang sebesar-besarnya kepada para pengembang yang brilian dan penguji yang berdedikasi yang membantu membuat Mellifluous menjadi lebih baik setiap harinya.",
+    "update_note": "* Data ini diperbarui secara berkala.",
+    "developers": "Pengembang",
+    "testers": "Penguji"
+  },
+  "community_cta": {
+    "title": "Dibangun oleh Komunitas",
+    "description": "Mellifluous berkembang pesat berkat penggunanya yang luar biasa. Temukan orang-orang luar biasa yang secara aktif mendukung dan mengembangkan proyek ini.",
+    "supporters_title": "Pendukung Kami",
+    "supporters_desc": "Temui individu-individu dermawan yang mendukung Mellifluous secara finansial, membantu menjaganya agar tetap bebas iklan dan terbuka untuk semua orang.",
+    "supporters_btn": "Lihat Pendukung",
+    "contributors_title": "Kontributor Kami",
+    "contributors_desc": "Lihat para pengembang, desainer, dan penguji beta berbakat yang mendedikasikan waktu mereka untuk membangun dan meningkatkan aplikasi ini.",
+    "contributors_btn": "Lihat Kontributor"
   }
 }
