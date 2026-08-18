@@ -1,0 +1,6 @@
+[
+  { "brand": "FiiO", "type": "Snowsky Series", "status": "working" },
+  { "brand": "JCally", "type": "JCALLY JM7", "status": "working" },
+  { "brand": "Tancjim", "type": "Tanchjim Fission DSP", "status": "working" },
+  { "brand": "Tangzu", "type": "Long Zhong Dui (LZD)", "status": "notworking" }
+]

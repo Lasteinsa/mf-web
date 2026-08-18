@@ -81,6 +81,12 @@ const Footer = () => {
             >
               Contributors
             </Link>
+            <Link
+              to="/usb-dacs"
+              className="text-sm font-medium text-slate-400 transition-colors hover:text-white"
+            >
+              USB DACs
+            </Link>
           </div>
           <p className="text-sm text-slate-500">{t("footer.copyright")}</p>
         </div>
