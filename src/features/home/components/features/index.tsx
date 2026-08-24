@@ -47,10 +47,10 @@ const Features = () => {
 
   return (
     <section id="features" className="relative bg-slate-50 py-24">
-      <div className="relative container mx-auto px-6">
+      <div className="relative container mx-auto ">
         <div className="flex flex-col items-start gap-12 lg:flex-row lg:gap-16">
           {/* Sticky Title Section */}
-          <div className="backdrop-blur-md sticky top-16 z-10 w-full py-4 text-left lg:sticky lg:top-32 lg:w-1/3 lg:bg-transparent lg:py-0 lg:pt-8 lg:backdrop-blur-none">
+          <div className="bg-white sticky top-16 z-10 w-full pb-4 pt-6 px-6 left-0 right-0 text-left lg:sticky lg:top-32 lg:w-1/3 lg:bg-transparent lg:py-0 lg:pt-8 lg:backdrop-blur-none">
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -63,7 +63,7 @@ const Features = () => {
           </div>
 
           {/* Scrolling Features Grid */}
-          <div className="grid w-full grid-cols-1 gap-8 sm:grid-cols-2 lg:w-2/3">
+          <div className="grid w-full grid-cols-1 gap-8 sm:grid-cols-2 lg:w-2/3 px-6">
             {features.map((feature, i) => (
               <motion.div
                 key={i}
