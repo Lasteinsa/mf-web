@@ -23,13 +23,13 @@ const Support = () => {
         transition={{ duration: 0.6 }}
         className="mb-16 text-center"
       >
-        <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl border border-white/10 bg-linear-to-br from-blue-500/20 to-blue-500/20 shadow-xl">
+        <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-linear-to-br from-blue-500/20 to-blue-500/20">
           <HeartPlus className="h-8 w-8 text-blue-400" />
         </div>
-        <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-white md:text-5xl">
+        <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
           {t("support.title")}
         </h1>
-        <p className="mx-auto max-w-2xl text-lg text-slate-400">
+        <p className="mx-auto max-w-2xl text-lg text-slate-600">
           {t("support.subtitle")}
         </p>
       </motion.div>
@@ -42,7 +42,7 @@ const Support = () => {
       >
         {linkSupportData.map((it) => (
           <button
-            className="placeitemplace-items-center flex w-full cursor-pointer place-content-center gap-2 rounded-2xl border px-8 py-4 transition-all duration-200 ease-in-out hover:scale-110"
+            className="placeitemplace-items-center flex w-full cursor-pointer place-content-center gap-2 rounded-2xl px-8 py-4 transition-all duration-200 ease-in-out hover:scale-110"
             key={it.title}
             onClick={() => {
               if (!it.link || it.link === "#") return;

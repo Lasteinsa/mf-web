@@ -22,7 +22,7 @@ const GuideLayout = () => {
             >
               <button
                 onClick={() => navigate("/guide")}
-                className="group flex items-center gap-2 text-sm font-medium text-slate-400 transition-colors hover:text-white"
+                className="group flex items-center gap-2 text-sm font-medium text-slate-600 transition-colors hover:text-slate-900"
               >
                 <ArrowLeft className="h-4 w-4 transition-transform group-hover:-translate-x-1" />
                 Back to Guide

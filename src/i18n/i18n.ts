@@ -1,27 +1,27 @@
-import i18n from "i18next";
-import { initReactI18next } from "react-i18next";
+import i18n from"i18next";
+import { initReactI18next } from"react-i18next";
 
-import translationEN from "./en.json";
-import translationID from "./id.json";
+import translationEN from"./en.json";
+import translationID from"./id.json";
 
 const resources = {
-  en: {
-    translation: translationEN,
-  },
-  id: {
-    translation: translationID,
-  },
+ en: {
+ translation: translationEN,
+ },
+ id: {
+ translation: translationID,
+ },
 };
 
-const savedLanguage = localStorage.getItem("language") || "en";
+const savedLanguage = localStorage.getItem("language") ||"en";
 
 i18n.use(initReactI18next).init({
-  resources,
-  lng: savedLanguage, // default language
-  fallbackLng: "en",
-  interpolation: {
-    escapeValue: false, // react already safes from xss
-  },
+ resources,
+ lng: savedLanguage, // default language
+ fallbackLng:"en",
+ interpolation: {
+ escapeValue: false, // react already safes from xss
+ },
 });
 
 export default i18n;

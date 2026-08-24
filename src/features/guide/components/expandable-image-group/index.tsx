@@ -28,7 +28,7 @@ const ExpandableImageGroup = ({ children }: { children: React.ReactNode }) => {
             >
               <button
                 onClick={() => setIsExpanded(true)}
-                className="flex items-center gap-2 rounded-full bg-linear-to-r from-red-500 to-orange-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-orange-500/25 transition-transform hover:scale-105 hover:from-red-600 hover:to-orange-600 active:scale-95"
+                className="flex items-center gap-2 rounded-full bg-linear-to-r from-red-500 to-orange-500 px-6 py-3 text-sm font-semibold text-slate-900 shadow-orange-500/25 transition-transform hover:scale-105 hover:from-red-600 hover:to-orange-600 active:scale-95"
               >
                 <ImageIcon className="h-4 w-4" />
                 {t("guide.show_images")}
@@ -46,7 +46,7 @@ const ExpandableImageGroup = ({ children }: { children: React.ReactNode }) => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             onClick={() => setIsExpanded(false)}
-            className="mt-6 flex items-center gap-2 text-sm font-medium text-slate-400 transition-colors hover:text-white"
+            className="mt-6 flex items-center gap-2 text-sm font-medium text-slate-600 transition-colors hover:text-slate-900"
           >
             {t("guide.hide_images")}
           </motion.button>

@@ -12,9 +12,9 @@
     "title_2": "Tanpa Batas.",
     "description": "Rasakan MFAndroid, pemutar musik terbaik yang dirancang untuk pendengar sehari-hari dan penggemar audio—menampilkan kualitas audio yang murni, pemutaran luring yang mulus, dan antarmuka yang bergerak bersama Anda.",
     "download_apk": "Unduh APK",
-    "google_play_soon": "Google Play (Segera)",
+    "google_pla": "Google Play",
     "google_play_close_testing": "Google Play (Join Internal Testing)",
-    "discord_support": "Bantuan Discord",
+    "discord_support": "Discord",
     "guide_prompt": "Ingin tahu lebih lanjut?",
     "guide_link": "Cek panduan lengkapnya di sini"
   },
@@ -224,5 +224,11 @@
     "contributors_title": "Kontributor Kami",
     "contributors_desc": "Lihat para pengembang, desainer, dan penguji beta berbakat yang mendedikasikan waktu mereka untuk membangun dan meningkatkan aplikasi ini.",
     "contributors_btn": "Lihat Kontributor"
+  },
+  "usb_dacs": {
+    "title": "Kompatibilitas USB DAC",
+    "description": "Periksa apakah USB DAC Anda didukung untuk pemutaran Bit-Perfect di Mellifluous. Daftar ini terus diperbarui berdasarkan pengujian komunitas.",
+    "search_placeholder": "Cari berdasarkan merek atau tipe (mis. FiiO, Dongle)...",
+    "no_results": "Tidak ada USB DAC yang cocok dengan \"{{query}}\"."
   }
 }

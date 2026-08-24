@@ -29,13 +29,13 @@ const Donate = () => {
         transition={{ duration: 0.6 }}
         className="mb-16 text-center"
       >
-        <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl border border-white/10 bg-linear-to-br from-orange-500/20 to-red-500/20 shadow-xl">
+        <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-linear-to-br from-orange-500/20 to-red-500/20">
           <Heart className="h-8 w-8 text-orange-400" />
         </div>
-        <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-white md:text-5xl">
+        <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
           {t("donate.title")}
         </h1>
-        <p className="mx-auto max-w-2xl text-lg text-slate-400">
+        <p className="mx-auto max-w-2xl text-lg text-slate-600">
           {t("donate.subtitle")}
         </p>
       </motion.div>
@@ -50,10 +50,10 @@ const Donate = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className={`group flex items-center justify-between gap-4 rounded-3xl bg-linear-to-r ${donation.className} p-6 text-white shadow-xl transition-transform hover:scale-[1.02]`}
+            className={`group flex items-center justify-between gap-4 rounded-3xl bg-linear-to-r ${donation.className} p-6 text-slate-900 transition-transform hover:scale-[1.02]`}
           >
             <span className="flex items-center gap-4">
-              <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-black/15">
+              <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-50/15">
                 <Coffee className="h-6 w-6" />
               </span>
               <span className="text-lg font-bold">
@@ -71,12 +71,12 @@ const Donate = () => {
         transition={{ duration: 0.5, delay: 0.3 }}
         className="mt-16 text-center"
       >
-        <p className="mb-6 text-slate-400">
+        <p className="mb-6 text-slate-600">
           Want to see who has already backed us?
         </p>
         <Link
           to="/supporters"
-          className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-8 py-4 font-semibold text-white transition-colors hover:bg-white/10"
+          className="inline-flex items-center gap-2 rounded-2xl bg-slate-900/5 px-8 py-4 font-semibold text-slate-900 transition-colors hover:bg-slate-900/10"
         >
           View Our Supporters
         </Link>

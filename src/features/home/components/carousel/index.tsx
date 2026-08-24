@@ -61,7 +61,7 @@ const Carousel = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="mx-auto max-w-2xl text-lg text-slate-400"
+            className="mx-auto max-w-2xl text-lg text-slate-600"
           >
             {t("carousel.description")}
           </motion.p>
@@ -116,7 +116,7 @@ const Carousel = () => {
             return (
               <motion.div
                 key={index}
-                className="absolute aspect-[9/19] w-[220px] cursor-pointer rounded-[2.5rem] border-2 border-neutral-800 bg-black p-2 shadow-2xl md:w-[280px]"
+                className="absolute aspect-[9/19] w-[220px] cursor-pointer rounded-[2.5rem] border-neutral-800 bg-slate-50 p-2 md:w-[280px]"
                 variants={variants}
                 initial="hidden"
                 animate={position}
@@ -141,7 +141,7 @@ const Carousel = () => {
           {/* Navigation Controls */}
           <button
             onClick={prevSlide}
-            className="absolute top-1/2 left-0 z-20 -translate-y-1/2 rounded-full bg-white/10 p-3 text-white backdrop-blur-md transition-colors hover:bg-white/20 md:left-12"
+            className="absolute top-1/2 left-0 z-20 -translate-y-1/2 rounded-full bg-slate-900/10 p-3 text-slate-900 backdrop-blur-md transition-colors hover:bg-slate-900/20 md:left-12"
             aria-label="Previous slide"
           >
             <ChevronLeft className="h-6 w-6" />
@@ -149,7 +149,7 @@ const Carousel = () => {
 
           <button
             onClick={nextSlide}
-            className="absolute top-1/2 right-0 z-20 -translate-y-1/2 rounded-full bg-white/10 p-3 text-white backdrop-blur-md transition-colors hover:bg-white/20 md:right-12"
+            className="absolute top-1/2 right-0 z-20 -translate-y-1/2 rounded-full bg-slate-900/10 p-3 text-slate-900 backdrop-blur-md transition-colors hover:bg-slate-900/20 md:right-12"
             aria-label="Next slide"
           >
             <ChevronRight className="h-6 w-6" />
@@ -165,7 +165,7 @@ const Carousel = () => {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
               transition={{ duration: 0.3 }}
-              className="text-lg font-medium tracking-wide text-white/90"
+              className="text-lg font-medium tracking-wide text-slate-900/90"
             >
               {t(carouselData[currentIndex].labelKey)}
             </motion.p>
@@ -178,7 +178,7 @@ const Carousel = () => {
             <button
               key={idx}
               onClick={() => setCurrentIndex(idx)}
-              className={`h-2 w-2 rounded-full transition-all ${idx === currentIndex ? "w-6 bg-white" : "bg-white/30 hover:bg-white/50"}`}
+              className={`h-2 w-2 rounded-full transition-all ${idx === currentIndex ? "w-6 bg-white" : "bg-slate-900/30 hover:bg-white/50"}`}
               aria-label={`Go to slide ${idx + 1}`}
             />
           ))}

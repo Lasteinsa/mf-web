@@ -12,9 +12,9 @@
     "title_2": "Unleashed.",
     "description": "Experience MFAndroid, the ultimate music player designed for everyday listeners and audio enthusiasts alike—featuring pristine audio quality, seamless offline playback, and an interface that moves with you.",
     "download_apk": "Download APK",
-    "google_play_soon": "Google Play (Soon)",
+    "google_pla": "Google Play",
     "google_play_close_testing": "Google Play (Early Access)",
-    "discord_support": "Discord Support",
+    "discord_support": "Discord",
     "guide_prompt": "Want to know about the guide?",
     "guide_link": "Take a look here to learn everything"
   },
@@ -224,5 +224,11 @@
     "contributors_title": "Our Contributors",
     "contributors_desc": "Check out the talented developers, designers, and beta testers who dedicate their time to building and improving the app.",
     "contributors_btn": "View Contributors"
+  },
+  "usb_dacs": {
+    "title": "USB DAC Compatibility",
+    "description": "Check if your USB DAC is supported for Bit-Perfect playback in Mellifluous. This list is continuously updated based on community testing.",
+    "search_placeholder": "Search by brand or type (e.g. FiiO, Dongle)...",
+    "no_results": "No USB DACs found matching \"{{query}}\"."
   }
 }

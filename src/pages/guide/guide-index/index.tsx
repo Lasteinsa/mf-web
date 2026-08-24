@@ -88,10 +88,10 @@ export default function GuideIndex() {
         transition={{ duration: 0.6 }}
         className="mb-16 text-center"
       >
-        <h1 className="mb-6 text-4xl font-extrabold tracking-tight text-white md:text-5xl">
+        <h1 className="mb-6 text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
           {t("guide.title")}
         </h1>
-        <p className="mx-auto max-w-2xl text-xl text-slate-400">
+        <p className="mx-auto max-w-2xl text-xl text-slate-600">
           {t("guide.subtitle")}
         </p>
       </motion.div>
@@ -106,18 +106,18 @@ export default function GuideIndex() {
           <motion.div key={section.id} variants={cardVariants}>
             <Link
               to={section.id}
-              className="group flex h-full flex-col justify-between rounded-3xl border border-white/10 bg-white/5 p-8 transition-all hover:-translate-y-1 hover:bg-white/10 hover:shadow-2xl hover:shadow-white/5"
+              className="group hover: hover: flex h-full flex-col justify-between rounded-3xl bg-slate-900/5 p-8 transition-all hover:-translate-y-1 hover:bg-slate-900/10"
             >
               <div>
                 <div
-                  className={`mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-linear-to-br ${section.color} text-white shadow-lg`}
+                  className={`mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-linear-to-br ${section.color} text-slate-900`}
                 >
                   {section.icon}
                 </div>
-                <h2 className="mb-3 text-2xl font-bold text-white transition-colors group-hover:text-blue-400">
+                <h2 className="mb-3 text-2xl font-bold text-slate-900 transition-colors group-hover:text-blue-400">
                   {section.title}
                 </h2>
-                <p className="line-clamp-3 text-slate-400">
+                <p className="line-clamp-3 text-slate-600">
                   {section.description}
                 </p>
               </div>

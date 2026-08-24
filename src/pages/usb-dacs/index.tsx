@@ -1,10 +1,12 @@
 import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Search, CheckCircle2, XCircle, Headphones } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 import { UsbDacRepository } from "../../repositories/usb-dac-repository";
 
 const UsbDacs = () => {
+  const { t } = useTranslation();
   const [searchQuery, setSearchQuery] = useState("");
 
   const dacs = useMemo(() => {
@@ -42,16 +44,14 @@ const UsbDacs = () => {
         transition={{ duration: 0.6 }}
         className="mb-12 text-center"
       >
-        <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl border border-white/10 bg-linear-to-br from-indigo-500/20 to-blue-500/20 shadow-xl">
+        <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-linear-to-br from-indigo-500/20 to-blue-500/20">
           <Headphones className="h-8 w-8 text-indigo-400" />
         </div>
-        <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-white md:text-5xl">
-          USB DAC Compatibility
+        <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
+          {t("usb_dacs.title")}
         </h1>
-        <p className="mx-auto max-w-2xl text-lg text-slate-400">
-          Check if your USB DAC is supported for Bit-Perfect playback in
-          Mellifluous. This list is continuously updated based on community
-          testing.
+        <p className="mx-auto max-w-2xl text-lg text-slate-600">
+          {t("usb_dacs.description")}
         </p>
       </motion.div>
 
@@ -68,8 +68,8 @@ const UsbDacs = () => {
           </div>
           <input
             type="text"
-            className="w-full rounded-2xl border border-white/10 bg-white/5 py-4 pr-4 pl-12 text-white placeholder-slate-500 backdrop-blur-md transition-all focus:border-indigo-500/50 focus:bg-white/10 focus:ring-2 focus:ring-indigo-500/20 focus:outline-hidden"
-            placeholder="Search by brand or type (e.g. FiiO, Dongle)..."
+            className="focus: focus: focus: w-full rounded-2xl bg-slate-900/5 py-4 pr-4 pl-12 text-slate-900 placeholder-slate-500 backdrop-blur-md transition-all focus:bg-slate-900/10 focus:outline-hidden"
+            placeholder={t("usb_dacs.search_placeholder")}
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
@@ -90,7 +90,7 @@ const UsbDacs = () => {
                 transition={{ duration: 0.4 }}
                 className="mb-12"
               >
-                <h2 className="mb-6 border-b border-white/10 pb-4 text-2xl font-bold text-white">
+                <h2 className="mb-6 pb-4 text-2xl font-bold text-slate-900">
                   {brand}
                 </h2>
                 <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3">
@@ -102,9 +102,9 @@ const UsbDacs = () => {
                       animate={{ opacity: 1, x: 0 }}
                       exit={{ opacity: 0, x: -20 }}
                       transition={{ duration: 0.2 }}
-                      className="group flex items-center justify-between gap-4 rounded-xl border border-white/10 bg-white/5 px-5 py-4 shadow-md transition-all hover:bg-white/10"
+                      className="group flex items-center justify-between gap-4 rounded-xl bg-slate-900/5 px-5 py-4 transition-all hover:bg-slate-900/10"
                     >
-                      <p className="font-semibold whitespace-nowrap text-white">
+                      <p className="font-semibold whitespace-nowrap text-slate-900">
                         {dac.type}
                       </p>
                       <div className="flex shrink-0 items-center">
@@ -126,7 +126,7 @@ const UsbDacs = () => {
               className="py-12 text-center"
             >
               <p className="text-lg text-slate-500">
-                No USB DACs found matching "{searchQuery}".
+                {t("usb_dacs.no_results", { query: searchQuery })}
               </p>
             </motion.div>
           )}

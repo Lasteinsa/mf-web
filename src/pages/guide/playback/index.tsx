@@ -15,13 +15,13 @@ export default function Playback() {
 
   return (
     <motion.section variants={pageVariants} initial="hidden" animate="visible">
-      <h2 className="mb-6 border-b border-white/10 pb-4 text-3xl font-semibold text-white">
+      <h2 className="mb-6 pb-4 text-3xl font-semibold text-slate-900">
         {t("guide.sections.playback")}
       </h2>
-      <p className="mb-4 leading-relaxed text-slate-300">
+      <p className="mb-4 leading-relaxed text-slate-700">
         {t("guide.s6.desc1")}
       </p>
-      <ul className="mb-8 ml-6 list-outside list-disc space-y-2 text-slate-300">
+      <ul className="mb-8 ml-6 list-outside list-disc space-y-2 text-slate-700">
         <li>
           <strong>{t("guide.s6.l1_title")}</strong> {t("guide.s6.l1_desc")}
         </li>

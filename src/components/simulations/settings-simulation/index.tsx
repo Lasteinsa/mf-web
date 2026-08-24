@@ -31,18 +31,20 @@ const SettingsMenuItem = ({
   >
     <Icon className="h-6 w-6 flex-shrink-0 text-indigo-400" />
     <div className="mr-2 ml-4 min-w-0 flex-1">
-      <div className="truncate text-[15px] font-medium text-white">{title}</div>
+      <div className="truncate text-[15px] font-medium text-slate-900">
+        {title}
+      </div>
       {description && (
-        <div className="mt-0.5 truncate text-[13px] leading-tight text-white/50">
+        <div className="mt-0.5 truncate text-[13px] leading-tight text-slate-900/50">
           {description}
         </div>
       )}
     </div>
-    <ChevronRight className="h-5 w-5 flex-shrink-0 text-white/30" />
+    <ChevronRight className="h-5 w-5 flex-shrink-0 text-slate-900/30" />
   </motion.div>
 );
 
-const Divider = () => <div className="h-[1px] w-full bg-white/10" />;
+const Divider = () => <div className="h-[1px] w-full bg-slate-900/10" />;
 
 const SettingsSimulation = () => {
   const [hasUpdateAvailable, setHasUpdateAvailable] = useState(true);
@@ -53,16 +55,18 @@ const SettingsSimulation = () => {
 
   return (
     <PhoneMockup>
-      <div className="flex min-h-full flex-col bg-[#0a0a0a]">
+      <div className="flex min-h-full flex-col bg-slate-50">
         {/* Top App Bar */}
-        <div className="sticky top-0 z-10 flex h-16 items-center bg-[#0a0a0a]/70 px-2 backdrop-blur-md">
+        <div className="sticky top-0 z-10 flex h-16 items-center bg-white/70 px-2 backdrop-blur-md">
           <motion.button
             whileTap={{ scale: 0.9 }}
-            className="rounded-full p-3 hover:bg-white/10"
+            className="rounded-full p-3 hover:bg-slate-900/10"
           >
-            <ArrowLeft className="h-6 w-6 text-white" />
+            <ArrowLeft className="h-6 w-6 text-slate-900" />
           </motion.button>
-          <div className="ml-2 text-[22px] font-bold text-white">Settings</div>
+          <div className="ml-2 text-[22px] font-bold text-slate-900">
+            Settings
+          </div>
         </div>
 
         {/* Content */}
@@ -106,14 +110,14 @@ const SettingsSimulation = () => {
             >
               <Music2 className="h-6 w-6 flex-shrink-0 text-indigo-400" />
               <div className="mr-2 ml-4 min-w-0 flex-1">
-                <div className="truncate text-[15px] font-medium text-white">
+                <div className="truncate text-[15px] font-medium text-slate-900">
                   About
                 </div>
-                <div className="mt-0.5 truncate text-[13px] leading-tight text-white/50">
+                <div className="mt-0.5 truncate text-[13px] leading-tight text-slate-900/50">
                   Version 0.12-alpha
                 </div>
               </div>
-              <ChevronRight className="h-5 w-5 flex-shrink-0 text-white/30" />
+              <ChevronRight className="h-5 w-5 flex-shrink-0 text-slate-900/30" />
             </motion.div>
 
             <Divider />
@@ -126,13 +130,13 @@ const SettingsSimulation = () => {
             >
               <RefreshCw className="h-6 w-6 flex-shrink-0 text-indigo-400" />
               <div className="mr-2 ml-4 min-w-0 flex-1">
-                <div className="truncate text-[15px] font-medium text-white">
+                <div className="truncate text-[15px] font-medium text-slate-900">
                   {hasUpdateAvailable
                     ? "Update Available"
                     : "Check for Updates"}
                 </div>
                 <div
-                  className={`mt-0.5 truncate text-[13px] leading-tight ${hasUpdateAvailable ? "text-indigo-400" : "text-white/50"}`}
+                  className={`mt-0.5 truncate text-[13px] leading-tight ${hasUpdateAvailable ? "text-indigo-400" : "text-slate-900/50"}`}
                 >
                   {hasUpdateAvailable
                     ? "Update available"

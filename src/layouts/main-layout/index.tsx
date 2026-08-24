@@ -1,14 +1,15 @@
 import { Outlet, useLocation } from "react-router-dom";
-import { Suspense } from "react";
+import { lazy, Suspense } from "react";
 import Navbar from "../../components/navbar";
-import Footer from "../../components/footer";
+
+const Footer = lazy(() => import("../../components/footer"))
 
 export default function MainLayout() {
   const { pathname } = useLocation();
-  const hideFooter = pathname === "/donate";
+  const hideFooter = ["/donate", "/privacy"].includes(pathname);
 
   return (
-    <div className="bg-bg-dark selection:bg-primary flex min-h-screen flex-col font-sans text-slate-50 selection:text-black">
+    <div className="bg-bg-dark selection:bg-primary flex min-h-screen flex-col font-sans text-slate-900 selection:text-white">
       <Navbar />
       <main className="flex-1">
         <Suspense
@@ -21,7 +22,9 @@ export default function MainLayout() {
           <Outlet />
         </Suspense>
       </main>
-      {!hideFooter && <Footer />}
+      <Suspense>
+        {!hideFooter && <Footer />}
+      </Suspense>
     </div>
   );
 }
