@@ -60,12 +60,9 @@ const Privacy = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="rounded-3xl bg-slate-900/5 p-8 backdrop-blur-md transition-all"
+            className="p-8 backdrop-blur-md transition-all border-l-4 border-solid border-blue-400"
           >
             <div className="flex items-start gap-5">
-              <div className="flex-shrink-0 rounded-2xl bg-slate-900/5 p-3">
-                {sec.icon}
-              </div>
               <div>
                 <h2 className="mb-3 text-xl font-bold text-slate-900">
                   {sec.title}

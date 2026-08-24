@@ -110,7 +110,7 @@ export default function GuideIndex() {
             >
               <div>
                 <div
-                  className={`mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-linear-to-br ${section.color} text-slate-900`}
+                  className={`mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-linear-to-br ${section.color} text-white`}
                 >
                   {section.icon}
                 </div>

@@ -34,7 +34,7 @@ export default function Customization() {
         {[1, 2, 3, 4, 5, 6, 7].map((i) => (
           <li key={i}>
             <strong>{t(`guide.s2.l${i}_title`)}</strong>
-            {""}
+            {" "}
             {t(`guide.s2.l${i}_desc`)}
           </li>
         ))}
