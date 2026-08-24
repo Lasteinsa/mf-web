@@ -64,7 +64,7 @@ const ClosedTesting = () => {
             transition={{ duration: 0.5, delay: index * 0.1 }}
             className="relative flex flex-col rounded-3xl bg-slate-900/5 p-7 backdrop-blur-md"
           >
-            <div className="absolute -top-4 left-6 flex h-9 w-9 items-center justify-center rounded-full bg-white font-bold text-white">
+            <div className="absolute -top-4 left-6 flex h-9 w-9 items-center justify-center rounded-full font-bold">
               {index + 1}
             </div>
             <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl bg-slate-900/5 text-emerald-400">

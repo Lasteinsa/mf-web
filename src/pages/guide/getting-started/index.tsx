@@ -25,7 +25,6 @@ export default function GettingStarted() {
         <li>{t("guide.s1.l1")}</li>
         <li>{t("guide.s1.l2")}</li>
         <li>{t("guide.s1.l3")}</li>
-        <li>{t("guide.s1.l4")}</li>
       </ul>
     </motion.section>
   );

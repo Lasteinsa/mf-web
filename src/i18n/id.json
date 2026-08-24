@@ -42,7 +42,7 @@
     "f2_title": "Tema Dinamis",
     "f2_desc": "Musikmu yang menentukan suasananya. Antarmuka kami otomatis menyesuaikan dengan warna cover album yang sedang diputar.",
     "f3_title": "Lirik Sinkron & Tanam Tag",
-    "f3_desc": "Nyanyi bareng tanpa meleset. Nikmati lirik sinkron online/offline, atau tanamkan tag .lrc langsung ke file audiomu.",
+    "f3_desc": "Nyanyi bareng tanpa meleset. Nikmati lirik sinkron online/offline, atau tanamkan tag .lrc langsung ke file audiomu. Mendukung lirik tingkat lanjut",
     "f4_title": "Terjemahan AI & Romanisasi",
     "f4_desc": "Terjemahkan lirik asing seketika dengan ML Kit, atau konversi langsung lirik Kanji & Hangul menjadi Romaji/Romaja.",
     "f5_title": "Penyempurna Artwork",
@@ -67,10 +67,9 @@
     },
     "s1": {
       "desc": "MF Music Player dirancang untuk memutar koleksi musik lokal dengan kualitas paling jernih. Untuk memulai:",
-      "l1": "Bergabunglah dengan Google Play Early Access melalui tautan di halaman utama.",
-      "l2": "Instal aplikasi di perangkat Android kamu langsung dari Google Play.",
-      "l3": "Berikan izin penyimpanan agar aplikasi dapat memindai pustaka musik lokal kamu.",
-      "l4": "Tunggu proses pemindaian awal selesai. File resolusi tinggi seperti FLAC dan ALAC sepenuhnya didukung."
+      "l1": "Instal aplikasi di perangkat Android kamu langsung dari Google Play.",
+      "l2": "Berikan izin penyimpanan agar aplikasi dapat memindai pustaka musik lokal kamu.",
+      "l3": "Tunggu proses pemindaian awal selesai. File resolusi tinggi seperti FLAC dan ALAC sepenuhnya didukung."
     },
     "s2": {
       "desc": "Antarmuka aplikasi ini bebas kamu atur sesuka hati. Masuk ke Pengaturan > Tampilan untuk menjelajahi:",

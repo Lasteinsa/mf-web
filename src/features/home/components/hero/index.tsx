@@ -21,9 +21,20 @@ const Hero = () => {
         <div className="flex flex-col items-start space-y-4">
           <motion.h1
             {...animateHomeContent({delay: 1})}
-            className="text-4xl sm:text-3xl leading-tight font-bold tracking-tight text-slate-900 md:text-7xl"
+            className="text-4xl sm:text-3xl leading-tight font-bold tracking-tight md:text-7xl"
           >
-            Mellifluous Music Player
+            <motion.p
+              animate={{ backgroundPosition: ["200%", "0%",], }}
+              transition={{ duration: 5, ease: "linear", delay: 1 }}
+              style={{
+                backgroundImage: "linear-gradient(90deg, #03a1fc, black)",
+                backgroundSize: "200% auto",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+              }}
+            >
+              Mellifluous Music Player
+            </motion.p>
           </motion.h1>
 
           <motion.p
@@ -94,10 +105,21 @@ const Hero = () => {
 
           <motion.div
             {...animateHomeContent({ delay: 5 })}
-            className="flex flex-col gap-4 place-items-center place-content-center w-full mt-12"
+            className="flex flex-col gap-2 place-items-center place-content-center w-full mt-12"
           >
-            <p className="text-lg font-bold">Scroll Down</p>
-            <ArrowDown />
+            <motion.p
+              animate={{ translateY: [0, 20, 0] }}
+              transition={{ repeat: Infinity, duration: 0.3, repeatDelay: 2, ease: "easeInOut" }}
+              className="text-lg font-bold"
+            >
+              Scroll Down
+            </motion.p>
+            <motion.div
+              animate={{ translateY: [0, 20, 0] }}
+              transition={{ repeat: Infinity, duration: 0.3, repeatDelay: 2, ease: "easeInOut" }}
+            >
+              <ArrowDown />
+            </motion.div>
           </motion.div>
         </div>
       </div>

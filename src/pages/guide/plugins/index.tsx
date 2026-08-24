@@ -68,7 +68,7 @@ export default function Plugins() {
         <h2 className="mb-4 text-xl font-bold text-amber-400">
           ⚠️ {t("guide.s7.warn_title")}
         </h2>
-        <ul className="ml-4 list-disc space-y-2 text-amber-200/80 marker:text-amber-500/50">
+        <ul className="ml-4 list-disc space-y-2 text-amber-800/80 marker:text-amber-500/50">
           <li>{t("guide.s7.warn_p1")}</li>
           <li>{t("guide.s7.warn_p2")}</li>
           <li>{t("guide.s7.warn_p3")}</li>
