@@ -50,7 +50,7 @@ const Footer = () => {
                     href={it.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`inline-flex w-full items-center gap-3 rounded-md bg-linear-to-r px-8 py-4 font-semibold text-slate-900 transition-all hover:scale-105 active:scale-95 ${it.classColor}`}
+                    className={`inline-flex w-full items-center gap-3 rounded-md bg-linear-to-r px-8 py-4 font-semibold text-white transition-all hover:scale-105 active:scale-95 ${it.classColor}`}
                   >
                     <Coffee className="h-5 w-5" />
                     {it.title}
