@@ -50,7 +50,7 @@ const Features = () => {
       <div className="relative container mx-auto ">
         <div className="flex flex-col items-start gap-12 lg:flex-row lg:gap-16">
           {/* Sticky Title Section */}
-          <div className="bg-white sticky top-16 z-10 w-full pb-4 pt-6 px-6 left-0 right-0 text-left lg:sticky lg:top-32 lg:w-1/3 lg:bg-transparent lg:py-0 lg:pt-8 lg:backdrop-blur-none">
+          <div className="bg-slate-50 sticky top-16 z-10 w-full pb-4 pt-6 px-6 left-0 right-0 text-left lg:sticky lg:top-32 lg:w-1/3 lg:bg-transparent lg:py-0 lg:pt-8 lg:backdrop-blur-none">
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -71,7 +71,7 @@ const Features = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.5, delay: (i % 2) * 0.1 }}
-                className="rounded-2xl bg-white p-8 transition-colors hover:bg-slate-100/80 border-l-4 border-solid border-blue-500 rounded-l-none"
+                className="rounded-2xl bg-slate-50 p-8 transition-colors hover:bg-slate-100/80 border-l-4 border-solid border-blue-500 rounded-l-none"
               >
                 <h3 className="mb-3 text-xl font-bold text-slate-900">
                   {feature.title}

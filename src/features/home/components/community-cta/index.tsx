@@ -9,7 +9,7 @@ const CommunityCTA = () => {
   return (
     <section className="relative overflow-hidden py-16">
       {/* Background glow */}
-      <div className="pointer-events-none absolute top-1/2 left-1/2 -z-10 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-linear-to-b from-blue-500/20 to-purple-500/20 blur-[100px]" />
+      <div className="pointer-events-none absolute top-1/2 left-1/2 -z-10 h-150 w-150 -translate-x-1/2 -translate-y-1/2 rounded-full bg-linear-to-b from-blue-500/20 to-purple-500/20 blur-[100px]" />
 
       <div className="container mx-auto max-w-5xl px-4 text-center md:px-8">
         <motion.div
@@ -36,10 +36,10 @@ const CommunityCTA = () => {
           >
             <Link
               to="/supporters"
-              className="group flex h-full flex-col justify-between overflow-hidden rounded-3xl bg-slate-900/5 p-8 text-left transition-all hover:bg-slate-900/10"
+              className="group flex h-full flex-col justify-between overflow-hidden rounded-xl bg-slate-900/5 p-8 text-left transition-all hover:bg-slate-900/10"
             >
               <div>
-                <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-linear-to-br from-orange-500/20 to-red-500/20">
+                <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-linear-to-br from-orange-500/20 to-red-500/20">
                   <Heart className="h-7 w-7 text-orange-400" />
                 </div>
                 <h3 className="mb-3 text-2xl font-bold text-slate-900">
@@ -66,10 +66,10 @@ const CommunityCTA = () => {
           >
             <Link
               to="/contributors"
-              className="group flex h-full flex-col justify-between overflow-hidden rounded-3xl bg-slate-900/5 p-8 text-left transition-all hover:bg-slate-900/10"
+              className="group flex h-full flex-col justify-between overflow-hidden rounded-xl bg-slate-900/5 p-8 text-left transition-all hover:bg-slate-900/10"
             >
               <div>
-                <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-linear-to-br from-blue-500/20 to-emerald-500/20">
+                <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-linear-to-br from-blue-500/20 to-emerald-500/20">
                   <Users className="h-7 w-7 text-emerald-400" />
                 </div>
                 <h3 className="mb-3 text-2xl font-bold text-slate-900">

@@ -23,9 +23,9 @@ const ContributorCard = ({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.5, delay: index * 0.05 }}
-      className="group flex items-center gap-4 rounded-3xl bg-slate-900/5 p-4 transition-all hover:scale-[1.02] hover:bg-slate-900/10"
+      className="group flex items-center gap-4 rounded-xl bg-slate-900/5 p-4 transition-all hover:scale-[1.02] hover:bg-slate-900/10"
     >
-      <div className="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-slate-50/20">
+      <div className="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-slate-50/20">
         {contributor.imageUrl ? (
           <img
             src={contributor.imageUrl}

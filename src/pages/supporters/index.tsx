@@ -24,9 +24,9 @@ const SupporterCard = ({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.5, delay: index * 0.05 }}
-      className="group flex items-center gap-4 rounded-3xl bg-slate-900/5 p-4 transition-all hover:scale-[1.02] hover:bg-slate-900/10"
+      className="group flex items-center gap-4 rounded-xl bg-slate-900/5 p-4 transition-all hover:scale-[1.02] hover:bg-slate-900/10"
     >
-      <div className="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-slate-50/20">
+      <div className="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-slate-50/20">
         {supporter.imageUrl ? (
           <img
             src={supporter.imageUrl}
@@ -56,7 +56,7 @@ const Supporters = () => {
         transition={{ duration: 0.6 }}
         className="mb-12 text-center"
       >
-        <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-linear-to-br from-blue-500/20 to-purple-500/20">
+        <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-xl bg-linear-to-br from-blue-500/20 to-purple-500/20">
           <User className="h-8 w-8 text-blue-400" />
         </div>
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">

@@ -30,7 +30,7 @@ const Footer = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-50px" }}
           transition={{ duration: 0.6 }}
-          className="group relative mx-auto mb-12 max-w-2xl overflow-hidden rounded-4xl bg-slate-900/5 p-8 text-center backdrop-blur-md md:p-12"
+          className="group relative mx-auto mb-12 max-w-2xl overflow-hidden rounded-xl bg-slate-900/5 p-8 text-center backdrop-blur-md md:p-12"
         >
           {/* Subtle gradient glow in background */}
           <div className="pointer-events-none absolute inset-0 bg-linear-to-br from-orange-500/10 via-transparent to-red-500/10 opacity-50 transition-opacity duration-700 group-hover:opacity-100" />
