@@ -22,6 +22,7 @@ const Playback = lazy(() => import("../pages/guide/playback"));
 const AudioEngine = lazy(() => import("../pages/guide/audio-engine"));
 const Lyrics = lazy(() => import("../pages/guide/lyrics"));
 const Plugins = lazy(() => import("../pages/guide/plugins"));
+const SmartAudioAi = lazy(() => import("../pages/guide/smart-audio-ai"));
 
 export default function AppRoutes() {
   const routes = useRoutes([
@@ -42,6 +43,7 @@ export default function AppRoutes() {
             { path: "audio-engine", element: <AudioEngine /> },
             { path: "lyrics", element: <Lyrics /> },
             { path: "plugins", element: <Plugins /> },
+            { path: "smart-audio-ai", element: <SmartAudioAi /> },
           ],
         },
         { path: "privacy", element: <Privacy /> },

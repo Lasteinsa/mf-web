@@ -63,7 +63,8 @@
       "audio_engine": "Audio Engine",
       "lyrics_setup": "Lyrics Setup",
       "playback": "Playback Features",
-      "plugins": "Plugins & Extensions"
+      "plugins": "Plugins & Extensions",
+      "smart_audio_ai": "Smart Audio AI"
     },
     "s1": {
       "desc": "MF Music Player is designed to play your local music collection with absolute pristine quality. To start:",
@@ -135,6 +136,15 @@
       "warn_p1": "These modules are downloaded on-demand only when you choose to use them.",
       "warn_p2": "Downloading these modules will significantly increase the app's storage footprint due to the ML Kit translation models and the comprehensive Kuromoji dictionary.",
       "warn_p3": "You can free up space at any time by deleting the modules and downloaded models directly from the app settings when you no longer need them."
+    },
+    "s8": {
+      "desc1": "Our new Smart Audio AI transforms how you listen to your local library by acting as a personalized DJ. Here's a breakdown of the new capabilities:",
+      "f1_title": "Endless Radio",
+      "f1_desc": "When your current song, album, or playlist finishes, playback won't stop. The app automatically continues queuing tracks from your library that match the BPM and energy of the last song you played. It works completely in the background without needing any manual setup.",
+      "f2_title": "Smart Mood Stations",
+      "f2_desc": "On the Home tab, you'll now see dynamically generated 'Smart Mood' cards (for example, '140 BPM • Organic • Punchy'). The app analyzes the audio characteristics of your local files to automatically group them into these stations. Tapping a card immediately shuffles tracks that fit that specific vibe.",
+      "f3_title": "Transition Memory",
+      "f3_desc": "The more you listen, the smarter the app gets. Whenever you let a song play naturally into the next, the AI remembers that transition. Over time, Endless Radio relies less on BPM algorithms and more on your actual listening habits to predict what you want to hear next."
     }
   },
   "footer": {

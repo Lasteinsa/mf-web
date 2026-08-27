@@ -65,6 +65,13 @@ export default function GuideIndex() {
       icon: <Puzzle className="h-8 w-8" />,
       color: "from-amber-500 to-yellow-500",
     },
+    {
+      id: "smart-audio-ai",
+      title: t("guide.sections.smart_audio_ai"),
+      description: t("guide.s8.desc1").slice(0, 100) + "...",
+      icon: <Music className="h-8 w-8" />,
+      color: "from-pink-500 to-rose-500",
+    },
   ];
 
   const containerVariants = {
