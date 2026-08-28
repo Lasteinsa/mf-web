@@ -64,7 +64,7 @@
       "lyrics_setup": "Pengaturan Lirik",
       "playback": "Fitur Pemutaran",
       "plugins": "Plugin & Ekstensi",
-      "smart_audio_ai": "Audio AI Pintar"
+      "smart_audio_ai": "Audio Pintar"
     },
     "s1": {
       "desc": "MF Music Player dirancang untuk memutar koleksi musik lokal dengan kualitas paling jernih. Untuk memulai:",
@@ -138,13 +138,13 @@
       "warn_p3": "Kamu dapat membebaskan ruang penyimpanan kapan saja dengan menghapus modul dan model terjemahan secara langsung dari pengaturan aplikasi saat kamu sudah tidak memerlukannya."
     },
     "s8": {
-      "desc1": "Pembaruan Smart Audio AI mengubah cara Anda mendengarkan koleksi musik lokal dengan bertindak sebagai DJ pribadi. Berikut penjelasan mengenai fitur-fitur baru ini:",
+      "desc1": "Pembaruan Smart Audio mengubah cara Anda mendengarkan koleksi musik lokal dengan bertindak sebagai DJ pribadi. Berikut penjelasan mengenai fitur-fitur baru ini:",
       "f1_title": "Endless Radio (Pemutaran Tanpa Henti)",
       "f1_desc": "Saat lagu, album, atau playlist Anda selesai, musik tidak akan berhenti. Aplikasi akan otomatis melanjutkan dengan memutar lagu-lagu dari perpustakaan Anda yang memiliki BPM dan energi serupa dengan lagu terakhir. Fitur ini berjalan sepenuhnya di latar belakang tanpa perlu pengaturan manual.",
       "f2_title": "Stasiun Mood Pintar",
       "f2_desc": "Di tab Beranda, Anda akan melihat kartu 'Mood Pintar' yang dibuat secara dinamis (misalnya, '140 BPM • Organik • Punchy'). Aplikasi menganalisis karakteristik audio dari file lokal Anda dan mengelompokkannya ke stasiun-stasiun ini secara otomatis. Cukup ketuk salah satu kartu untuk langsung memutar acak lagu dengan nuansa tersebut.",
       "f3_title": "Memori Transisi",
-      "f3_desc": "Semakin sering Anda mendengarkan, aplikasi ini akan menjadi semakin pintar. Setiap kali Anda membiarkan sebuah lagu beralih ke lagu berikutnya secara alami, AI akan mengingat transisi tersebut. Seiring waktu, Endless Radio tidak lagi hanya bergantung pada algoritma BPM, tetapi lebih pada kebiasaan mendengarkan Anda untuk memprediksi lagu selanjutnya."
+      "f3_desc": "Semakin sering Anda mendengarkan, aplikasi ini akan menjadi semakin pintar. Setiap kali Anda membiarkan sebuah lagu beralih ke lagu berikutnya secara alami, ini akan mengingat transisi tersebut. Seiring waktu, Endless Radio tidak lagi hanya bergantung pada algoritma BPM, tetapi lebih pada kebiasaan mendengarkan Anda untuk memprediksi lagu selanjutnya."
     }
   },
   "footer": {
