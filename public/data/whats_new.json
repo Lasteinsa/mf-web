@@ -1,0 +1,27 @@
+﻿{
+  "releases": [
+    {
+      "versionCode": 270,
+      "versionName": "2.0-play-270",
+      "releaseDate": "2026-09-11",
+      "announcement": null,
+      "highlights": [
+        {
+          "icon": "music",
+          "title": "Hardware USB DAC on Share Cards",
+          "description": "Remember and display your connected DAC name in Song Card Studio and Listening Recap."
+        },
+        {
+          "icon": "sparkles",
+          "title": "QQ Music Synced Lyrics Restored",
+          "description": "Migrated to modernized search endpoints with syllable-by-syllable synchronized timing."
+        },
+        {
+          "icon": "update",
+          "title": "Bit-Perfect & Stability Improvements",
+          "description": "Smoother playback transitions, refined layout morphs, and enhanced offline caching."
+        }
+      ]
+    }
+  ]
+}
