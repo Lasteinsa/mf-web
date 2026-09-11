@@ -1,25 +1,63 @@
-﻿{
+{
   "releases": [
     {
-      "versionCode": 270,
-      "versionName": "2.0-play-270",
+      "versionCode": 271,
+      "versionName": "2.0-play-271",
       "releaseDate": "2026-09-11",
       "announcement": null,
       "highlights": [
         {
+          "icon": "favorite",
+          "title": "Google Play Supporter & Patron Perks",
+          "description": "Support development directly via Google Play and unlock the cosmetic Verified Patron emblem on share cards."
+        },
+        {
+          "icon": "theme",
+          "title": "Theme Studio Color Picker",
+          "description": "Interactive HSV color wheel, curated preset swatches, and hex input for customizing themes."
+        },
+        {
           "icon": "music",
-          "title": "Hardware USB DAC on Share Cards",
-          "description": "Remember and display your connected DAC name in Song Card Studio and Listening Recap."
+          "title": "Multi-Line Lyrics Sharing",
+          "description": "Select multiple synchronized lyric lines smoothly in Now Playing share mode without accidental dismissals."
         },
         {
           "icon": "sparkles",
-          "title": "QQ Music Synced Lyrics Restored",
-          "description": "Migrated to modernized search endpoints with syllable-by-syllable synchronized timing."
+          "title": "Dynamic What's New System",
+          "description": "View release highlights and feature announcements directly inside the app with offline caching."
         },
         {
-          "icon": "update",
-          "title": "Bit-Perfect & Stability Improvements",
-          "description": "Smoother playback transitions, refined layout morphs, and enhanced offline caching."
+          "icon": "dac",
+          "title": "MFAudioCore Engine Hardening",
+          "description": "Added watchdog auto-recovery for zero-transfer stalls and enhanced thread lifecycle synchronization."
+        }
+      ]
+    },
+    {
+      "versionCode": 268,
+      "versionName": "2.0-play-268",
+      "releaseDate": "2026-09-09",
+      "announcement": null,
+      "highlights": [
+        {
+          "icon": "dac",
+          "title": "USB DAC Detach & Kernel Reconnect",
+          "description": "Virtual USB DAC detach/attach handling with automatic kernel audio reconnect."
+        },
+        {
+          "icon": "disc",
+          "title": "Listening Recap Studio",
+          "description": "Analyze your sonic persona, top artists, and top genres with shareable story cards."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Playback Control Widgets",
+          "description": "Enhanced home screen widgets with real-time playback synchronization and track actions."
+        },
+        {
+          "icon": "settings",
+          "title": "Track Sorting & Library Refinements",
+          "description": "Refined track list sorting orders, fast indexing, and improved metadata scanning."
         }
       ]
     }
