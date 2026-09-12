@@ -1,6 +1,39 @@
 {
   "releases": [
     {
+      "versionCode": 277,
+      "versionName": "2.0-play-277",
+      "releaseDate": "2026-09-12",
+      "announcement": null,
+      "highlights": [
+        {
+          "icon": "music",
+          "title": "Bulk Track Selection for Playlists",
+          "description": "Select multiple tracks using checkboxes or Select All to batch-add them directly to existing or newly created playlists."
+        },
+        {
+          "icon": "dac",
+          "title": "MFAudioCore Engine Stabilization",
+          "description": "Resolved stream teardown and playback concurrency race conditions, eliminating crash issues during transitions."
+        },
+        {
+          "icon": "settings",
+          "title": "Headset Multi-Click Controls",
+          "description": "Support for single, double, and triple click inline headset actions with contact bounce suppression on disconnect."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Offline Artwork & Notification Engine",
+          "description": "High-performance asynchronous 4-tier artwork resolver for lock screen and status notification album art."
+        },
+        {
+          "icon": "folder",
+          "title": "Language Playlist Generation",
+          "description": "Smart playlist generation categorized by language with enhanced CJK and Latin script lyrics detection."
+        }
+      ]
+    },
+    {
       "versionCode": 271,
       "versionName": "2.0-play-271",
       "releaseDate": "2026-09-11",
