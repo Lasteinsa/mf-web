@@ -1,6 +1,29 @@
 {
   "releases": [
     {
+      "versionCode": 284,
+      "versionName": "2.0-play-284",
+      "releaseDate": "2026-09-13",
+      "announcement": null,
+      "highlights": [
+        {
+          "icon": "theme",
+          "title": "Themed Home Screen Widgets",
+          "description": "Widgets now match your app theme with Neobrutalism and Glass styles, dynamic album art accents, and instant settings sync."
+        },
+        {
+          "icon": "favorite",
+          "title": "Playlist Adding Improvements",
+          "description": "Easily add tracks from playlist details or empty views, with an unobstructed sheet layout during playlist creation."
+        },
+        {
+          "icon": "dac",
+          "title": "MFAudioCore Engine Optimization",
+          "description": "Optimized native audio stream pipeline for smooth track transitions, low latency playback, and enhanced stability."
+        }
+      ]
+    },
+    {
       "versionCode": 279,
       "versionName": "2.0-play-279",
       "releaseDate": "2026-09-12",
