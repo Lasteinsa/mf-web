@@ -1,6 +1,44 @@
 {
   "releases": [
     {
+      "versionCode": 288,
+      "versionName": "2.0-play-288",
+      "releaseDate": "2026-09-14",
+      "announcement": null,
+      "highlights": [
+        {
+          "icon": "theme",
+          "title": "Glass & Neobrutalism Theme Concepts",
+          "description": "Switch between Modern Glass and bold Neobrutalism variants for custom themes with tailored borders, shadows, and surface styling."
+        },
+        {
+          "icon": "pencil",
+          "title": "Custom Theme Color Picker",
+          "description": "Intuitive interactive color picker to easily customize primary, background, and surface palette colors."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Fluid Draggable Navigation Bar",
+          "description": "Interactive draggable bottom dock inspired by iOS 27 with elastic overscroll physics, dynamic scale feedback, and tactile haptics."
+        },
+        {
+          "icon": "settings",
+          "title": "Do Not Disturb on Playback",
+          "description": "Automatically enable Do Not Disturb when music starts playing to keep your listening experience uninterrupted."
+        },
+        {
+          "icon": "settings",
+          "title": "Keep Screen Awake",
+          "description": "Keep the display active on the player screen to comfortably view synchronized lyrics and album art."
+        },
+        {
+          "icon": "dac",
+          "title": "MFAudioCore Engine Stabilization",
+          "description": "Refined native audio stream pipeline, lower latency output routing, and enhanced gapless track transition stability."
+        }
+      ]
+    },
+    {
       "versionCode": 284,
       "versionName": "2.0-play-284",
       "releaseDate": "2026-09-13",
