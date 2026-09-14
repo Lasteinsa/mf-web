@@ -1,26 +1,27 @@
 [
   {
     "name": "Korospace",
-    "imageUrl": "https://cdn.discordapp.com/avatars/519112305070571530/b0b3fd31fc7ac304de32c1c231600d2d.webp",
-    "date": "01-08-2026"
+    "date": "01-08-2026",
+    "imageUrl": "https://cdn.discordapp.com/avatars/519112305070571530/b0b3fd31fc7ac304de32c1c231600d2d.webp"
   },
   {
     "name": "Rhea",
     "date": "07-08-2026",
-    "imageUrl": "https://avatars-githubusercontent-webp.webp.se/u/183043266"
+    "imageUrl": "https://res.cloudinary.com/rpklew1m/image/upload/1c3e35e0-8ab4-438e-ba5f-6150b3c2d0a2.png"
   },
   {
-    "name": "Ketua remaja masjid",
-    "date": "09-09-2026"
+    "name": "Solaris-3 a.k.a Ketua remaja masjid",
+    "date": "09-09-2026",
+    "imageUrl": "https://res.cloudinary.com/rpklew1m/image/upload/939c06b1-426f-410c-8bb7-6dc01b0c413e.png"
   },
   {
     "name": "Akomalifour",
     "date": "12-09-2026",
-    "imageUrl": "https://cdn.discordapp.com/avatars/664807032393826326/bfb328d32420070f198909ebe86712d5.webp"
+    "imageUrl": "https://res.cloudinary.com/rpklew1m/image/upload/bfb328d32420070f198909ebe86712d5.webp"
   },
   {
     "name": "Ramdan a.k.a Nyantadev",
     "date": "13-09-2026",
-    "imageUrl": "https://cdn.discordapp.com/attachments/1548518749601271818/1548520306891554908/nyanpixel_ssnappy1__mahiru_shiina_a016.jpg?ex=6aa75b6b&is=6aa609eb&hm=8cadbcb9f2df37eb00cddda46580c15911135cebcbe0b698756dccc3f1f48edb"
+    "imageUrl": "https://res.cloudinary.com/rpklew1m/image/upload/nyandev.webp"
   }
 ]
