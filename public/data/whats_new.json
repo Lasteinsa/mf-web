@@ -19,7 +19,7 @@
         {
           "icon": "sparkles",
           "title": "Fluid Draggable Navigation Bar",
-          "description": "Interactive draggable bottom dock inspired by iOS 27 with elastic overscroll physics, dynamic scale feedback, and tactile haptics."
+          "description": "Interactive draggable bottom dock with elastic overscroll physics, dynamic scale feedback, and tactile haptics."
         },
         {
           "icon": "settings",
