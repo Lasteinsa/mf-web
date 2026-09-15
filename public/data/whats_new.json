@@ -23,13 +23,8 @@
         },
         {
           "icon": "settings",
-          "title": "Do Not Disturb on Playback",
-          "description": "Automatically enable Do Not Disturb when music starts playing to keep your listening experience uninterrupted."
-        },
-        {
-          "icon": "settings",
-          "title": "Keep Screen Awake",
-          "description": "Keep the display active on the player screen to comfortably view synchronized lyrics and album art."
+          "title": "DND & Keep Screen Awake",
+          "description": "Do not disturb feature and keep screen awake"
         },
         {
           "icon": "dac",
