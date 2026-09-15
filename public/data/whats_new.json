@@ -1,6 +1,44 @@
 {
   "releases": [
     {
+      "versionCode": 290,
+      "versionName": "2.0-play-290",
+      "releaseDate": "2026-09-15",
+      "announcement": null,
+      "highlights": [
+        {
+          "icon": "theme",
+          "title": "Glass & Neobrutalism Theme Concepts",
+          "description": "Switch between Modern Glass and bold Neobrutalism variants for custom themes"
+        },
+        {
+          "icon": "sparkles",
+          "title": "Custom Theme Color Picker",
+          "description": "Intuitive interactive color picker to easily customize primary, background, and surface palette colors."
+        },
+        {
+          "icon": "settings",
+          "title": "DND & Keep Screen Awake",
+          "description": "Do not disturb feature and keep screen awake"
+        },
+        {
+          "icon": "settings",
+          "title": "Lyrics provider",
+          "description": "Bring back lyrics provider."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Fluid Draggable Navigation Bar",
+          "description": "Interactive draggable bottom dock with elastic overscroll physics, dynamic scale feedback, and tactile haptics."
+        },
+        {
+          "icon": "dac",
+          "title": "MFAudioCore Engine Stabilization",
+          "description": "Refined native audio stream pipeline, lower latency output routing, and enhanced gapless track transition stability."
+        }
+      ]
+    },
+    {
       "versionCode": 288,
       "versionName": "2.0-play-288",
       "releaseDate": "2026-09-14",
