@@ -1,6 +1,29 @@
 {
   "releases": [
     {
+      "versionCode": 295,
+      "versionName": "2.0-play-295",
+      "releaseDate": "2026-09-16",
+      "announcement": null,
+      "highlights": [
+        {
+          "icon": "theme",
+          "title": "UI Enhancement",
+          "description": "Enhance the now playing screen expand sheet & Align the overflow lyrics"
+        },
+        {
+          "icon": "dac",
+          "title": "Now Playing",
+          "description": "Enhance the now playing screen expand sheet & Align the overflow lyrics"
+        },
+        {
+          "icon": "dac",
+          "title": "MFAudioCore DSD Native",
+          "description": "Fix DSD Native noise"
+        }
+      ]
+    },
+    {
       "versionCode": 290,
       "versionName": "2.0-play-290",
       "releaseDate": "2026-09-15",
