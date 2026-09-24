@@ -1,6 +1,29 @@
 {
   "releases": [
     {
+      "versionCode": 321,
+      "versionName": "2.0-play-321",
+      "releaseDate": "2026-09-24",
+      "announcement": null,
+      "highlights": [
+        {
+          "icon": "theme",
+          "title": "Playback & Animation optimization",
+          "description": "Playback & Animation optimization"
+        },
+        {
+          "icon": "dac",
+          "title": "New MF Lyrics provider implementation",
+          "description": "We will build lyrics community based, other features related might added later. Have a idea? send it to Dev!"
+        },
+        {
+          "icon": "dac",
+          "title": "Fixed some bugs reported",
+          "description": "if you report a bug, please check if it's resolved"
+        }
+      ]
+    },
+    {
       "versionCode": 304,
       "versionName": "2.0-play-304",
       "releaseDate": "2026-09-19",
