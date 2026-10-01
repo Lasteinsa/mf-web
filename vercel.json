@@ -1,8 +1,10 @@
 {
-  "rewrites": [
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
     {
       "source": "/(.*)",
-      "destination": "/index.html"
+      "destination": "https://mellifluous.lasteinsa.my.id/$1",
+      "permanent": true
     }
   ]
 }
