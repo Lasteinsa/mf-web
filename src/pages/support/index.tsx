@@ -1,7 +1,6 @@
-import { HeartPlus, HelpCircle } from "lucide-react";
+import { HeartPlus, HelpCircle, Send } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { Send } from "lucide-react";
 
 const Support = () => {
   const { t } = useTranslation();
@@ -16,7 +15,7 @@ const Support = () => {
   ];
 
   return (
-    <div className="container mx-auto max-w-4xl px-6 pt-32">
+    <div className="container mx-auto max-w-4xl px-6 pt-28 pb-16">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -42,7 +41,7 @@ const Support = () => {
       >
         {linkSupportData.map((it) => (
           <button
-            className="placeitemplace-items-center flex w-full cursor-pointer place-content-center gap-2 rounded-2xl px-8 py-4 transition-all duration-200 ease-in-out hover:scale-110"
+            className="flex w-full cursor-pointer place-content-center place-items-center gap-2 rounded-2xl px-8 py-4 transition-all duration-200 ease-in-out hover:scale-110"
             key={it.title}
             onClick={() => {
               if (!it.link || it.link === "#") return;

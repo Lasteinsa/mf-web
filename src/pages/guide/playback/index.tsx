@@ -21,13 +21,13 @@ export default function Playback() {
       <p className="mb-4 leading-relaxed text-slate-700">
         {t("guide.s6.desc1")}
       </p>
-      <ul className="mb-8 ml-6 list-outside list-disc space-y-2 text-slate-700">
-        <li>
-          <strong>{t("guide.s6.l1_title")}</strong> {t("guide.s6.l1_desc")}
-        </li>
-        <li>
-          <strong>{t("guide.s6.l2_title")}</strong> {t("guide.s6.l2_desc")}
-        </li>
+      <ul className="mb-8 ml-6 list-outside list-disc space-y-3 text-slate-700">
+        {[1, 2, 3, 4, 5, 6].map((i) => (
+          <li key={i}>
+            <strong>{t(`guide.s6.l${i}_title`)}</strong>{" "}
+            {t(`guide.s6.l${i}_desc`)}
+          </li>
+        ))}
       </ul>
     </motion.section>
   );

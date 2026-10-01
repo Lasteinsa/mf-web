@@ -4,7 +4,7 @@ import CommunityCTA from "../../features/home/components/community-cta";
 
 const Home = () => {
   return (
-    <div className="pb-16">
+    <div>
       <Hero />
       <Features />
       <CommunityCTA />

@@ -37,12 +37,12 @@ const UsbDacs = () => {
   }, [dacs]);
 
   return (
-    <div className="container mx-auto max-w-5xl px-6 pt-32 pb-16">
+    <div className="container mx-auto max-w-5xl px-6 pt-28 pb-16">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="mb-12 text-center"
+        className="mb-10 text-center"
       >
         <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-linear-to-br from-indigo-500/20 to-blue-500/20">
           <Headphones className="h-8 w-8 text-indigo-400" />
@@ -68,7 +68,7 @@ const UsbDacs = () => {
           </div>
           <input
             type="text"
-            className="focus: focus: focus: w-full rounded-2xl bg-slate-900/5 py-4 pr-4 pl-12 text-slate-900 placeholder-slate-500 backdrop-blur-md transition-all focus:bg-slate-900/10 focus:outline-hidden"
+            className="w-full rounded-2xl bg-slate-900/5 py-4 pr-4 pl-12 text-slate-900 placeholder-slate-500 backdrop-blur-md transition-all focus:bg-slate-900/10 focus:outline-hidden"
             placeholder={t("usb_dacs.search_placeholder")}
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}

@@ -3,6 +3,7 @@
     "title": "MF Music Player",
     "home": "Home",
     "guide": "Guide",
+    "usb_dacs": "USB DACs",
     "privacy": "Privacy",
     "support": "Support"
   },
@@ -12,7 +13,7 @@
     "title_2": "Unleashed.",
     "description": "Experience MFAndroid, the ultimate music player designed for everyday listeners and audio enthusiasts alike—featuring pristine audio quality, seamless offline playback, and an interface that moves with you.",
     "download_apk": "Download APK",
-    "google_pla": "Google Play",
+    "google_play": "Google Play",
     "google_play_close_testing": "Google Play (Early Access)",
     "discord_support": "Discord",
     "guide_prompt": "Want to know about the guide?",
@@ -37,18 +38,18 @@
   "features": {
     "badge": "Features",
     "title": "Features Designed for Every Listener",
-    "f1_title": "Bit-Perfect Playback",
-    "f1_desc": "Bypass standard Android audio limits. Stream pure, unaltered audio directly to your DAC.",
-    "f2_title": "Dynamic Theming",
-    "f2_desc": "Your music sets the mood. Our UI adapts to your current album cover.",
-    "f3_title": "Synced Lyrics & Tag Embedding",
-    "f3_desc": "Sing along with precision. Enjoy seamless online/offline synced lyrics, or embed .lrc tags directly into your audio files. Support enhanced lyrics",
-    "f4_title": "AI Translation & Romanization",
-    "f4_desc": "Translate foreign lyrics on the fly with ML Kit, or live-romanize Kanji & Hangul into Romaji/Romaja as you listen.",
-    "f5_title": "Artwork Enrichment",
-    "f5_desc": "Missing covers? Search online databases (Deezer, Last.fm) in one tap to replace album and artist artwork instantly.",
-    "f6_title": "SAF Privacy & Backups",
-    "f6_desc": "Zero tracking, scoped SAF folder permissions, and effortless local JSON export/restore for your playlists and settings."
+    "f1_title": "Bit-Perfect Audio Engine",
+    "f1_desc": "Bypass standard Android mixer limits. Stream pure high-resolution audio directly to USB DACs with DSD support and per-device volume memory.",
+    "f2_title": "MfLink Web Broadcast",
+    "f2_desc": "Broadcast playback seamlessly across your local Wi-Fi with mDNS discovery. Any desktop or mobile browser can tune in with synchronized lyrics.",
+    "f3_title": "AudioLab Authenticity",
+    "f3_desc": "Detect fake lossless and upsampled files using in-app spectral cutoff analysis, dynamic range calculation, and bit-depth inspection.",
+    "f4_title": "Syllable Lyrics & Romaji",
+    "f4_desc": "Enjoy word-by-word progressive lyrics highlighting, simultaneous Romaji/Romaja and translation trees, and community lyrics contributions.",
+    "f5_title": "Adaptive UI & 3D Shaders",
+    "f5_desc": "Choose between Modern and Radial layouts, dynamic album theming, Neobrutalism, Claymorphic 3D shaders, and Glance home widgets.",
+    "f6_title": "Library Tools & SAF Privacy",
+    "f6_desc": "Import M3U/M3U8 playlists with duplicate resolution, scrub with alphabet fast scroller, edit tags, and backup data with zero telemetry."
   },
   "guide": {
     "title": "User Guide",
@@ -64,7 +65,9 @@
       "lyrics_setup": "Lyrics Setup",
       "playback": "Playback Features",
       "plugins": "Plugins & Extensions",
-      "smart_audio_ai": "Smart Audio"
+      "smart_audio_ai": "Smart Audio",
+      "mflink": "MfLink Broadcast",
+      "audiolab": "AudioLab Analysis"
     },
     "s1": {
       "desc": "MF Music Player is designed to play your local music collection with absolute pristine quality. To start:",
@@ -87,7 +90,13 @@
       "l6_title": "Bottom Navigation:",
       "l6_desc": "Customize your bottom bar to only show the shortcuts you actually use.",
       "l7_title": "Album & Artist Layout:",
-      "l7_desc": "Choose between a detailed list or a visually rich grid layout depending on your preference."
+      "l7_desc": "Choose between a detailed list or a visually rich grid layout depending on your preference.",
+      "l8_title": "Theme Studio & Neobrutalism:",
+      "l8_desc": "Switch between standard Material 3 dynamic themes, expressive Neobrutalism, or GPU-accelerated Claymorphic 3D inner emboss shaders.",
+      "l9_title": "Home Screen Reordering:",
+      "l9_desc": "Customize which sections appear on your Home screen and rearrange their display order to suit your listening workflow.",
+      "l10_title": "Home Screen Widgets:",
+      "l10_desc": "Add Android Glance widgets to your home screen with Modern and Round layouts featuring cached album artwork."
     },
     "s3": {
       "desc1": "MF Android bypasses standard Android audio limits to deliver Bit-Perfect playback directly to your DAC.",
@@ -106,7 +115,13 @@
       "l1_title": "Folder Browsing:",
       "l1_desc": "Browse your music directly by raw folders on your storage.",
       "l2_title": "Playlists:",
-      "l2_desc": "Create, edit, and manage custom playlists natively within the app."
+      "l2_desc": "Create, edit, and manage custom playlists natively within the app.",
+      "l3_title": "M3U & M3U8 Playlist Import:",
+      "l3_desc": "Import standard M3U and M3U8 playlist files directly. If duplicate tracks or missing files are detected, a smart resolution dialog helps you match or skip entries cleanly.",
+      "l4_title": "Alphabet Fast Scroller:",
+      "l4_desc": "Quickly scrub through thousands of tracks, albums, or artists using the responsive alphabet index on the right edge of your library lists.",
+      "l5_title": "Audio Info & Tag Editor:",
+      "l5_desc": "Inspect exact file containers, bitrates, sample rates, and edit embedded ID3 or Vorbis tags directly."
     },
     "s5": {
       "desc1": "The app supports standard embedded lyrics and online lyrics providers like Lrclib and Netease.",
@@ -114,17 +129,33 @@
       "desc3": "Beyond standard lyrics, MFAndroid boasts powerful plugin and tag-writing support:",
       "l1_title": "ML Kit Translation:",
       "l1_desc": "Enable on-device machine learning translation to instantly translate foreign lyrics into your native language.",
-      "l2_title": "Romanization Plugin:",
-      "l2_desc": "Install the external Romanizer plugin app to seamlessly convert Kanji or Hangul lyrics into readable Romaji/Romaja formats while you listen.",
+      "l2_title": "Romanization Support:",
+      "l2_desc": "Convert Kanji or Hangul lyrics into readable Romaji/Romaja formats while you listen, powered by on-device dynamic modules.",
       "l3_title": "Embedded .LRC Tag Writing:",
-      "l3_desc": "Embed synchronized .lrc lyrics directly into your audio file metadata (ID3v2, FLAC, MP4 tags). Once embedded, your lyrics travel permanently with your music files."
+      "l3_desc": "Embed synchronized .lrc lyrics directly into your audio file metadata (ID3v2, FLAC, MP4 tags). Once embedded, your lyrics travel permanently with your music files.",
+      "l4_title": "Syllable-Level Progressive Sync:",
+      "l4_desc": "For enhanced lyrics tracks, the player highlights words progressively in real-time matching vocal delivery, complete with optical depth-of-field blur on inactive lines.",
+      "l5_title": "Dual Romaji & Translation Tree:",
+      "l5_desc": "Displays original lyrics, romanization (│), and translation (└) simultaneously in a structured hierarchy.",
+      "l6_title": "Community Lyrics Contribution:",
+      "l6_desc": "Found missing or desynced lyrics? Submit corrections or new LRC files directly to the Mellifluous community lyrics engine anonymously or with your contributor profile.",
+      "l7_title": "Lyrics Share Card Studio:",
+      "l7_desc": "Select lyrics lines and generate styled cards featuring album art and audio format emblems ready to share on social media."
     },
     "s6": {
       "desc1": "MFAndroid gives you full control over what you're listening to.",
       "l1_title": "Queue Management:",
       "l1_desc": "Easily view and reorder your upcoming tracks in the Queue Bottom Sheet.",
       "l2_title": "Sleep Timer:",
-      "l2_desc": "Set a sleep timer to automatically stop playback after a set time or when the current track finishes."
+      "l2_desc": "Set a sleep timer to automatically stop playback after a set time or when the current track finishes.",
+      "l3_title": "Google Cast & Chromecast:",
+      "l3_desc": "Stream your local audio files directly to Chromecast, Nest speakers, or Android TVs via an embedded local HTTP partial content server.",
+      "l4_title": "Gapless Playback & Crossfade:",
+      "l4_desc": "Enjoy seamless transitions between tracks without silence gaps, or enable customizable crossfades for smooth transitions.",
+      "l5_title": "Cable Multi-Click Controls:",
+      "l5_desc": "Control playback with inline headset buttons: single-click toggles play/pause, double-click skips to next track, and triple-click returns to previous track.",
+      "l6_title": "Playback Do Not Disturb (DND):",
+      "l6_desc": "Automatically silence notification chimes and ringtones during active listening sessions to preserve focus and audio fidelity."
     },
     "s7": {
       "desc1": "Extend the functionality of MF Player by downloading optional dynamic modules. These modules integrate seamlessly into the main app via Play Feature Delivery and operate entirely on-device to respect your privacy.",
@@ -132,19 +163,47 @@
       "rom_desc": "Powered by the Kuromoji tokenizer, this module parses Japanese text (Kanji, Hiragana, Katakana) and converts it to readable Romaji. It's perfect for singing along to Japanese tracks even if you don't read the language.",
       "trans_title": "Translator Module",
       "trans_desc": "Leveraging Google's ML Kit, this module provides on-device machine translation for your lyrics. You can use the dedicated Settings UI to select your preferred Source Language (default: Japanese) and Target Language (default: English). Translation models are dynamically downloaded in the background.",
+      "coreaudio_title": "MFAudioCore Native Engine",
+      "coreaudio_desc": "A high-performance C++ audio engine providing direct USB driver communication for bit-perfect UAC2 playback and native DSD output.",
       "warn_title": "Storage Space Notice",
       "warn_p1": "These modules are downloaded on-demand only when you choose to use them.",
-      "warn_p2": "Downloading these modules will significantly increase the app's storage footprint due to the ML Kit translation models and the comprehensive Kuromoji dictionary.",
+      "warn_p2": "Downloading these modules will increase the app's storage footprint due to the ML Kit translation models and the comprehensive Kuromoji dictionary.",
       "warn_p3": "You can free up space at any time by deleting the modules and downloaded models directly from the app settings when you no longer need them."
     },
     "s8": {
-      "desc1": "Our new Smart Audio transforms how you listen to your local library by acting as a personalized DJ. Here's a breakdown of the new capabilities:",
+      "desc1": "Our Smart Audio transforms how you listen to your local library by acting as a personalized DJ. Here's a breakdown of the capabilities:",
       "f1_title": "Endless Radio",
       "f1_desc": "When your current song, album, or playlist finishes, playback won't stop. The app automatically continues queuing tracks from your library that match the BPM and energy of the last song you played. It works completely in the background without needing any manual setup.",
       "f2_title": "Smart Mood Stations",
-      "f2_desc": "On the Home tab, you'll now see dynamically generated 'Smart Mood' cards (for example, '140 BPM • Organic • Punchy'). The app analyzes the audio characteristics of your local files to automatically group them into these stations. Tapping a card immediately shuffles tracks that fit that specific vibe.",
+      "f2_desc": "On the Home tab, you'll see dynamically generated 'Smart Mood' cards (for example, '140 BPM • Organic • Punchy'). The app analyzes the audio characteristics of your local files to automatically group them into these stations. Tapping a card immediately shuffles tracks that fit that specific vibe.",
       "f3_title": "Transition Memory",
       "f3_desc": "The more you listen, the smarter the app gets. Whenever you let a song play naturally into the next, it remembers that transition. Over time, Endless Radio relies less on BPM algorithms and more on your actual listening habits to predict what you want to hear next."
+    },
+    "s9": {
+      "desc1": "MfLink lets you broadcast playback from your Android phone across your local Wi-Fi or hotspot network to any device with a modern web browser.",
+      "desc2": "Unlike cloud streaming services, MfLink operates 100% locally on your network. Your music files never touch an external server.",
+      "f1_title": "Local HTTP Server & Partial Content",
+      "f1_desc": "Mellifluous embeds a lightweight coroutine-based HTTP server supporting HTTP 206 Partial Content range requests, allowing smooth seeking and full bit-perfect audio streaming to remote clients.",
+      "f2_title": "Zero-Config Network Service Discovery (NSD)",
+      "f2_desc": "MfLink advertises itself over mDNS under the service type _mflink._tcp. Compatible devices and browsers on the same subnet can automatically discover active broadcast sessions.",
+      "f3_title": "Adaptive Focus Web Player",
+      "f3_desc": "The built-in web player served at the broadcast IP provides an Adaptive Focus layout (side-by-side desktop layout and toggleable mobile view), walking word-by-word progressive lyrics at 60fps, and optical depth-of-field blur.",
+      "f4_title": "Guest Remote Controls",
+      "f4_desc": "You can toggle 'Allow Guest Control' in the broadcast sheet. When enabled, connected web listeners can play, pause, seek, and skip tracks. When disabled, the web interface functions in read-only listen mode.",
+      "f5_title": "Security & Network Boundary",
+      "f5_desc": "MfLink binds to your local IPv4 address and only accepts connections within your Wi-Fi or hotspot subnet. No router port forwarding or internet exposure is required."
+    },
+    "s10": {
+      "desc1": "AudioLab is a built-in diagnostic and spectral analysis tool designed for audiophiles who want to verify the true quality of their lossless music files.",
+      "desc2": "Many files labeled as FLAC or WAV on the internet are actually lossy MP3s that have been upscaled or re-encoded. AudioLab helps you identify these fake lossless files directly on your device.",
+      "f1_title": "Spectral Cutoff Frequency Detection",
+      "f1_desc": "Lossy encoders discard inaudible high frequencies using sharp low-pass filters: 128 kbps MP3s cut off around 16 kHz, and 320 kbps MP3s cut off at 20 kHz. AudioLab calculates the frequency energy distribution to detect whether the audio contains genuine full-spectrum content above 22.05 kHz (CD quality) or 48 kHz+ (Hi-Res).",
+      "f2_title": "Authenticity Verdicts",
+      "f2_desc": "Based on spectral rolloff and harmonic energy, AudioLab assigns clear verdicts: Genuine Lossless (true high-fidelity recording), Suspected Lossy Upsample (lossy compression artifacts detected in a lossless container), or Standard Lossy (native MP3/AAC/OGG format).",
+      "f3_title": "Bit Depth & Dynamic Range",
+      "f3_desc": "AudioLab measures effective dynamic range (DR value) and quantization noise floors to check if 24-bit audio files possess genuine bit-depth resolution or padded zeros.",
+      "f4_title": "How to Run AudioLab",
+      "f4_desc": "Open the Now Playing screen, tap the audio format chip (e.g., FLAC 24-bit / 96 kHz) or select AudioLab from the 3-dots menu. The analyzer processes a sample segment and generates a detailed report."
     }
   },
   "footer": {
@@ -157,7 +216,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "subtitle": "MF Music Player is an offline, audiophile-grade music player built with zero tracking and total privacy.",
+    "subtitle": "MF Music Player is an offline, rich features built with zero tracking and total privacy.",
     "effective_date": "Effective Date: July 27, 2026",
     "s1_title": "1. Zero Data Collection",
     "s1_desc": "Mellifluous operates 100% locally on your Android device. We never collect, transmit, store, or share your personal information, audio files, metadata, or listening habits with any external servers.",

@@ -16,12 +16,12 @@ const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="relative flex min-h-screen items-center justify-center overflow-hidden">
+    <div className="relative flex min-h-screen items-center justify-center overflow-hidden pt-20 pb-12">
       <div className="container mx-auto flex place-content-center place-items-center items-center gap-12 px-6">
-        <div className="flex flex-col items-start space-y-4">
+        <div className="flex flex-col items-start space-y-5">
           <motion.h1
             {...animateHomeContent({delay: 1})}
-            className="text-4xl sm:text-3xl leading-tight font-bold tracking-tight md:text-7xl"
+            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight font-bold tracking-tight"
           >
             <motion.p
               animate={{ backgroundPosition: ["200%", "0%",], }}
@@ -39,21 +39,25 @@ const Hero = () => {
 
           <motion.p
             {...animateHomeContent({delay: 2})}
-            className="max-w-xl text-xl text-slate-700"
+            className="max-w-xl text-lg sm:text-xl text-slate-700 leading-relaxed"
           >
             Yet another music player you might want to try!
           </motion.p>
 
           <motion.div
             {...animateHomeContent({delay: 3})}
-            className="flex place-items-center place-content-center gap-2"
+            className="flex flex-wrap items-center gap-2 pt-1"
           >
             {buttonNavigation.map((it) => {
               const isInternal = it.link.startsWith("/");
 
               if (isInternal) {
                 return (
-                  <Link key={it.id} to={it.link} className="px-4 py-2 w-fit flex place-items-center place-content-center gap-2 rounded-full bg-slate-200">
+                  <Link
+                    key={it.id}
+                    to={it.link}
+                    className="px-4 py-2 w-fit flex place-items-center place-content-center gap-2 rounded-full bg-slate-200"
+                  >
                     {it.icons}
                     {t(it.titleKey)}
                   </Link>
@@ -105,7 +109,7 @@ const Hero = () => {
 
           <motion.div
             {...animateHomeContent({ delay: 5 })}
-            className="flex flex-col gap-2 place-items-center place-content-center w-full mt-12"
+            className="flex flex-col gap-2 place-items-center place-content-center w-full mt-8 sm:mt-12"
           >
             <motion.p
               animate={{ translateY: [0, 20, 0] }}

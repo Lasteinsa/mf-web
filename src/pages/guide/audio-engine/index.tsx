@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { AlertTriangle } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const pageVariants = {
@@ -41,9 +42,9 @@ export default function AudioEngine() {
         <p className="mb-4 text-sm leading-relaxed text-slate-700 md:text-base">
           {t("guide.s3.attn_desc2")}
         </p>
-        <div className="mt-4 flex gap-3 rounded-xl bg-orange-500/40 p-4">
-          <span className="text-xl">⚠️</span>
-          <p className="text-sm text-orange-800">
+        <div className="mt-4 flex gap-3 rounded-xl bg-orange-500/20 p-4 border border-orange-500/30">
+          <AlertTriangle className="h-5 w-5 text-orange-700 flex-shrink-0 mt-0.5" />
+          <p className="text-sm text-orange-900">
             <strong>{t("guide.s3.attn_warn_title")}</strong>
             {" "}
             {t("guide.s3.attn_warn_desc")}

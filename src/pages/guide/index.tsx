@@ -10,7 +10,7 @@ const GuideLayout = () => {
     location.pathname === "/guide" || location.pathname === "/guide/";
 
   return (
-    <div className="min-h-screen pt-32 pb-24">
+    <div className="min-h-screen pt-28 pb-20">
       <div className="container mx-auto px-6">
         <AnimatePresence>
           {!isIndex && (
@@ -18,7 +18,7 @@ const GuideLayout = () => {
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
-              className="mx-auto mb-12 max-w-4xl"
+              className="mx-auto mb-8 max-w-4xl"
             >
               <button
                 onClick={() => navigate("/guide")}
@@ -31,11 +31,7 @@ const GuideLayout = () => {
           )}
         </AnimatePresence>
 
-        <main
-          className={
-            !isIndex ? "prose prose-invert prose-slate mx-auto max-w-4xl" : ""
-          }
-        >
+        <main className={!isIndex ? "mx-auto max-w-4xl" : ""}>
           <Outlet />
         </main>
       </div>

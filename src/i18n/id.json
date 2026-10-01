@@ -3,6 +3,7 @@
     "title": "MF Music Player",
     "home": "Beranda",
     "guide": "Panduan",
+    "usb_dacs": "USB DAC",
     "privacy": "Privasi",
     "support": "Bantuan"
   },
@@ -12,7 +13,7 @@
     "title_2": "Tanpa Batas.",
     "description": "Rasakan MFAndroid, pemutar musik terbaik yang dirancang untuk pendengar sehari-hari dan penggemar audio—menampilkan kualitas audio yang murni, pemutaran luring yang mulus, dan antarmuka yang bergerak bersama Anda.",
     "download_apk": "Unduh APK",
-    "google_pla": "Google Play",
+    "google_play": "Google Play",
     "google_play_close_testing": "Google Play (Join Internal Testing)",
     "discord_support": "Discord",
     "guide_prompt": "Ingin tahu lebih lanjut?",
@@ -37,18 +38,18 @@
   "features": {
     "badge": "Fitur",
     "title": "Fitur yang Dirancang untuk Setiap Pendengar",
-    "f1_title": "Pemutaran Bit-Perfect",
-    "f1_desc": "Bebas dari batasan audio standar Android. Streaming audio murni langsung ke DAC kamu tanpa manipulasi.",
-    "f2_title": "Tema Dinamis",
-    "f2_desc": "Musikmu yang menentukan suasananya. Antarmuka kami otomatis menyesuaikan dengan warna cover album yang sedang diputar.",
-    "f3_title": "Lirik Sinkron & Tanam Tag",
-    "f3_desc": "Nyanyi bareng tanpa meleset. Nikmati lirik sinkron online/offline, atau tanamkan tag .lrc langsung ke file audiomu. Mendukung lirik tingkat lanjut",
-    "f4_title": "Terjemahan AI & Romanisasi",
-    "f4_desc": "Terjemahkan lirik asing seketika dengan ML Kit, atau konversi langsung lirik Kanji & Hangul menjadi Romaji/Romaja.",
-    "f5_title": "Penyempurna Artwork",
-    "f5_desc": "Cover hilang? Cari di database online (Deezer, Last.fm) dalam satu ketukan untuk mengganti gambar album dan artis seketika.",
-    "f6_title": "Privasi SAF & Backup",
-    "f6_desc": "Tanpa pelacakan data, izin folder SAF yang aman, dan kemudahan ekspor/pulihkan playlist serta pengaturan via file JSON."
+    "f1_title": "Mesin Audio Bit-Perfect",
+    "f1_desc": "Bebas dari limit mixer Android. Putar audio resolusi tinggi langsung ke USB DAC dengan dukungan DSD dan proteksi memori volume per-perangkat.",
+    "f2_title": "MfLink Siaran Web Lokal",
+    "f2_desc": "Siarkan pemutaran musik ke jaringan Wi-Fi lokal via mDNS. Semua browser desktop atau ponsel bisa ikut mendengarkan lengkap dengan lirik sinkron.",
+    "f3_title": "Otentisitas AudioLab",
+    "f3_desc": "Deteksi file lossless palsu atau upsample menggunakan analisis frekuensi spektral, kalkulasi rentang dinamis, dan inspeksi bit-depth.",
+    "f4_title": "Lirik Suku Kata & Romaji",
+    "f4_desc": "Nikmati highlight lirik progresif kata-per-kata, pohon transliterasi Romaji/Romaja bersamaan dengan terjemahan, serta kontribusi komunitas.",
+    "f5_title": "UI Adaptif & Shader 3D",
+    "f5_desc": "Pilih tata letak Modern atau Radial, tema dinamis cover album, Neobrutalisme, shader 3D Claymorphic, dan widget Glance.",
+    "f6_title": "Manajemen Library & Privasi SAF",
+    "f6_desc": "Impor playlist M3U/M3U8 dengan resolusi duplikat, fast scroller alfabet, editor tag, dan cadangan data tanpa telemetri pelacak."
   },
   "guide": {
     "title": "Panduan Pengguna",
@@ -64,7 +65,9 @@
       "lyrics_setup": "Pengaturan Lirik",
       "playback": "Fitur Pemutaran",
       "plugins": "Plugin & Ekstensi",
-      "smart_audio_ai": "Audio Pintar"
+      "smart_audio_ai": "Audio Pintar",
+      "mflink": "Siaran MfLink",
+      "audiolab": "Analisis AudioLab"
     },
     "s1": {
       "desc": "MF Music Player dirancang untuk memutar koleksi musik lokal dengan kualitas paling jernih. Untuk memulai:",
@@ -87,7 +90,13 @@
       "l6_title": "Navigasi Bawah:",
       "l6_desc": "Kustomisasi bar navigasi di bawah agar hanya menampilkan jalan pintas (shortcut) yang benar-benar kamu gunakan saja.",
       "l7_title": "Tata Letak Album & Artis:",
-      "l7_desc": "Pilih antara tampilan daftar (list) yang detail atau tampilan grid yang kaya visual, sesuaikan dengan seleramu."
+      "l7_desc": "Pilih antara tampilan daftar (list) yang detail atau tampilan grid yang kaya visual, sesuaikan dengan seleramu.",
+      "l8_title": "Theme Studio & Neobrutalisme:",
+      "l8_desc": "Beralih antara tema dinamis Material 3 standar, gaya Neobrutalisme ekspresif, atau shader 3D Claymorphic dengan akselerasi GPU.",
+      "l9_title": "Penyusunan Ulang Beranda:",
+      "l9_desc": "Sesuaikan bagian mana saja yang tampil di layar Beranda dan atur urutan tampilannya sesuai kebutuhan mendengarkanmu.",
+      "l10_title": "Widget Layar Utama:",
+      "l10_desc": "Pasang widget Android Glance di layar utama dengan gaya Modern atau Round yang dilengkapi cache artwork album."
     },
     "s3": {
       "desc1": "MF Android memotong batasan audio standar Android agar bisa mengirimkan pemutaran Bit-Perfect langsung ke DAC milikmu.",
@@ -106,7 +115,13 @@
       "l1_title": "Penjelajahan Folder:",
       "l1_desc": "Jelajahi musik Anda secara langsung melalui folder di penyimpanan Anda.",
       "l2_title": "Daftar Putar (Playlist):",
-      "l2_desc": "Buat, edit, dan kelola daftar putar kustom secara langsung di dalam aplikasi."
+      "l2_desc": "Buat, edit, dan kelola daftar putar kustom secara langsung di dalam aplikasi.",
+      "l3_title": "Impor Playlist M3U & M3U8:",
+      "l3_desc": "Impor file playlist M3U dan M3U8 standar secara langsung. Jika terdeteksi trek duplikat atau file hilang, dialog resolusi cerdas akan membantu mencocokkan atau melewati entri dengan bersih.",
+      "l4_title": "Fast Scroller Alfabet:",
+      "l4_desc": "Navigasi cepat melintasi ribuan trek, album, atau artis menggunakan indeks alfabet responsif di tepi kanan daftar perpustakaan.",
+      "l5_title": "Info Audio & Editor Tag:",
+      "l5_desc": "Periksa detail kontainer file, bitrate, sample rate, dan edit tag ID3 atau Vorbis bawaan secara langsung."
     },
     "s5": {
       "desc1": "Aplikasi ini mendukung lirik bawaan (embedded) maupun lirik dari penyedia online seperti Lrclib dan Netease.",
@@ -114,17 +129,33 @@
       "desc3": "Selain lirik standar, MFAndroid juga dilengkapi dengan dukungan plugin dan penulisan tag yang kuat:",
       "l1_title": "Terjemahan ML Kit:",
       "l1_desc": "Aktifkan terjemahan machine learning bawaan perangkat untuk langsung menerjemahkan lirik berbahasa asing ke bahasa ibumu secara instan.",
-      "l2_title": "Plugin Romanisasi:",
-      "l2_desc": "Instal aplikasi plugin eksternal Romanizer untuk mengonversi lirik Kanji atau Hangul menjadi format Romaji/Romaja yang mudah dibaca sambil kamu mendengarkan.",
+      "l2_title": "Dukungan Romanisasi:",
+      "l2_desc": "Ubah lirik Kanji atau Hangul menjadi format Romaji/Romaja yang mudah dibaca saat kamu mendengarkan, ditenagai oleh modul dinamis di dalam perangkat.",
       "l3_title": "Penanaman Tag Lirik .LRC:",
-      "l3_desc": "Tanamkan lirik tersinkronisasi .lrc langsung ke dalam metadata file audio kamu (tag ID3v2, FLAC, MP4). Setelah tertanam, lirik akan menyatu secara permanen dengan file musikmu."
+      "l3_desc": "Tanamkan lirik tersinkronisasi .lrc langsung ke dalam metadata file audio kamu (tag ID3v2, FLAC, MP4). Setelah tertanam, lirik akan menyatu secara permanen dengan file musikmu.",
+      "l4_title": "Sinkronisasi Lirik Kata-per-Kata:",
+      "l4_desc": "Untuk trek lirik tingkat lanjut, pemutar menyorot kata secara progresif mengikuti tempo vokal secara akurat dengan efek blur depth-of-field pada baris yang tidak aktif.",
+      "l5_title": "Pohon Romaji & Terjemahan Ganda:",
+      "l5_desc": "Menampilkan lirik asli, romanisasi (│), dan terjemahan (└) secara bersamaan dalam susunan hierarki yang rapi.",
+      "l6_title": "Kontribusi Lirik Komunitas:",
+      "l6_desc": "Menemukan lirik yang hilang atau tidak sinkron? Kirimkan koreksi atau file LRC baru langsung ke engine lirik komunitas Mellifluous secara anonim atau dengan profil kontribusimu.",
+      "l7_title": "Studio Kartu Berbagi Lirik:",
+      "l7_desc": "Pilih baris lirik dan buat kartu estetik dengan cover album serta emblem format audio untuk dibagikan ke media sosial."
     },
     "s6": {
       "desc1": "MFAndroid memberikan Anda kontrol penuh atas apa yang Anda dengarkan.",
       "l1_title": "Manajemen Antrean:",
       "l1_desc": "Lihat dan susun ulang daftar putar Anda dengan mudah di bagian Antrean.",
       "l2_title": "Pengatur Waktu Tidur:",
-      "l2_desc": "Atur timer tidur untuk menghentikan pemutaran secara otomatis setelah waktu tertentu atau saat lagu selesai."
+      "l2_desc": "Atur timer tidur untuk menghentikan pemutaran secara otomatis setelah waktu tertentu atau saat lagu selesai.",
+      "l3_title": "Google Cast & Chromecast:",
+      "l3_desc": "Putar file audio lokal langsung ke Chromecast, speaker Google Nest, atau Android TV melalui server HTTP parsial internal.",
+      "l4_title": "Pemutaran Gapless & Crossfade:",
+      "l4_desc": "Nikmati transisi antartrek tanpa jeda hening, atau aktifkan crossfade dengan durasi yang bisa disesuaikan.",
+      "l5_title": "Kontrol Multi-Klik Kabel Headset:",
+      "l5_desc": "Kendalikan pemutaran dengan tombol headset: satu klik untuk play/pause, dua klik untuk trek berikutnya, dan tiga klik untuk trek sebelumnya.",
+      "l6_title": "Mode Do Not Disturb (DND) Pemutaran:",
+      "l6_desc": "Otomatis heningkan nada dering dan notifikasi saat mendengarkan musik untuk menjaga fokus dan kemurnian audio."
     },
     "s7": {
       "desc1": "Perluas fungsi MF Player dengan mengunduh modul dinamis opsional. Modul ini terintegrasi secara langsung ke aplikasi utama melalui Play Feature Delivery dan beroperasi sepenuhnya di dalam perangkat untuk menjaga privasimu.",
@@ -132,6 +163,8 @@
       "rom_desc": "Ditenagai oleh tokenizer Kuromoji, modul ini mengurai teks Jepang (Kanji, Hiragana, Katakana) dan mengubahnya menjadi Romaji yang bisa dibaca. Fitur ini sangat cocok untuk bernyanyi bersama lagu Jepang meskipun kamu tidak bisa membaca hurufnya.",
       "trans_title": "Modul Terjemahan",
       "trans_desc": "Memanfaatkan ML Kit dari Google, modul ini menyediakan fitur terjemahan mesin (machine translation) langsung di dalam perangkat (on-device) untuk lirikmu. Kamu dapat menggunakan UI Pengaturan khusus untuk memilih Bahasa Asal (default: Jepang) dan Bahasa Tujuan (default: Inggris). Model terjemahan diunduh secara dinamis di latar belakang.",
+      "coreaudio_title": "Native Engine MFAudioCore",
+      "coreaudio_desc": "Engine audio C++ berperforma tinggi yang berkomunikasi langsung dengan driver USB untuk pemutaran bit-perfect UAC2 dan output DSD native.",
       "warn_title": "Peringatan Ruang Penyimpanan",
       "warn_p1": "Modul-modul ini diunduh sesuai permintaan hanya saat kamu memilih untuk menggunakannya.",
       "warn_p2": "Mengunduh modul ini akan meningkatkan ukuran aplikasi secara signifikan karena adanya model terjemahan ML Kit dan kamus Kuromoji yang komprehensif.",
@@ -145,33 +178,59 @@
       "f2_desc": "Di tab Beranda, Anda akan melihat kartu 'Mood Pintar' yang dibuat secara dinamis (misalnya, '140 BPM • Organik • Punchy'). Aplikasi menganalisis karakteristik audio dari file lokal Anda dan mengelompokkannya ke stasiun-stasiun ini secara otomatis. Cukup ketuk salah satu kartu untuk langsung memutar acak lagu dengan nuansa tersebut.",
       "f3_title": "Memori Transisi",
       "f3_desc": "Semakin sering Anda mendengarkan, aplikasi ini akan menjadi semakin pintar. Setiap kali Anda membiarkan sebuah lagu beralih ke lagu berikutnya secara alami, ini akan mengingat transisi tersebut. Seiring waktu, Endless Radio tidak lagi hanya bergantung pada algoritma BPM, tetapi lebih pada kebiasaan mendengarkan Anda untuk memprediksi lagu selanjutnya."
+    },
+    "s9": {
+      "desc1": "MfLink memungkinkan Anda menyiarkan pemutaran musik dari ponsel Android ke seluruh jaringan Wi-Fi atau hotspot lokal ke perangkat apa pun yang memiliki browser web modern.",
+      "desc2": "Berbeda dengan layanan streaming cloud, MfLink beroperasi 100% lokal di jaringan Anda. File musik Anda tidak pernah melewati server eksternal.",
+      "f1_title": "Server HTTP Lokal & Partial Content",
+      "f1_desc": "Mellifluous menyematkan server HTTP ringan berbasis coroutine yang mendukung permintaan rentang HTTP 206 Partial Content, memungkinkan pencarian posisi (seeking) yang mulus dan streaming audio bit-perfect ke klien jarak jauh.",
+      "f2_title": "Network Service Discovery (NSD) Tanpa Konfigurasi",
+      "f2_desc": "MfLink mengumumkan layanannya melalui mDNS di bawah tipe _mflink._tcp. Perangkat dan browser yang kompatibel di subnet yang sama dapat mendeteksi sesi siaran yang aktif secara otomatis.",
+      "f3_title": "Pemutar Web Adaptive Focus",
+      "f3_desc": "Pemutar web bawaan yang disajikan di IP siaran menyediakan tata letak Adaptive Focus (berdampingan di desktop dan tampilan switch di ponsel), highlight lirik progresif kata-per-kata pada 60fps, dan optical depth-of-field blur.",
+      "f4_title": "Kontrol Jarak Jauh Tamu (Guest Control)",
+      "f4_desc": "Anda dapat mengaktifkan 'Izinkan Kontrol Tamu' di lembar siaran. Saat aktif, pendengar web dapat memutar, menjeda, mencari durasi, dan melewati lagu. Saat nonaktif, antarmuka web hanya berfungsi dalam mode dengar saja.",
+      "f5_title": "Keamanan & Batas Jaringan",
+      "f5_desc": "MfLink hanya terikat ke alamat IPv4 lokal Anda dan hanya menerima koneksi di dalam subnet Wi-Fi atau hotspot Anda. Tidak diperlukan port forwarding router atau eksposur ke internet publik."
+    },
+    "s10": {
+      "desc1": "AudioLab adalah alat diagnostik dan analisis spektral bawaan yang dirancang untuk para audiophile yang ingin memverifikasi kualitas sebenarnya dari file musik lossless mereka.",
+      "desc2": "Banyak file berlabel FLAC atau WAV di internet yang sebenarnya adalah MP3 lossy yang di-upscale atau di-encode ulang. AudioLab membantu Anda mengidentifikasi file lossless palsu ini langsung di perangkat Anda.",
+      "f1_title": "Deteksi Frekuensi Cutoff Spektral",
+      "f1_desc": "Encoder lossy membuang frekuensi tinggi yang tidak terdengar menggunakan low-pass filter yang tajam: MP3 128 kbps terpotong di sekitar 16 kHz, dan MP3 320 kbps terpotong di 20 kHz. AudioLab menghitung distribusi energi frekuensi untuk mendeteksi apakah audio tersebut memiliki spektrum penuh asli di atas 22,05 kHz (kualitas CD) atau 48 kHz+ (Hi-Res).",
+      "f2_title": "Penilaian Otentisitas (Verdicts)",
+      "f2_desc": "Berdasarkan spectral rolloff dan energi harmonik, AudioLab memberikan status penilaian yang jelas: Genuine Lossless (rekaman fidelitas tinggi asli), Suspected Lossy Upsample (artefak kompresi lossy terdeteksi dalam kontainer lossless), atau Standard Lossy (format MP3/AAC/OGG asli).",
+      "f3_title": "Bit Depth & Rentang Dinamis",
+      "f3_desc": "AudioLab mengukur rentang dinamis efektif (nilai DR) dan batas kebisingan kuantisasi untuk memeriksa apakah file audio 24-bit memiliki resolusi bit-depth nyata atau hanya nol yang ditambahkan (zero-padded).",
+      "f4_title": "Cara Menjalankan AudioLab",
+      "f4_desc": "Buka layar Now Playing, ketuk chip format audio (misalnya FLAC 24-bit / 96 kHz) atau pilih AudioLab dari menu 3-titik. Penganalisis akan memproses segmen sampel dan menghasilkan laporan mendetail."
     }
   },
   "footer": {
-    "title": "Suka dengan MF Music Player?",
-    "description": "MF Music Player 100% gratis dan bakal terus gratis selamanya. Walau begitu, dukungan dari kamu sangat berarti untuk memastikan pengembangannya tetap hidup, terus diperbarui, dan semakin luar biasa!",
-    "donate_btn": "Dukung via Trakteer",
-    "kofi_btn": "Dukung via Ko-Fi",
-    "privacy_policy": "Kebijakan Privasi",
-    "copyright": "© 2026 MF Music Player. Hak cipta dilindungi."
+    "title": "Love MF Music Player?",
+    "description": "MF Music Player is 100% free and will always remain free. However, your support is what keeps the development alive, ensures continuous updates, and helps this project thrive!",
+    "donate_btn": "Support on Trakteer",
+    "kofi_btn": "Support on Ko-Fi",
+    "privacy_policy": "Privacy Policy",
+    "copyright": "© 2026 MF Music Player. All rights reserved."
   },
   "privacy": {
     "title": "Kebijakan Privasi",
-    "subtitle": "MF Music Player adalah pemutar musik offline kelas audiophile tanpa pelacakan data dan menjaga privasi sepenuhnya.",
+    "subtitle": "MF Music Player adalah pemutar musik offline tingkat audiophile yang dibangun tanpa pelacakan data dan privasi total.",
     "effective_date": "Tanggal Berlaku: 27 Juli 2026",
-    "s1_title": "1. Bebas Pengumpulan Data",
-    "s1_desc": "Mellifluous berjalan 100% lokal di perangkat Android kamu. Kami tidak pernah mengumpulkan, mengirim, menyimpan, atau membagikan informasi pribadi, file audio, metadata, atau kebiasaan mendengarkanmu ke server eksternal mana pun.",
+    "s1_title": "1. Tanpa Pengumpulan Data",
+    "s1_desc": "Mellifluous beroperasi 100% secara lokal di perangkat Android kamu. Kami tidak pernah mengumpulkan, mentransmisikan, menyimpan, atau membagikan informasi pribadi, file audio, metadata, atau kebiasaan mendengarkanmu ke server eksternal mana pun.",
     "s2_title": "2. Izin Penyimpanan & Folder",
-    "s2_desc": "Kami membutuhkan izin membaca media lokal semata-mata untuk memindai dan memutar perpustakaan musikmu. Izin folder Storage Access Framework (SAF) hanya diminta ketika kamu memilih untuk mengedit gambar album, menanamkan lirik ke file audio, atau membuat cadangan lokal.",
+    "s2_desc": "Kami memerlukan izin membaca media lokal semata-mata untuk memindai dan memutar pustaka audiomu. Izin folder Storage Access Framework (SAF) hanya diminta ketika kamu memilih untuk mengedit cover album, menanamkan lirik ke file audio, atau membuat cadangan lokal.",
     "s3_title": "3. Penyedia Lirik Opsional",
-    "s3_desc": "Jika kamu memilih untuk mencari penyedia lirik online (seperti Lrclib atau Netease), aplikasi terhubung langsung ke API publik tersebut dari perangkatmu untuk mengambil lirik tersinkronisasi. Tidak ada identifikasi pribadi yang dikirimkan.",
+    "s3_desc": "Jika kamu memilih untuk mencari penyedia lirik online (seperti Lrclib atau Netease), aplikasi akan terhubung langsung ke API publik tersebut dari perangkatmu untuk mengambil lirik yang sinkron. Tidak ada pengidentifikasi pribadi yang dikirimkan.",
     "s4_title": "4. Bebas Iklan & Terbuka",
-    "s4_desc": "Mellifluous tidak memiliki SDK iklan pihak ketiga, tidak ada pelacak telemetri, dan tidak ada layanan analisis latar belakang.",
-    "footer_note": "Jika kamu memiliki pertanyaan mengenai kebijakan privasi ini, silakan hubungi kami melalui Discord atau repositori komunitas."
+    "s4_desc": "Mellifluous sama sekali tidak mengandung SDK iklan pihak ketiga, pelacak telemetri, atau layanan analitik latar belakang.",
+    "footer_note": "Jika kamu memiliki pertanyaan mengenai kebijakan privasi ini, silakan hubungi kami melalui Discord komunitas atau repositori kami."
   },
   "support": {
     "title": "Bantuan",
-    "subtitle": "Kami ingin pengalamanmu tetap menyenangkan. Kalau kamu menemukan masalah atau ingin memberi masukan, gabung ke komunitas kami di bawah ini.",
+    "subtitle": "Kami ingin pengalamanmu menyenangkan. Jika kamu menemui masalah atau ingin memberikan masukan, bergabunglah dengan komunitas kami di bawah ini.",
     "links": {
       "discord": "Discord",
       "telegram": "Telegram"
@@ -179,64 +238,64 @@
   },
   "donate": {
     "title": "Dukung MF Music Player",
-    "subtitle": "MF Music Player gratis untuk digunakan. Jika kamu menikmatinya, dukunganmu membantu pengembangan dan pembaruan di masa mendatang.",
+    "subtitle": "MF Music Player gratis untuk digunakan. Jika kamu menyukainya, dukunganmu membantu kelangsungan pengembangan dan pembaruan di masa mendatang.",
     "links": {
-      "trakteer": "Dukung via Trakteer",
-      "kofi": "Dukung via Ko-Fi"
+      "trakteer": "Dukung di Trakteer",
+      "kofi": "Dukung di Ko-Fi"
     }
   },
   "closed_testing": {
     "title": "Ikuti Pengujian Tertutup",
-    "subtitle": "Ikuti tiga langkah berikut untuk menjadi tester dan memasang MF Music Player sebelum dirilis secara publik.",
+    "subtitle": "Ikuti tiga langkah ini untuk menjadi penguji dan menginstal MF Music Player sebelum dirilis ke publik.",
     "steps": {
       "join_group": {
-        "title": "Gabung ke Google Group",
-        "description": "Buka tautan Google Group dan bergabung menggunakan akun Google yang kamu gunakan di Google Play.",
-        "action": "Gabung Google Group"
+        "title": "Gabung ke Grup Google",
+        "description": "Buka tautan Grup Google dan bergabunglah dengan akun Google yang kamu gunakan di Google Play.",
+        "action": "Gabung Grup Google"
       },
       "accept_invite": {
         "title": "Terima Tautan Undangan",
-        "description": "Setelah bergabung ke grup, buka tautan undangan pengujian dan terima undangannya untuk menjadi tester.",
+        "description": "Setelah bergabung dengan grup, buka tautan undangan pengujian dan terima undangan untuk menjadi penguji.",
         "action": "Terima Undangan"
       },
       "install_app": {
         "title": "Instal Aplikasi",
-        "description": "Buka tautan instalasi dan instal versi terbaru MF Music Player untuk pengujian tertutup.",
+        "description": "Buka tautan instalasi dan pasang versi pengujian tertutup terbaru dari MF Music Player.",
         "action": "Instal Aplikasi"
       }
     },
-    "note": "Gunakan akun Google yang sama untuk ketiga langkah tersebut.",
-    "help_discord": "Butuh bantuan? Gabung ke server Discord kami."
+    "note": "Gunakan akun Google yang sama untuk ketiga langkah di atas.",
+    "help_discord": "Butuh bantuan? Bergabunglah dengan server dukungan Discord kami."
   },
   "supporters": {
     "title": "Pendukung Kami",
-    "description": "Terima kasih yang sebesar-besarnya kepada semua orang yang telah mendukung proyek ini. Dukungan Anda membantu menjaga Mellifluous bebas iklan dan terus berkembang!",
-    "update_note": "* Data ini diperbarui secara berkala.",
+    "description": "Terima kasih banyak kepada semua orang yang telah mendukung proyek ini. Dukungan kalian membantu menjaga Mellifluous tetap bebas iklan dan terus berkembang!",
+    "update_note": "* Data diperbarui secara berkala.",
     "last_30_days": "30 Hari Terakhir",
     "all_time": "Semua Pendukung"
   },
   "contributors": {
     "title": "Kontributor",
-    "description": "Terima kasih yang sebesar-besarnya kepada para pengembang yang brilian dan penguji yang berdedikasi yang membantu membuat Mellifluous menjadi lebih baik setiap harinya.",
-    "update_note": "* Data ini diperbarui secara berkala.",
-    "developers": "Pengembang",
+    "description": "Terima kasih yang sebesar-besarnya kepada para developer hebat dan penguji setia yang membantu membuat Mellifluous lebih baik setiap harinya.",
+    "update_note": "* Data diperbarui secara berkala.",
+    "developers": "Developer",
     "testers": "Penguji",
     "closed_testers": "Penguji Tertutup",
     "closed_testers_desc": "Semua penguji tertutup yang membuat aplikasi ini dapat dirilis ke publik"
   },
   "community_cta": {
     "title": "Dibangun oleh Komunitas",
-    "description": "Mellifluous berkembang pesat berkat penggunanya yang luar biasa. Temukan orang-orang luar biasa yang secara aktif mendukung dan mengembangkan proyek ini.",
+    "description": "Mellifluous berkembang berkat penggunanya yang luar biasa. Temukan orang-orang hebat yang aktif mendukung dan mengembangkan proyek ini.",
     "supporters_title": "Pendukung Kami",
-    "supporters_desc": "Temui individu-individu dermawan yang mendukung Mellifluous secara finansial, membantu menjaganya agar tetap bebas iklan dan terbuka untuk semua orang.",
+    "supporters_desc": "Temui orang-orang murah hati yang mendukung Mellifluous secara finansial, membantu menjaganya tetap bebas iklan dan terbuka untuk semua orang.",
     "supporters_btn": "Lihat Pendukung",
     "contributors_title": "Kontributor Kami",
-    "contributors_desc": "Lihat para pengembang, desainer, dan penguji beta berbakat yang mendedikasikan waktu mereka untuk membangun dan meningkatkan aplikasi ini.",
+    "contributors_desc": "Lihat para developer, desainer, dan penguji beta berbakat yang mendedikasikan waktu mereka untuk membangun dan menyempurnakan aplikasi ini.",
     "contributors_btn": "Lihat Kontributor"
   },
   "usb_dacs": {
     "title": "Kompatibilitas USB DAC",
-    "description": "Periksa apakah USB DAC Anda didukung untuk pemutaran Bit-Perfect di Mellifluous. Daftar ini terus diperbarui berdasarkan pengujian komunitas.",
+    "description": "Periksa apakah USB DAC milikmu didukung untuk pemutaran Bit-Perfect di Mellifluous. Daftar ini terus diperbarui berdasarkan pengujian komunitas.",
     "search_placeholder": "Cari berdasarkan merek atau tipe (mis. FiiO, Dongle)...",
     "no_results": "Tidak ada USB DAC yang cocok dengan \"{{query}}\"."
   }

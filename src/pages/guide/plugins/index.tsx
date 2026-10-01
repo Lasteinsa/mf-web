@@ -10,15 +10,6 @@ const pageVariants = {
   },
 };
 
-const staggerImages = {
-  hidden: { opacity: 0, scale: 0.95 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    transition: { duration: 0.5, staggerChildren: 0.1 },
-  },
-};
-
 export default function Plugins() {
   const { t } = useTranslation();
 
@@ -55,6 +46,14 @@ export default function Plugins() {
               {t("guide.s7.trans_desc")}
             </span>
           </li>
+          <li>
+            <strong className="mb-2 block text-xl font-bold text-slate-900">
+              {t("guide.s7.coreaudio_title")}
+            </strong>
+            <span className="leading-relaxed text-slate-600">
+              {t("guide.s7.coreaudio_desc")}
+            </span>
+          </li>
         </ul>
       </motion.div>
 
@@ -65,8 +64,8 @@ export default function Plugins() {
         viewport={{ once: true }}
         transition={{ duration: 0.6, delay: 0.3 }}
       >
-        <h2 className="mb-4 text-xl font-bold text-amber-400">
-          ⚠️ {t("guide.s7.warn_title")}
+        <h2 className="mb-4 text-xl font-bold text-amber-900">
+          {t("guide.s7.warn_title")}
         </h2>
         <ul className="ml-4 list-disc space-y-2 text-amber-800/80 marker:text-amber-500/50">
           <li>{t("guide.s7.warn_p1")}</li>

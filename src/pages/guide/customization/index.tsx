@@ -10,15 +10,6 @@ const pageVariants = {
   },
 };
 
-const staggerImages = {
-  hidden: { opacity: 0, scale: 0.95 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    transition: { duration: 0.5, staggerChildren: 0.1 },
-  },
-};
-
 export default function Customization() {
   const { t } = useTranslation();
 
@@ -30,11 +21,10 @@ export default function Customization() {
       <p className="mb-4 leading-relaxed text-slate-700">
         {t("guide.s2.desc")}
       </p>
-      <ul className="mb-8 ml-6 list-outside list-disc space-y-2 text-slate-700">
-        {[1, 2, 3, 4, 5, 6, 7].map((i) => (
+      <ul className="mb-8 ml-6 list-outside list-disc space-y-3 text-slate-700">
+        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((i) => (
           <li key={i}>
-            <strong>{t(`guide.s2.l${i}_title`)}</strong>
-            {" "}
+            <strong>{t(`guide.s2.l${i}_title`)}</strong>{" "}
             {t(`guide.s2.l${i}_desc`)}
           </li>
         ))}

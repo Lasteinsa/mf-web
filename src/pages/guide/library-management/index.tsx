@@ -10,15 +10,6 @@ const pageVariants = {
   },
 };
 
-const staggerImages = {
-  hidden: { opacity: 0, scale: 0.95 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    transition: { duration: 0.5, staggerChildren: 0.1 },
-  },
-};
-
 export default function LibraryManagement() {
   const { t } = useTranslation();
 
@@ -41,13 +32,13 @@ export default function LibraryManagement() {
           {t("guide.s4.desc4")}
         </p>
       </div>
-      <ul className="mb-8 ml-6 list-outside list-disc space-y-2 text-slate-700">
-        <li>
-          <strong>{t("guide.s4.l1_title")}</strong> {t("guide.s4.l1_desc")}
-        </li>
-        <li>
-          <strong>{t("guide.s4.l2_title")}</strong> {t("guide.s4.l2_desc")}
-        </li>
+      <ul className="mb-8 ml-6 list-outside list-disc space-y-3 text-slate-700">
+        {[1, 2, 3, 4, 5].map((i) => (
+          <li key={i}>
+            <strong>{t(`guide.s4.l${i}_title`)}</strong>{" "}
+            {t(`guide.s4.l${i}_desc`)}
+          </li>
+        ))}
       </ul>
     </motion.section>
   );

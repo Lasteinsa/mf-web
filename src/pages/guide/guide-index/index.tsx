@@ -10,6 +10,8 @@ import {
   PlayCircle,
   ChevronRight,
   Puzzle,
+  Radio,
+  Activity,
 } from "lucide-react";
 
 export default function GuideIndex() {
@@ -72,6 +74,20 @@ export default function GuideIndex() {
       icon: <Music className="h-8 w-8" />,
       color: "from-pink-500 to-rose-500",
     },
+    {
+      id: "mflink",
+      title: t("guide.sections.mflink"),
+      description: t("guide.s9.desc1").slice(0, 100) + "...",
+      icon: <Radio className="h-8 w-8" />,
+      color: "from-cyan-500 to-blue-500",
+    },
+    {
+      id: "audiolab",
+      title: t("guide.sections.audiolab"),
+      description: t("guide.s10.desc1").slice(0, 100) + "...",
+      icon: <Activity className="h-8 w-8" />,
+      color: "from-emerald-500 to-green-600",
+    },
   ];
 
   const containerVariants = {
@@ -93,12 +109,12 @@ export default function GuideIndex() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="mb-16 text-center"
+        className="mb-12 text-center"
       >
-        <h1 className="mb-6 text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
+        <h1 className="mb-4 text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
           {t("guide.title")}
         </h1>
-        <p className="mx-auto max-w-2xl text-xl text-slate-600">
+        <p className="mx-auto max-w-2xl text-lg sm:text-xl text-slate-600 leading-relaxed">
           {t("guide.subtitle")}
         </p>
       </motion.div>
@@ -113,7 +129,7 @@ export default function GuideIndex() {
           <motion.div key={section.id} variants={cardVariants}>
             <Link
               to={section.id}
-              className="group hover: hover: flex h-full flex-col justify-between rounded-3xl bg-slate-900/5 p-8 transition-all hover:-translate-y-1 hover:bg-slate-900/10"
+              className="group flex h-full flex-col justify-between rounded-3xl bg-slate-900/5 p-8 transition-all hover:-translate-y-1 hover:bg-slate-900/10"
             >
               <div>
                 <div

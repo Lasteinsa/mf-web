@@ -10,15 +10,6 @@ const pageVariants = {
   },
 };
 
-const staggerImages = {
-  hidden: { opacity: 0, scale: 0.95 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    transition: { duration: 0.5, staggerChildren: 0.1 },
-  },
-};
-
 export default function Lyrics() {
   const { t } = useTranslation();
 
@@ -44,16 +35,13 @@ export default function Lyrics() {
         <p className="mb-4 text-lg leading-relaxed font-semibold text-slate-700">
           {t("guide.s5.desc3")}
         </p>
-        <ul className="mb-4 ml-6 list-outside list-disc space-y-2 text-slate-700">
-          <li>
-            <strong>{t("guide.s5.l1_title")}</strong> {t("guide.s5.l1_desc")}
-          </li>
-          <li>
-            <strong>{t("guide.s5.l2_title")}</strong> {t("guide.s5.l2_desc")}
-          </li>
-          <li>
-            <strong>{t("guide.s5.l3_title")}</strong> {t("guide.s5.l3_desc")}
-          </li>
+        <ul className="mb-4 ml-6 list-outside list-disc space-y-3 text-slate-700">
+          {[1, 2, 3, 4, 5, 6, 7].map((i) => (
+            <li key={i}>
+              <strong>{t(`guide.s5.l${i}_title`)}</strong>{" "}
+              {t(`guide.s5.l${i}_desc`)}
+            </li>
+          ))}
         </ul>
       </motion.div>
     </motion.section>

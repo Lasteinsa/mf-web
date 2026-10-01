@@ -45,12 +45,18 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden items-center space-x-8 text-sm font-medium text-slate-700 md:flex">
+        <div className="hidden items-center gap-6 lg:gap-8 text-sm font-medium text-slate-700 md:flex">
           <Link to="/" className="transition-colors hover:text-slate-900">
             {t("navbar.home")}
           </Link>
           <Link to="/guide" className="transition-colors hover:text-slate-900">
             {t("navbar.guide")}
+          </Link>
+          <Link
+            to="/usb-dacs"
+            className="transition-colors hover:text-slate-900"
+          >
+            {t("navbar.usb_dacs")}
           </Link>
           <Link
             to="/privacy"
@@ -66,7 +72,7 @@ const Navbar = () => {
           >
             {t("navbar.support")}
           </a>
-          <div className="mx-2 h-4 w-px bg-slate-900/20"></div>
+          <div className="mx-1 h-4 w-px bg-slate-900/20"></div>
           <button
             onClick={toggleLanguage}
             className="font-bold tracking-wider uppercase transition-colors hover:text-slate-900"
@@ -95,7 +101,7 @@ const Navbar = () => {
             transition={{ duration: 0.1, ease: "easeInOut" }}
             className="absolute top-20 left-0 w-full overflow-hidden backdrop-blur-xl md:hidden"
           >
-            <div className="flex h-full flex-col items-center space-y-8 bg-white/95 pt-20 text-lg font-medium">
+            <div className="flex h-full flex-col items-center space-y-6 bg-white/95 pt-12 text-lg font-medium">
               <Link
                 to="/"
                 onClick={closeMenu}
@@ -115,11 +121,20 @@ const Navbar = () => {
                 </motion.div>
               </Link>
               <Link
-                to="/privacy"
+                to="/usb-dacs"
                 onClick={closeMenu}
                 className="transition-colors hover:text-slate-900"
               >
                 <motion.div {...animateListItem({ delay: 3 })}>
+                  {t("navbar.usb_dacs")}
+                </motion.div>
+              </Link>
+              <Link
+                to="/privacy"
+                onClick={closeMenu}
+                className="transition-colors hover:text-slate-900"
+              >
+                <motion.div {...animateListItem({ delay: 4 })}>
                   {t("navbar.privacy")}
                 </motion.div>
               </Link>
@@ -130,12 +145,12 @@ const Navbar = () => {
                 onClick={closeMenu}
                 className="transition-colors hover:text-slate-900"
               >
-                <motion.div {...animateListItem({ delay: 4 })}>
+                <motion.div {...animateListItem({ delay: 5 })}>
                   {t("navbar.support")}
                 </motion.div>
               </a>
               <div className="h-px w-16 bg-slate-900/20" />
-              <motion.div {...animateListItem({ delay: 5 })}>
+              <motion.div {...animateListItem({ delay: 6 })}>
                 <button
                   onClick={() => {
                     toggleLanguage();

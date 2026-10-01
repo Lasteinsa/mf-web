@@ -29,7 +29,7 @@ const Privacy = () => {
   ];
 
   return (
-    <div className="container mx-auto max-w-4xl px-6 pt-32 pb-24">
+    <div className="container mx-auto max-w-4xl px-6 pt-28 pb-16">
       {/* Hero Header */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}

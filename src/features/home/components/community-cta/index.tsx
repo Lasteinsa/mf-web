@@ -51,7 +51,7 @@ const CommunityCTA = () => {
               </div>
               <div className="flex items-center font-semibold text-orange-400 group-hover:text-orange-300">
                 {t("community_cta.supporters_btn")}
-                {""}
+                {" "}
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </div>
             </Link>
@@ -81,7 +81,7 @@ const CommunityCTA = () => {
               </div>
               <div className="flex items-center font-semibold text-emerald-400 group-hover:text-emerald-300">
                 {t("community_cta.contributors_btn")}
-                {""}
+                {" "}
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </div>
             </Link>
