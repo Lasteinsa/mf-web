@@ -73,9 +73,6 @@ const Features = () => {
                 transition={{ duration: 0.5, delay: (i % 2) * 0.1 }}
                 className="rounded-2xl bg-slate-50 p-8 transition-colors hover:bg-slate-100/80 border-l-4 border-solid border-blue-500 rounded-l-none"
               >
-                <div className="mb-4">
-                  {feature.icon}
-                </div>
                 <h3 className="mb-3 text-xl font-bold text-slate-900">
                   {feature.title}
                 </h3>
