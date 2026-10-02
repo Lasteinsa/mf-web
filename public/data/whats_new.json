@@ -1,6 +1,34 @@
 {
   "releases": [
     {
+      "versionCode": 347,
+      "versionName": "2.0-play-347",
+      "releaseDate": "2026-10-01",
+      "announcement": null,
+      "highlights": [
+        {
+          "icon": "audio",
+          "title": "Broadcast Music",
+          "description": "You can broadcast music to browser or between Mellifluous App"
+        },
+        {
+          "icon": "favorite",
+          "title": "Import playlist from online",
+          "description": "Now you can import the playlist from online source such as youtube or spotify matching your local library"
+        },
+        {
+          "icon": "theme",
+          "title": "Homescreen content",
+          "description": "Customize what you want to see in homescreen"
+        },
+        {
+          "icon": "update",
+          "title": "Fix and Enhancement",
+          "description": "All fixes reported in discord is solved, and some UI/Performance enhancement"
+        }
+      ]
+    },
+    {
       "versionCode": 321,
       "versionName": "2.0-play-321",
       "releaseDate": "2026-09-24",
@@ -12,12 +40,12 @@
           "description": "Playback & Animation optimization"
         },
         {
-          "icon": "dac",
+          "icon": "music",
           "title": "New MF Lyrics provider implementation",
           "description": "We will build lyrics community based, other features related might added later. Have a idea? send it to Dev!"
         },
         {
-          "icon": "dac",
+          "icon": "update",
           "title": "Fixed some bugs reported",
           "description": "if you report a bug, please check if it's resolved"
         }
@@ -40,12 +68,12 @@
           "description": "Add Neumorphism & Claymorphism in Themes"
         },
         {
-          "icon": "dac",
+          "icon": "update",
           "title": "Some report Fixes",
           "description": "Fix folder unselect, etc."
         },
         {
-          "icon": "sparkles",
+          "icon": "update",
           "title": "Some others enhancement",
           "description": "Find and feel whats enhanced!"
         }
