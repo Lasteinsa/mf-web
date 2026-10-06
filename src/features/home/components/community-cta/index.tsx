@@ -1,10 +1,33 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
-import { Heart, Users, ArrowRight } from "lucide-react";
+import { Heart, Users } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { CommunityCard } from "./community-card";
 
 const CommunityCTA = () => {
   const { t } = useTranslation();
+
+  const cards = [
+    {
+      to: "/supporters",
+      title: t("community_cta.supporters_title"),
+      description: t("community_cta.supporters_desc"),
+      buttonText: t("community_cta.supporters_btn"),
+      icon: Heart,
+      textColor: "text-orange-600 group-hover:text-orange-700",
+      iconColor: "text-orange-500/15 group-hover:text-orange-500/25",
+      delay: 0.1,
+    },
+    {
+      to: "/contributors",
+      title: t("community_cta.contributors_title"),
+      description: t("community_cta.contributors_desc"),
+      buttonText: t("community_cta.contributors_btn"),
+      icon: Users,
+      textColor: "text-emerald-600 group-hover:text-emerald-700",
+      iconColor: "text-emerald-500/15 group-hover:text-emerald-500/25",
+      delay: 0.2,
+    },
+  ];
 
   return (
     <section className="relative overflow-hidden py-16">
@@ -27,65 +50,9 @@ const CommunityCTA = () => {
         </motion.div>
 
         <div className="grid gap-6 md:grid-cols-2">
-          {/* Supporters Card */}
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-          >
-            <Link
-              to="/supporters"
-              className="group flex h-full flex-col justify-between overflow-hidden rounded-xl bg-slate-900/5 p-8 text-left transition-all hover:bg-slate-900/10"
-            >
-              <div>
-                <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-linear-to-br from-orange-500/20 to-red-500/20">
-                  <Heart className="h-7 w-7 text-orange-400" />
-                </div>
-                <h3 className="mb-3 text-2xl font-bold text-slate-900">
-                  {t("community_cta.supporters_title")}
-                </h3>
-                <p className="mb-8 leading-relaxed text-slate-600">
-                  {t("community_cta.supporters_desc")}
-                </p>
-              </div>
-              <div className="flex items-center font-semibold text-orange-400 group-hover:text-orange-300">
-                {t("community_cta.supporters_btn")}
-                {" "}
-                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-              </div>
-            </Link>
-          </motion.div>
-
-          {/* Contributors Card */}
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-          >
-            <Link
-              to="/contributors"
-              className="group flex h-full flex-col justify-between overflow-hidden rounded-xl bg-slate-900/5 p-8 text-left transition-all hover:bg-slate-900/10"
-            >
-              <div>
-                <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-linear-to-br from-blue-500/20 to-emerald-500/20">
-                  <Users className="h-7 w-7 text-emerald-400" />
-                </div>
-                <h3 className="mb-3 text-2xl font-bold text-slate-900">
-                  {t("community_cta.contributors_title")}
-                </h3>
-                <p className="mb-8 leading-relaxed text-slate-600">
-                  {t("community_cta.contributors_desc")}
-                </p>
-              </div>
-              <div className="flex items-center font-semibold text-emerald-400 group-hover:text-emerald-300">
-                {t("community_cta.contributors_btn")}
-                {" "}
-                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-              </div>
-            </Link>
-          </motion.div>
+          {cards.map((card) => (
+            <CommunityCard key={card.to} {...card} />
+          ))}
         </div>
       </div>
     </section>
