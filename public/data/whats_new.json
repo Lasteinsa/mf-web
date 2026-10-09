@@ -1,6 +1,29 @@
 {
   "releases": [
     {
+      "versionCode": 394,
+      "versionName": "2.0-play-394",
+      "releaseDate": "2026-10-01",
+      "announcement": null,
+      "highlights": [
+        {
+          "icon": "audio",
+          "title": "MFConnect",
+          "description": "Rebranding MFConnect with enhancement connect peer to peer and enhancement web playback broadcast."
+        },
+        {
+          "icon": "favorite",
+          "title": "Landscape and Wide Screen",
+          "description": "Enhancement landscape, wider screen size and tablet layout."
+        },
+        {
+          "icon": "update",
+          "title": "Fix and Enhancement",
+          "description": "Faster Apple music search lyrics, Add delete recap, and All fixes reported in discord is solved"
+        }
+      ]
+    },
+    {
       "versionCode": 347,
       "versionName": "2.0-play-347",
       "releaseDate": "2026-10-01",
