@@ -1,6 +1,54 @@
 {
   "releases": [
     {
+      "versionCode": 483,
+      "versionName": "2.1-play-483",
+      "releaseDate": "2026-10-24",
+      "announcement": null,
+      "highlights": [
+        {
+          "icon": "dac",
+          "title": "Custom Transmission Buffer",
+          "description": "Configurable transmission buffer sizing for optimal USB DAC throughput and stutter-free audio streaming."
+        },
+        {
+          "icon": "music",
+          "title": "Focus Lyrics View",
+          "description": "New focused lyrics mode with dynamic centering and distraction-free typography for Modern layout."
+        },
+        {
+          "icon": "audio",
+          "title": "Custom Resampling Target",
+          "description": "High-grade native resampling options with customizable target frequencies or bit-perfect passthrough."
+        },
+        {
+          "icon": "favorite",
+          "title": "Playlist Sorting",
+          "description": "Sort tracks in any playlist by title, artist, album, date added, or custom order."
+        },
+        {
+          "icon": "settings",
+          "title": "Lock Volume",
+          "description": "Freeze and lock hardware volume levels to protect DAC line-out signals and prevent unexpected jumps."
+        },
+        {
+          "icon": "theme",
+          "title": "Liquid Glass & Visual Polish",
+          "description": "Optimized optical refraction, matched corner radii, smoother backdrop transitions, and UI stabilization."
+        },
+        {
+          "icon": "code",
+          "title": "Performance Profiling & Diagnostics",
+          "description": "Real-time frame timing diagnostics, audio log watcher, and one-tap performance report exports."
+        },
+        {
+          "icon": "update",
+          "title": "Bug Fixes & Refinements",
+          "description": "Fixed AAC tag reading, sleep timer on repeat mode, 24-bit Hi-Res audio playback, and Audio Lab analysis."
+        }
+      ]
+    },
+    {
       "versionCode": 394,
       "versionName": "2.0-play-394",
       "releaseDate": "2026-10-01",
