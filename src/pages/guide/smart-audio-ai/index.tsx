@@ -23,32 +23,16 @@ export default function SmartAudioAi() {
       </p>
 
       <div className="space-y-8">
-        <div>
-          <h3 className="mb-3 text-xl font-bold text-slate-900">
-            1. {t("guide.s8.f1_title")}
-          </h3>
-          <p className="leading-relaxed text-slate-700">
-            {t("guide.s8.f1_desc")}
-          </p>
-        </div>
-
-        <div>
-          <h3 className="mb-3 text-xl font-bold text-slate-900">
-            2. {t("guide.s8.f2_title")}
-          </h3>
-          <p className="leading-relaxed text-slate-700">
-            {t("guide.s8.f2_desc")}
-          </p>
-        </div>
-
-        <div>
-          <h3 className="mb-3 text-xl font-bold text-slate-900">
-            3. {t("guide.s8.f3_title")}
-          </h3>
-          <p className="leading-relaxed text-slate-700">
-            {t("guide.s8.f3_desc")}
-          </p>
-        </div>
+        {[1, 2, 3, 4, 5].map((i) => (
+          <div key={i}>
+            <h3 className="mb-3 text-xl font-bold text-slate-900">
+              {i}. {t(`guide.s8.f${i}_title`)}
+            </h3>
+            <p className="leading-relaxed text-slate-700">
+              {t(`guide.s8.f${i}_desc`)}
+            </p>
+          </div>
+        ))}
       </div>
     </motion.section>
   );
