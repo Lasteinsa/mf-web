@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { ShieldCheck, Sparkles } from "lucide-react";
 
 const pageVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -103,7 +102,6 @@ export default function Lyrics() {
         transition={{ duration: 0.6, delay: 0.25 }}
       >
         <div className="mb-4 flex items-center gap-2">
-          <Sparkles className="h-5 w-5 text-blue-600 flex-shrink-0" />
           <h4 className="text-lg font-bold text-blue-950">
             {t("guide.s5.cf_models_title")}
           </h4>
@@ -131,7 +129,6 @@ export default function Lyrics() {
         transition={{ duration: 0.6, delay: 0.3 }}
       >
         <div className="mb-4 flex items-center gap-2">
-          <ShieldCheck className="h-5 w-5 text-amber-700 flex-shrink-0" />
           <h4 className="text-lg font-bold text-amber-950">
             {t("guide.s5.cf_troubleshoot_title")}
           </h4>
