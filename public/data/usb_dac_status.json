@@ -1,6 +1,10 @@
 [
+  { "brand": "Chord", "type": "Mojo 2", "status": "working" },
+  { "brand": "FiiO", "type": "JA11 (UAC1)", "status": "working" },
   { "brand": "FiiO", "type": "Snowsky Series", "status": "working" },
+  { "brand": "HiBy", "type": "R5 Gen 2 (Direct USB / Line Out)", "status": "working" },
   { "brand": "JCally", "type": "JCALLY JM7", "status": "working" },
-  { "brand": "Tancjim", "type": "Tanchjim Fission DSP", "status": "working" },
+  { "brand": "Moondrop", "type": "Dawn Pro", "status": "working" },
+  { "brand": "Tanchjim", "type": "Tanchjim Fission DSP", "status": "working" },
   { "brand": "Tangzu", "type": "Long Zhong Dui (LZD)", "status": "working" }
 ]

@@ -48,6 +48,22 @@ export default function Plugins() {
           </li>
           <li>
             <strong className="mb-2 block text-xl font-bold text-slate-900">
+              {t("guide.s7.cf_title")}
+            </strong>
+            <span className="leading-relaxed text-slate-600">
+              {t("guide.s7.cf_desc")}
+            </span>
+          </li>
+          <li>
+            <strong className="mb-2 block text-xl font-bold text-slate-900">
+              {t("guide.s7.iconpack_title")}
+            </strong>
+            <span className="leading-relaxed text-slate-600">
+              {t("guide.s7.iconpack_desc")}
+            </span>
+          </li>
+          <li>
+            <strong className="mb-2 block text-xl font-bold text-slate-900">
               {t("guide.s7.coreaudio_title")}
             </strong>
             <span className="leading-relaxed text-slate-600">
