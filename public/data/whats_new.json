@@ -1,6 +1,44 @@
 {
   "releases": [
     {
+      "versionCode": 509,
+      "versionName": "2.2-play-509",
+      "releaseDate": "2026-11-04",
+      "announcement": null,
+      "highlights": [
+        {
+          "icon": "theme",
+          "title": "Obi Cassette & Swiss Editorial Cards",
+          "description": "Updated design for share recap card, share lyrics, and share track card with Obi Cassette and Swiss Editorial styling."
+        },
+        {
+          "icon": "settings",
+          "title": "Discord Rich Presence (RPC)",
+          "description": "Added native Discord Rich Presence integration displaying current track playback, album art, and timestamps."
+        },
+        {
+          "icon": "music",
+          "title": "Sudachi Japanese Romanizer",
+          "description": "Changed offline romanizer library from Kuromoji to bundled Sudachi for superior Japanese pronunciation and tokenization."
+        },
+        {
+          "icon": "code",
+          "title": "Cloud AI Romanizer & Translation",
+          "description": "Implemented AI romanizer and translation for cloud source with improved translation results."
+        },
+        {
+          "icon": "settings",
+          "title": "Cloudflare Worker AI Module",
+          "description": "Added Cloudflare Worker AI romanizer and translation module option with custom personal token configuration."
+        },
+        {
+          "icon": "update",
+          "title": "Detail & Component Enhancements",
+          "description": "Optical glass switch contrast safety, album art dynamic color extraction, and various UI component refinements."
+        }
+      ]
+    },
+    {
       "versionCode": 483,
       "versionName": "2.1-play-483",
       "releaseDate": "2026-10-24",
